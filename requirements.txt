@@ -15,5 +15,6 @@ pyttsx3==2.99
 pywin32==311
 pywinauto==0.6.9
 six==1.17.0
+ttkbootstrap==1.20.3
 typing_extensions==4.15.0
 uiautomation==2.0.29
