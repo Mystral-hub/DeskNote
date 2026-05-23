@@ -1,47 +1,98 @@
-# planner.py
 import json
-import os
-import sys
+import re
+from pathlib import Path
 from llama_cpp import Llama
-import os
+from prompts import SYSTEM_PROMPT
 
-# path = "models/LFM2.5-1.2B-Instruct-BF16.gguf"
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "..", "models", "Phi-4-mini-instruct-Q4_K_M.gguf")
+MODELS_DIR = Path(__file__).parent.parent / "models"
 
 
 class Planner:
-    def __init__(self, model_path=model_path):
-        self.llm = Llama(model_path=model_path, verbose=False)
-        self.system_prompt = """Tu es un assistant Windows. Transforme la demande de l'utilisateur en 
-        une liste d'actions au format JSON"""  # colle le prompt ci-dessus
 
-    def plan(self, user_input: str) -> list:
-        # Construit le prompt au format chat (instruction tuning)
-        prompt = f"<|system|>\n{self.system_prompt}\n<|user|>\n{user_input}\n<|assistant|>"
-        output = self.llm(prompt, max_tokens=500, stop=[
-                          "<|user|>", "<|system|>"], temperature=0.0)
-        response_text = output['choices'][0]['text'].strip() # type: ignore
-        # Nettoie la réponse (parfois le modèle ajoute des backticks ou du texte)
-        if response_text.startswith("```json"):
-            response_text = response_text[7:]
-        if response_text.startswith("```"):
-            response_text = response_text[3:]
-        if response_text.endswith("```"):
-            response_text = response_text[:-3]
+    def __init__(self, nom_modele: str):
+        modele_path = MODELS_DIR / nom_modele
+
+        if not modele_path.exists():
+            raise FileNotFoundError(
+                f"Modèle introuvable : {modele_path}\n"
+                f"Vérifiez que le fichier est bien dans le dossier models/"
+            )
+
+        print(f"Chargement du modèle : {nom_modele}...")
+
+        self.llm = Llama(
+            model_path=str(modele_path),
+            n_ctx=2048,
+            n_threads=4,
+            n_gpu_layers=0,
+            verbose=False
+        )
+
+        print("Modèle chargé et prêt.")
+
+    def planifier(self, message_utilisateur: str) -> dict:
+        reponse_brute = self._appeler_llm(message_utilisateur)
+        json_nettoye = self._nettoyer_reponse(reponse_brute)
+        resultat = self._valider_json(json_nettoye)
+        return resultat
+
+    def _appeler_llm(self, message: str) -> str:
+        reponse = self.llm.create_chat_completion(
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": message}
+            ],
+            max_tokens=200,
+            temperature=0.0,
+            top_p=1.0,
+        )
+        # type: ignore
+        # type: ignore
+        return reponse["choices"][0]["message"]["content"].strip()
+
+    def _nettoyer_reponse(self, reponse: str) -> str:
+        # cas 1 : JSON entre backticks markdown ```json ... ```
+        match = re.search(
+            r"```(?:json)?\s*(\{.*?\})\s*```", reponse, re.DOTALL)
+        if match:
+            return match.group(1).strip()
+
+        # cas 2 : JSON brut quelque part dans la réponse
+        match = re.search(r"\{.*\}", reponse, re.DOTALL)
+        if match:
+            return match.group(0).strip()
+
+        # cas 3 : rien trouvé, on retourne la réponse telle quelle
+        return reponse
+
+    def _valider_json(self, json_brut: str) -> dict:
         try:
-            plan = json.loads(response_text)
-            return plan
+            resultat = json.loads(json_brut)
+
+            # vérifier que le champ action est présent
+            if "action" not in resultat:
+                return self._json_incompris(
+                    "La réponse ne contient pas de champ action."
+                )
+
+            # vérifier que le champ parametres est présent
+            if "parametres" not in resultat:
+                resultat["parametres"] = {}
+
+            return resultat
+
         except json.JSONDecodeError:
-            return [{"action": "error", "message": "Le modèle n'a pas produit un plan valide."}]
+            return self._json_incompris(
+                "Je n'ai pas pu interpréter votre demande. "
+                "Pouvez-vous la reformuler différemment ?"
+            )
 
-
-# Test rapide en ligne de commande
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage : ")
-        sys.exit(1)
-    planner = Planner()
-    result = planner.plan(sys.argv[1])
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+    def _json_incompris(self, message: str) -> dict:
+        return {
+            "action": "incompris",
+            "confirmation_requise": False,
+            "message_confirmation": None,
+            "message_utilisateur": message,
+            "parametres": {}
+        }
