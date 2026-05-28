@@ -1,7 +1,17 @@
 import json
 import re
 from pathlib import Path
-from llama_cpp import Llama
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    # allow static type checkers to know the type without requiring the package at edit time
+    from llama_cpp import Llama  # type: ignore
+else:
+    try:
+        from llama_cpp import Llama
+    except Exception:
+        Llama = None  # runtime will raise a clear error if model code is invoked without the library
+
 from prompts import SYSTEM_PROMPT
 
 
@@ -21,9 +31,13 @@ class Planner:
 
         print(f"Chargement du modèle : {nom_modele}...")
 
+        if Llama is None:
+            raise RuntimeError(
+                "La bibliothèque 'llama_cpp' est introuvable. Activez l'environnement virtuel ou installez la dépendance.")
+
         self.llm = Llama(
             model_path=str(modele_path),
-            n_ctx=2048,
+            n_ctx=4096,
             n_threads=4,
             n_gpu_layers=0,
             verbose=False
@@ -47,8 +61,8 @@ class Planner:
             temperature=0.0,
             top_p=1.0,
         )
-        # type: ignore
-        # type: ignore
+
+        # type:ignore
         return reponse["choices"][0]["message"]["content"].strip()
 
     def _nettoyer_reponse(self, reponse: str) -> str:

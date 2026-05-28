@@ -2,6 +2,7 @@ import tkinter as tk
 import ttkbootstrap as ttk
 from PIL import Image, ImageTk
 from pathlib import Path
+from settings import load_settings, save_settings
 
 
 BASE_DIR = Path(__file__).parent.parent.parent
@@ -15,7 +16,7 @@ class DeskNoteApp:
         self.themes = {
             "light": {
                 "bg": "#faf5ff",
-                "sidebar_bg": "#fae3b9",
+                "sidebar_bg": "#f38545",
                 "fg": "black",
                 "ttkbootstrap_theme": "flatly",
                 "font": ("Segoe UI", 9)
@@ -47,6 +48,24 @@ class DeskNoteApp:
         self.sidebar = tk.Frame(self.root, width=50)
         self.sidebar.grid(row=0, column=0, rowspan=2, sticky="ns")
         self.sidebar.grid_propagate(False)
+
+        # load settings
+        self.settings = self._load_settings()
+        self.sound_clicks_var = tk.BooleanVar(
+            value=self.settings.get("sound_clicks", True))
+
+        # sound toggle in sidebar
+        self._sound_chk = tk.Checkbutton(
+            self.sidebar,
+            text="Sons de frappe",
+            variable=self.sound_clicks_var,
+            onvalue=True,
+            offvalue=False,
+            bg=self.themes[self.current_theme]["sidebar_bg"],
+            fg=self.themes[self.current_theme]["fg"],
+            command=self._on_sound_toggle
+        )
+        self._sound_chk.pack(padx=6, pady=6)
 
         # Canvas
         self.history_canvas = tk.Canvas(self.root, highlightthickness=0)
@@ -99,6 +118,23 @@ class DeskNoteApp:
         self.sidebar.config(bg=self.themes[self.current_theme]["sidebar_bg"])
         self.history_canvas.config(bg=self.themes[self.current_theme]["bg"])
         self.root.configure(bg=self.themes[self.current_theme]["bg"])
+
+    def _load_settings(self) -> dict:
+        return load_settings()
+
+    def _save_settings(self):
+        try:
+            save_settings(self.settings)
+        except Exception:
+            pass
+
+    def _on_sound_toggle(self):
+        self.settings["sound_clicks"] = bool(self.sound_clicks_var.get())
+        self._save_settings()
+
+    def get_sound_clicks(self) -> bool:
+        """Return current sound_clicks UI preference."""
+        return bool(self.sound_clicks_var.get())
 
 
 if __name__ == "__main__":
