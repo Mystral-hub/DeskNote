@@ -33,6 +33,7 @@ from actions.organiser_fichiers import organiser_fichiers as action_organiser_fi
 from actions.changer_fond_ecran import changer_fond_ecran as action_changer_fond_ecran
 from actions.lancer_media import lancer_media as action_lancer_media
 from actions.rechercher_fichier import rechercher_fichier_action as action_rechercher_fichier
+from actions.creer_pwp import run as action_creer_presentation
 
 
 class Executor:
@@ -54,6 +55,7 @@ class Executor:
             "rechercher_fichier":  self._rechercher_fichier,
             "creer_facture":       self._creer_facture,
             "live_typing":         self._live_typing,
+            "creer_presentation":  self._creer_presentation,
         }
 
     def executer(self, json_action: dict):
@@ -107,6 +109,10 @@ class Executor:
     def _supprimer_fichier(self, parametres: dict) -> dict:
         """Wrapper pour l'action `supprimer_fichier` (extraite dans actions/supprimer_fichier.py)."""
         return action_supprimer_fichier(parametres, self._resolve_executable_for_app)
+
+    def _creer_presentation(self, parametres: dict) -> dict:
+        """Wrapper pour l'action `creer_presentation` (extraite dans actions/creer_presentation.py)."""
+        return action_creer_presentation(parametres)
 
     def _resolve_executable_for_app(self, nom_app: str) -> Path | None:
         """Resolve an executable path from a human-friendly app name.

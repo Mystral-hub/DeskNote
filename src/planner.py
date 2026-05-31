@@ -57,7 +57,7 @@ class Planner:
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": message}
             ],
-            max_tokens=200,
+            max_tokens=2000,
             temperature=0.0,
             top_p=1.0,
         )
