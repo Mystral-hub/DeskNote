@@ -1,0 +1,13 @@
+ 
+Applicables Prompts:
+
+# creer_facture:
+    Crée une facture 2026-001 dans Word pour M.Bob avec ces informations  numéro 001  nom du client  Société ABC, 
+    situe a douala, avec deux articles 
+    développement site web 2 jours à 500 euros et maintenance mensuelle 3 mois à 150 euros
+
+# organiser_fichiers:
+     organise mon bureau
+
+
+

@@ -46,21 +46,90 @@ class Planner:
         print("Modèle chargé et prêt.")
 
     def planifier(self, message_utilisateur: str) -> dict:
-        reponse_brute = self._appeler_llm(message_utilisateur)
+        reponse_brute = self._appeler_llm(message_utilisateur, retry=False)
+
+        # Debug: log raw LLM response to console and to file for inspection
+        try:
+            from pathlib import Path
+            data_dir = Path(__file__).parent.parent / "data"
+            data_dir.mkdir(exist_ok=True)
+            (data_dir / "last_llm_response.txt").write_text(reponse_brute, encoding="utf-8")
+        except Exception:
+            pass
+
+        print(f"[Planner] RAW RESPONSE:\n{reponse_brute}\n---end raw---")
+
         json_nettoye = self._nettoyer_reponse(reponse_brute)
         resultat = self._valider_json(json_nettoye)
+
+        # Post-process extracted JSON for specific actions to improve robustness
+        try:
+            if resultat.get("action") == "post_facebook":
+                resultat = self._extraire_params_post_facebook(
+                    message_utilisateur, resultat)
+        except Exception:
+            pass
+
+        if resultat.get("action") == "incompris":
+            try:
+                from pathlib import Path
+                data_dir = Path(__file__).parent.parent / "data"
+                data_dir.mkdir(exist_ok=True)
+                (data_dir / "last_invalid_json.txt").write_text(
+                    json_nettoye or reponse_brute, encoding="utf-8")
+            except Exception:
+                pass
+
+            print(
+                "[Planner] La première réponse JSON est invalide, tentative de relance... ")
+            reponse_brute = self._appeler_llm(message_utilisateur, retry=True)
+            try:
+                from pathlib import Path
+                data_dir = Path(__file__).parent.parent / "data"
+                (data_dir / "last_llm_response_retry.txt").write_text(reponse_brute,
+                                                                      encoding="utf-8")
+            except Exception:
+                pass
+
+            print(
+                f"[Planner] RAW RESPONSE RETRY:\n{reponse_brute}\n---end raw retry---")
+            json_nettoye = self._nettoyer_reponse(reponse_brute)
+            resultat = self._valider_json(json_nettoye)
+
         return resultat
 
-    def _appeler_llm(self, message: str) -> str:
+    def _appeler_llm(self, message: str, retry: bool = False) -> str:
+        user_message = message
+        if retry:
+            user_message = (
+                message
+                + "\nRéponds uniquement avec un JSON complet et valide."
+                + " Ne retourne aucun texte explicatif supplémentaire."
+            )
+
         reponse = self.llm.create_chat_completion(
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": message}
+                {"role": "user", "content": user_message}
             ],
             max_tokens=2000,
             temperature=0.0,
             top_p=1.0,
         )
+
+        # Debug: save the full raw response object when possible
+        try:
+            from pathlib import Path
+            import json as _json
+            data_dir = Path(__file__).parent.parent / "data"
+            data_dir.mkdir(exist_ok=True)
+            (_json.dumps(reponse, ensure_ascii=False, indent=2))
+            (data_dir / "last_llm_response_raw.json").write_text(
+                _json.dumps(reponse, ensure_ascii=False, indent=2),
+                encoding="utf-8"
+            )
+        except Exception:
+            pass
 
         # type:ignore
         return reponse["choices"][0]["message"]["content"].strip()
@@ -110,3 +179,117 @@ class Planner:
             "message_utilisateur": message,
             "parametres": {}
         }
+
+    def _extraire_params_post_facebook(self, texte: str, resultat: dict) -> dict:
+        """Renforce l'extraction des paramètres pour l'action `post_facebook`.
+
+        Cherche dans le texte utilisateur : chemins Windows/UNIX, noms de fichiers médias,
+        dates/heures (plusieurs formats), et mots-clés de confidentialité.
+        Complète `resultat['parametres']` sans écraser les valeurs fournies par le LLM.
+        """
+        params = resultat.get("parametres") or {}
+
+        def set_if_missing(key, value):
+            if value and (key not in params or not params.get(key)):
+                params[key] = value
+
+        # 1) chemin ou nom de fichier média (Windows path, unix path, or bare filename)
+        media = None
+        # Windows drive path
+        m = re.search(
+            r"[A-Za-z]:\\[\w\d\-_.\\ ]+\.(?:png|jpg|jpeg|gif|mp4|mov|webm)", texte, re.IGNORECASE)
+        if m:
+            media = m.group(0)
+        if not media:
+            m = re.search(
+                r"/[^\s']+\.(?:png|jpg|jpeg|gif|mp4|mov|webm)", texte, re.IGNORECASE)
+            if m:
+                media = m.group(0)
+        if not media:
+            m = re.search(
+                r"['\"]([^'\"]+\.(?:png|jpg|jpeg|gif|mp4|mov|webm))['\"]", texte, re.IGNORECASE)
+            if m:
+                media = m.group(1)
+        if not media:
+            m = re.search(
+                r"\b([\w\-]+\.(?:png|jpg|jpeg|gif|mp4|mov|webm))\b", texte, re.IGNORECASE)
+            if m:
+                media = m.group(1)
+
+        set_if_missing("media_path", media)
+        set_if_missing("nom_fichier", media)
+
+        # 2) confidentialité
+        privacy = None
+        if re.search(r"\b(public|publique)\b", texte, re.IGNORECASE):
+            privacy = "public"
+        elif re.search(r"\b(friends|amis|amies)\b", texte, re.IGNORECASE):
+            privacy = "friends"
+        elif re.search(r"\b(only ?me|seulement moi|privé|prive)\b", texte, re.IGNORECASE):
+            privacy = "only_me"
+
+        set_if_missing("privacy", privacy)
+
+        # 3) date / heure — essayer plusieurs formats
+        when = None
+        # ISO like yyyy-mm-dd HH:MM or yyyy/mm/dd HH:MM
+        m = re.search(r"(\d{4}[-/]\d{1,2}[-/]\d{1,2}[ T]\d{1,2}:\d{2})", texte)
+        if m:
+            cand = m.group(1).replace('/', '-')
+            for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
+                try:
+                    when = __import__('datetime').datetime.strptime(cand, fmt)
+                    break
+                except Exception:
+                    continue
+
+        # French dd/mm/YYYY HH:MM
+        if not when:
+            m = re.search(r"(\d{1,2}/\d{1,2}/\d{4}[ T]\d{1,2}:\d{2})", texte)
+            if m:
+                cand = m.group(1)
+                for fmt in ("%d/%m/%Y %H:%M",):
+                    try:
+                        when = __import__(
+                            'datetime').datetime.strptime(cand, fmt)
+                        break
+                    except Exception:
+                        continue
+
+        # Date without time (assume 09:00)
+        if not when:
+            m = re.search(r"(\d{4}[-/]\d{1,2}[-/]\d{1,2})", texte)
+            if m:
+                cand = m.group(1).replace('/', '-')
+                try:
+                    when = __import__('datetime').datetime.strptime(
+                        cand, "%Y-%m-%d")
+                except Exception:
+                    when = None
+
+        if when:
+            # normalize to string consistent with DB
+            set_if_missing("scheduled_for", when.strftime("%Y-%m-%d %H:%M:%S"))
+
+        # 4) caption — if none provided, use the message trimmed of detected tokens
+        caption = params.get("texte") or params.get(
+            "caption") or params.get("message")
+        if not caption:
+            # remove detected media, date and privacy tokens from the message
+            cleaned = texte
+            if media:
+                cleaned = cleaned.replace(media, "")
+            if when:
+                cleaned = re.sub(
+                    r"\d{4}[-/]\d{1,2}[-/]\d{1,2}[ T]\d{1,2}:\d{2}", "", cleaned)
+                cleaned = re.sub(
+                    r"\d{1,2}/\d{1,2}/\d{4}[ T]\d{1,2}:\d{2}", "", cleaned)
+            # remove privacy words
+            cleaned = re.sub(
+                r"\b(public|publique|friends|amis|only ?me|seulement moi|privé|prive)\b", "", cleaned, flags=re.IGNORECASE)
+            cleaned = cleaned.strip()
+            if cleaned:
+                set_if_missing("texte", cleaned)
+
+        resultat["parametres"] = params
+        return resultat

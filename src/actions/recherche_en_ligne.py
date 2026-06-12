@@ -169,14 +169,23 @@ def recherche_en_ligne(parametres: dict, resolve_executable_func) -> dict:
                 "max_line_length": 80,
             }
 
-            def _run_live_typing(params, resolver):
+            def _run_live_typing(params, resolver, cancel_ev=None):
                 try:
-                    action_live_typing(params, resolver)
+                    action_live_typing(
+                        params, resolver, cancel_event=cancel_ev)
                 except Exception:
                     return
 
+            # pass through any cancel event from the parent action so the
+            # preview typing can be stopped by the same global stop.
+            cancel_ev = None
+            try:
+                cancel_ev = parametres.get("_cancel_event")
+            except Exception:
+                cancel_ev = None
+
             thr = threading.Thread(target=_run_live_typing, args=(
-                lt_params, resolve_executable_func), daemon=True)
+                lt_params, resolve_executable_func, cancel_ev), daemon=True)
             thr.start()
         except Exception:
             # live typing is best-effort; do not fail the whole action

@@ -1,0 +1,14 @@
+{
+  "action": "post_facebook",
+  "confirmation_requise": false,
+  "message_confirmation": null,
+  "message_utilisateur": null,
+  "parametres": {
+    "media_path": "slide1.jpg",
+    "repertoire_cible": "images",
+    "caption": "Nouvelle présentation",
+    "scheduled_for": null,
+    "privacy": "public",
+    "service": "facebook"
+  }
+}

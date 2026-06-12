@@ -1,0 +1,13 @@
+{
+  "action": "lancer_media",
+  "confirmation_requise": false,
+  "message_confirmation": null,
+  "message_utilisateur": null,
+  "parametres": {
+    "nom_fichier": "Venom",
+    "artiste": null,
+    "titre": "Venom",
+    "repertoire_cible": null,
+    "type_media": "video"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "chatcmpl-543ca353-5ea5-4aec-95dc-e989bd4b920c",
+  "object": "chat.completion",
+  "created": 1781029489,
+  "model": "C:\\Users\\MystralMJ\\Documents\\ProjetTutore\\deskOne\\models\\qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"action\": \"lancer_media\",\n  \"confirmation_requise\": false,\n  \"message_confirmation\": null,\n  \"message_utilisateur\": null,\n  \"parametres\": {\n    \"nom_fichier\": \"Venom\",\n    \"artiste\": null,\n    \"titre\": \"Venom\",\n    \"repertoire_cible\": null,\n    \"type_media\": \"video\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3060,
+    "completion_tokens": 86,
+    "total_tokens": 3146
+  }
+}

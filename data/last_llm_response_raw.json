@@ -1,0 +1,22 @@
+{
+  "id": "chatcmpl-b44cad2f-4276-4302-bd82-0ad795c2d27c",
+  "object": "chat.completion",
+  "created": 1781241912,
+  "model": "C:\\Users\\MystralMJ\\Documents\\ProjetTutore\\deskOne\\models\\qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"action\": \"post_facebook\",\n  \"confirmation_requise\": false,\n  \"message_confirmation\": null,\n  \"message_utilisateur\": null,\n  \"parametres\": {\n    \"media_path\": \"slide1.jpg\",\n    \"repertoire_cible\": \"images\",\n    \"caption\": \"Nouvelle présentation\",\n    \"scheduled_for\": null,\n    \"privacy\": \"public\",\n    \"service\": \"facebook\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3073,
+    "completion_tokens": 95,
+    "total_tokens": 3168
+  }
+}

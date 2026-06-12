@@ -13,6 +13,33 @@ def _safe_float(valeur, defaut=0.0):
         return defaut
 
 
+def _attendre_fichier_disponible(chemin: Path, timeout: int = 10) -> bool:
+    """
+    Attend que le fichier soit complètement écrit et disponible.
+    Retourne True si le fichier est prêt, False sinon.
+    """
+    debut = time.time()
+    while time.time() - debut < timeout:
+        try:
+            if chemin.exists():
+                taille = chemin.stat().st_size
+                if taille > 1000:  # Fichier DOCX valide fait au moins ~1KB
+                    # Essayer d'ouvrir le fichier en lecture pour vérifier qu'il n'est pas verrouillé
+                    try:
+                        with open(chemin, 'rb') as f:
+                            # Lire les premiers bytes du ZIP (DOCX est un ZIP)
+                            f.read(4)
+                        return True
+                    except (IOError, OSError):
+                        # Fichier toujours verrouillé
+                        time.sleep(0.5)
+                        continue
+        except Exception:
+            pass
+        time.sleep(0.5)
+    return False
+
+
 def _resolve_word() -> Path | None:
     """Trouve le chemin de winword.exe sur le système."""
     import shutil
@@ -254,12 +281,39 @@ def creer_facture(parametres: dict) -> dict:
         # --- sauvegarde ---
         _log(f"Enregistrement — {chemin_fichier}...")
         time.sleep(0.5)
-        doc.SaveAs(str(chemin_fichier))
-        time.sleep(1)
-        doc.Close()
-        time.sleep(0.5)
 
-        _log("Facture créée avec succès.")
+        # Sauvegarder avec les paramètres appropriés
+        # wdFormatDocx = 16 (format DOCX moderne)
+        try:
+            doc.SaveAs(str(chemin_fichier), FileFormat=16)
+        except Exception:
+            # Si ça échoue avec FileFormat, essayer sans
+            doc.SaveAs(str(chemin_fichier))
+
+        _log("Attente de la sauvegarde complète...")
+        time.sleep(2)  # Attendre que Word finisse d'écrire le fichier
+
+        # Fermer le document sans resauvegarder
+        try:
+            doc.Close(SaveChanges=False)
+        except Exception:
+            pass
+
+        time.sleep(1)  # Attendre que le document soit complètement fermé
+
+        # Attendre que le fichier soit vraiment disponible et déverrouillé
+        _log("Vérification que le fichier est complètement écrit...")
+        fichier_pret = _attendre_fichier_disponible(chemin_fichier, timeout=10)
+
+        if not fichier_pret:
+            return {
+                "statut":  "echec",
+                "message": f"Le fichier n'a pas pu être créé correctement ou est toujours verrouillé : {chemin_fichier}",
+                "donnees": None
+            }
+
+        taille_fichier = chemin_fichier.stat().st_size
+        _log(f"Facture créée avec succès ({taille_fichier} bytes).")
 
         return {
             "statut":  "succes",
@@ -267,7 +321,8 @@ def creer_facture(parametres: dict) -> dict:
             "donnees": {
                 "pid":   pid,
                 "path":  str(chemin_fichier),
-                "total": total_general
+                "total": total_general,
+                "taille_fichier": taille_fichier
             }
         }
 

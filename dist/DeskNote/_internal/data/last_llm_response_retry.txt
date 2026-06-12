@@ -1,0 +1,11 @@
+{
+  "action": "live_typing",
+  "confirmation_requise": false,
+  "message_confirmation": null,
+  "message_utilisateur": null,
+  "parametres": {
+    "application": "notepad",
+    "texte": "Je croyais que regarder était déjà insupportable. Mais cette nuit-là, j’ai découvert que faire... était bien pire.\n\nLe lendemain matin, à mon réveil, j’aurais tellement voulu que tout ceci ne soit qu’un cauchemar. Mais hélas, elles firent tout pour me faire comprendre que désormais, je faisais partie de leur cercle. L’une d’elles est arrivée à la maison, faisant semblant de rendre visite à ma grand-mère. En passant près de moi, elle m’a lancé un regard qui parlait. Je l’ai reconnue aussitôt. Dans ses yeux, je voyais encore les ténèbres de la nuit précédente.\n\nÇa aurait pu s’arrêter là. J’aurais pu croire à une coïncidence. Mais plus tard dans la journée, ma grand-mère m’a demandé de l’accompagner. \"Allons lui apporter à manger\", avait-elle dit. Je ne pouvais pas me douter de qui elle parlait. Sur le chemin, nous croisions des gens. Certains que je reconnaissais. Des visages avec qui, la nuit d'avant, j'étais dans l'ombre.",
+    "ouvrir_app": "true"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "action": "creer_presentation",
+  "confirmation_requise": false,
+  "message_confirmation": null,
+  "message_utilisateur": null,
+  "parametres": {
+    "titre": "Decoration Interieure",
+    "slides": [
+      {
+        "titre": "Introduction",
+        "contenu": "La décoration interieure est un art qui consiste à organiser les éléments de la pièce pour créer un environnement confortable et attrayant. Elle peut être utilisée pour améliorer la qualité de vie, la productivité et la satisfaction des utilisateurs.",
+        "style": {
+          "couleur_fond": "#F8F9FA",
+          "couleur_texte": "#000000",
+          "police": "Arial",
+          "taille_titre": 28,
+          "taille_contenu": 18
+        }
+      }

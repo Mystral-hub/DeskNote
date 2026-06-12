@@ -1,0 +1,1539 @@
+Résultats de recherche pour : radio activite
+
+==================================================
+
+Titre   : Radioactivite
+Lien    : https://en.wikipedia.org/wiki/Radioactivite
+Résumé  : Radioactive decay (also known as nuclear decay, radioactivity, radioactive disintegration, or nuclear disintegration) is the process by which an unstable atomic nucleus loses energy by radiation. A material containing unstable nuclei is considered radioactive. Three of the most common types of decay are alpha, beta, and gamma decay. The weak force is the mechanism that is responsible for beta decay, while the other two are governed by the electromagnetic and nuclear forces.Radioactive decay is a random process at the level of single atoms. According to quantum theory, it is impossible to predict when a particular atom will decay, regardless of how long the atom has existed. However, for a significant number of identical atoms, the overall decay rate can be expressed as a decay constant or as a half-life. The half-lives of radioactive atoms have a huge range: from nearly instantaneous to far longer than the age of the universe.The decaying nucleus is called the parent radionuclide (or parent radioisotope), and the process produces at least one daughter nuclide. Except for gamma decay or internal conversion from a nuclear excited state, the decay is a nuclear transmutation resulting in a daughter containing a different number of protons or neutrons (or both). When the number of protons changes, an atom of a different chemical element is created.There are 28 naturally occurring chemical elements on Earth that are radioactive, consisting of 35 radionuclides (seven elements have two different radionuclides each) that date before the time of formation of the Solar System. These 35 are known as primordial radionuclides. Well-known examples are uranium and thorium, but also included are naturally occurring long-lived radioisotopes, such as potassium-40. Each of the heavy primordial radionuclides participates in one of the four decay chains.
+Détail  :
+  Radioactive decay (also known as nuclear decay, radioactivity, radioactive disintegration,
+  or nuclear disintegration) is the process by which an unstable atomic nucleus loses energy
+  by radiation. A material containing unstable nuclei is considered radioactive. Three of
+  the most common types of decay are alpha, beta, and gamma decay. The weak force is the
+  mechanism that is responsible for beta decay, while the other two are governed by the
+  electromagnetic and nuclear forces.Radioactive decay is a random process at the level of
+  single atoms. According to quantum theory, it is impossible to predict when a particular
+  atom will decay, regardless of how long the atom has existed. However, for a significant
+  number of identical atoms, the overall decay rate can be expressed as a decay constant or
+  as a half-life. The half-lives of radioactive atoms have a huge range: from nearly
+  instantaneous to far longer than the age of the universe.The decaying nucleus is called
+  the parent radionuclide (or parent radioisotope), and the process produces at least one
+  daughter nuclide. Except for gamma decay or internal conversion from a nuclear excited
+  state, the decay is a nuclear transmutation resulting in a daughter containing a different
+  number of protons or neutrons (or both). When the number of protons changes, an atom of a
+  different chemical element is created.There are 28 naturally occurring chemical elements
+  on Earth that are radioactive, consisting of 35 radionuclides (seven elements have two
+  different radionuclides each) that date before the time of formation of the Solar System.
+  These 35 are known as primordial radionuclides. Well-known examples are uranium and
+  thorium, but also included are naturally occurring long-lived radioisotopes, such as
+  potassium-40. Each of the heavy primordial radionuclides participates in one of the four
+  decay chains.
+--------------------------------------------------
+Titre   : Stream Radio Activité music | Listen to songs, albums,
+Lien    : https://soundcloud.com/radio-activite
+Résumé  : Radio Activité porte aussi le projet Microcamp Radio, et part sur la route des camps de réfugiés de France, de Géorgie et d’Irak, pour faire ...
+Source  : contenu enrichi depuis la page liée
+Détail  :
+  (function () { var theme = window.matchMedia('(prefers-color-scheme: dark)').matches ?
+  'dark' : 'light'; document.body.classList.remove('theme-dark');
+  document.body.classList.add('theme-' + theme); })();
+  .header{width:100%;background:var(--background-surface-
+  color);height:46px}.header__logo{background:var(--background-surface-
+  color)}.header__logoLink{display:flex;flex-direction:column;justify-content:center;align-
+  content:center;height:46px;width:48px}.header__logoLink svg{color:var(--primary-
+  color)}.header__logoLink:focus{background-
+  color:rgba(255,72,0,.8);outline:0}#header__loading{margin:13px auto
+  0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-
+  dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px} SoundCloud
+  window.setTimeout((function(){if(!window.__sc_abortApp){var
+  e=window.document.getElementById("header__loading");e&&(e.className="")}}),6e3)
+  .errorPage__inner{width:580px;margin:0 auto;position:relative;padding-
+  top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png)
+  no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-
+  bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-
+  size:20px}.errorButtons{margin-top:30px}@media (max-
+  width:1280px){.errorPage__inner{background-size:80%}} JavaScript is disabled You need to
+  enable JavaScript to use SoundCloud Show me how to enable it Radio Activité RADIO ACTIVITÉ
+  est un atelier d’initiation à la radio. L’atelier est mobile et s’adapte au lieu et aux
+  participants. Il se déplace dans des centres sociaux, des théâtres, des festivals, des
+  maisons de retraite, des camps de réfugiés, en milieu urbain et rural, en France et à
+  l’étranger… Sa finalité est de rassembler les participants autour de la création d’une
+  émission de radio, en direct, sur le sujet de leur choix. Les participants sont
+  animateurs, journalistes, musiciens, et chroniqueurs de leur émission. Ils créent ainsi un
+  espace de parole pour se raconter, échanger, et réfléchir par la radio. Radio Activité
+  porte aussi le projet Microcamp Radio, et part sur la route des camps de réfugiés de
+  France, de Géorgie et d’Irak, pour faire entendre la voix des réfugiés au-delà des
+  frontières et des limites des camps. .. Radio Activité run radio workshops that gives
+  participants the opportunity to create a radio program. The workshop is mobile and
+  adjustable to the place, context, and participants. It is held in social centres,
+  theatres, festivals, retirement homes, refugee camps, in cities and countrysides, in
+  France, Georgia, Iraq, Greece… It aims to gather participants around the creation of a
+  live radio program, on a topic of their choice. Participants are the journalists,
+  speakers, interviewers and interviewees of their broadcast. They open a space of dialogue
+  to share, speak, and think through radio. Radio Activité also holds the project ‘Microcamp
+  Radio’, where we are on the road visiting refugee camps in France, Georgia, Turkey, Greece
+  and Irak, to make the voice of refugees heard above the borders and limits of camps. ..
+  الورشة متنقلة وتتكيّف مع المكان والمشتركين. تتنقل بين المراكز الاجتماعية، المسارح،
+  المهراجانات، دور رعاية المسنّين، مخيمات اللاجئين، بين المدن و الريف، في فرنسا و في الخارج.
+  هدفها جمع أشخاص، يعيشون في الإقليم نفسه، حول مشروع إنتاج برنامج إذاعي، يبثّ مباشرة، عن
+  موضوع يختارونه بأنفسهم. المشاركون ينقسمون إلى: مقدّمين، صحافيين، موسيقيين ومعدّي برامج.
+  بلقائهم هذا، يبتكر المشاركون مساحة للتعبير تسمح بالتعارف، بتبادل الآراء وبالتفكير عبر
+  العمل الإذاعي. هذا الصيف، يعمل «راديو أكتيفيتيه» على مشروع «ميكروكامب راديو» (إذاعة
+  ميكروفون المخيّم): يتنقّل على طرق مخيمات فرنسا وجورجيا والعراق ليُسمِع صوت اللاجئين وراء
+  الحدود وخارج المخيمات. للمتابعة والاستماع، اضغط/ي هنا. Radio Activité’s tracks Radio Cath'
+  : Les aides sociales - "On m'a dit vous n'êtes pas la bienvenue" [Extrait] by Radio
+  Activité published on 2026-05-07T10:09:19Z Radio Cath' : Les mamans et les services
+  scolaires en ville [Extrait] by Radio Activité published on 2026-05-07T10:08:14Z Radio
+  Cath' : Les transports dans la ville [Extrait] by Radio Activité published on
+  2026-05-07T10:07:20Z Radio Cath' : Si j'étais maire...faire quelque chose de mieux pour
+  toute la population ! [Extrait] by Radio Activité published on 2026-05-07T10:06:18Z Radio
+  Cath' : Etre maman d'un enfant handicapé [Extrait] by Radio Activité published on
+  2026-05-07T10:05:11Z Radio Cath' : "On ne peut que subir en tant qu'étrangers" [Extrait]
+  by Radio Activité published on 2026-05-07T10:03:20Z Radio Cath' : l'émission radio -en
+  direct à Noisy le Grand by Radio Activité published on 2026-05-07T10:02:20Z Radio Cath' :
+  Des difficultés à trouver un logement [Extrait] by Radio Activité published on
+  2026-05-07T09:59:27Z Delicious Stories - souvenirs : Rahma et le gateau du résultat du bac
+  by Radio Activité published on 2026-05-05T13:39:41Z Delicious Stories - souvenirs : Imane
+  et la fleur d'oranger de sa grand-mère by Radio Activité published on 2026-05-05T13:39:00Z
+  Radio Activité's likes Radio Activité's playlists Radio Activité's tracks Radio Activité's
+  comments #updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410
+  px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-
+  repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-
+  height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-
+  top:0} Your current browser isn't compatible with SoundCloud. Please download one of our
+  supported browsers. Need help? Chrome | Firefox | Safari | Edge window.__sc_abortApp&&(win
+  dow.document.getElementById("updateBrowserMessage").style.display="block") Sorry!
+  Something went wrong Is your network connection unstable or browser outdated? I need help
+  function displayError(){if(!window.__sc_abortApp){var r=window.document,e=r.getElementById
+  ("error__timeout"),o=r.getElementById("header__loading");e&&o&&(e.className="errorPage__in
+  ner",o.className="sc-
+  hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError Popular
+  searches window.dataLayer = window.dataLayer || []; function gtag() {
+  dataLayer.push(arguments); } gtag('consent', 'default', { 'ad_storage': 'denied',
+  'analytics_storage': 'denied', 'functionality_storage': 'denied',
+  'personalization_storage': 'denied', 'security_storage': 'granted', 'ad_user_data':
+  'denied', 'ad_personalization': 'denied', 'region': [ 'BE', 'EL', 'LT', 'PT', 'BG', 'ES',
+  'LU', 'RO', 'CZ', 'FR', 'HU', 'SI', 'DK', 'HR', 'MT', 'SK', 'DE', 'IT', 'NL', 'FI', 'EE',
+  'CY', 'AT', 'SE', 'IE', 'LV', 'PL', 'US-CA' ] }); gtag('consent', 'default', {
+  'ad_storage': 'granted', 'analytics_storage': 'granted', 'functionality_storage':
+  'granted', 'personalization_storage': 'granted', 'security_storage': 'granted',
+  'ad_user_data': 'granted', 'ad_personalization': 'granted' }); (function (global) {
+  function OptanonWrapper() { var activeGroups = (global.OptanonActiveGroups ||
+  '').split(','); if (Array.isArray(OptanonWrapper.callbacks)) { for (var i = 0, max =
+  OptanonWrapper.callbacks.length; i < max; i++) { try {
+  OptanonWrapper.callbacks[i](activeGroups); } catch (e) {} } } OptanonWrapper.isLoaded =
+  true; }; OptanonWrapper.callbacks = []; OptanonWrapper.isLoaded = false;
+  global.OptanonWrapper = OptanonWrapper; }(window)); window.__sc_version="1779807420"
+  window.__sc_hydration = [{"hydratable":"anonymousId","data":"359837-141636-968101-
+  231799"},{"hydratable":"features","data":{"features":["v2_dsa_report_content_links","mobi_
+  webauth_oauth_mode","mobi_use_auth_internal_analytics","v2_use_onetrust_tcfv2_us_ca","mobi
+  _enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","mobi_use_
+  onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","mobi_dsa_report_content_form","v2_use_onetru
+  st_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_use_onetrust_tcfv2_eu2","checkout_send
+  _segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_cr
+  eator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_wit
+  h_caption","v2_use_drm_transcodings","v2_webi_embed_container","mobi_use_dwt","v2_use_onet
+  rust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page
+  ","v2_use_onetrust_gb","v2_dsa_ad_compliance","checkout_use_extole","use_onetrust_async","
+  creator_mid_tier_not_us","mobi_dsa_report_content_links","v2_signals_collection","v2_track
+  _level_distro_to_plan_picker","v2_direct_support_link","checkout_web_products","v2_api_aut
+  h_sign_out","v2_ie11_support_end","checkout_use_new_connect","mobi_dsa_ad_compliance","v2_
+  skip_prerendered_navigate","cd_repost_to_artists","v2_enable_crossfade","v2_tracking_moeng
+  age_integration","mobi_report_content_links","creator_mid_tier_canada","v2_hq_file_storage
+  _release","gql_tracks","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_storie
+  s_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","v2_use
+  _dwt","v2_use_updated_alert_banner_quota_upsell","creator_mid_tier_downgrade_downgrade","v
+  2_enable_onetrust","v2_signed_out_cancellation_flow","v2_import_playlist_experiment","v2_d
+  isable_sidebar_comments_count","v2_upload_redirection","v2_subhub_churn_intercept","checko
+  ut_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","
+  v2_comscore_udm_2","checkout_creator_coupon_codes_enabled","fpi_messaging_drawer","v2_use_
+  onetrust_us","v2_featured_fans_opt_out","v2_comment_sorting","mobi_open_app_soft_wall","sh
+  orten_on_soundcloud","sc4a_benefits_iframe","checkout_use_recurly_with_paypal","creator_mi
+  d_tier_not_germany_france_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use
+  _onetrust_elsewhere","v2_use_onetrust_eu3","v2_use_onetrust_tcfv2_ex_us","creator_mid_tier
+  ","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search
+  ","v2_use_onetrust_user_id_ex_us","creator_mid_tier_upgrade_downgrade","v2_use_new_connect
+  ","v2_use_onetrust_tcfv2_eu2","mobi_interstitial_ad","v2_get_heard","v2_interstitial_ad","
+  v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2
+  _repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","creator_mid_tier_anz","v2_t
+  ags_recent_tracks","sc4a_onboarding_checklist","show_disabled_tracks","v2_statsig_hydrate_
+  init","mobi_new_ad_placements","mobi_use_onetrust_eu2","v2_velvetcake_profile_widget","v2_
+  use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_e
+  xperiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinit
+  y","v2_enable_crossfade_upload","request_takedown","v2_monetization_mx","v2_webauth_oauth_
+  mode","v2_google_one_tap","v2_enable_pwa","v2_use_extole","mobi_use_drm_transcodings","mob
+  i_use_hls_hack","creator_mid_tier_uk","v2_stories","v2_use_onetrust_user_id_eu1","v2_use_o
+  netrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v
+  2_enable_onetrust_tcfv2","v2_enable_crossfade_track_manager","v2_enable_tcfv2_consent_stri
+  ng_cache","v2_track_manager_redirection","use_on_soundcloud_short_links","mobi_send_segmen
+  t_events_to_event_gateway","artist_fan_connection_widget","v2_update_sidebar_module_header
+  s"]}},{"hydratable":"geoip","data":{"country_code":"CM","country_name":"Cameroon","region"
+  :"LT","city":"Douala","latitude":4.0505,"longitude":9.7023,"timezone":"Africa/Douala"}},{"
+  hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":false,"analy
+  tics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":false,"legisl
+  ation":[]}},{"hydratable":"statsigClientInitializeResponse","data":{"configString":"{\"fea
+  ture_gates\":{\"5688754\":{\"name\":\"5688754\",\"value\":true,\"rule_id\":\"2Zo2QZEphAfIp
+  iQETzoWjS\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"10789665\":{\"name\":\"10
+  789665\",\"value\":false,\"rule_id\":\"4bA2yDCu3wgS7mdUPJTrT9\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"163128860\":{\"name\":\"163128860\",\"value\":false,\"rule_id\"
+  :\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"218482608\":{\"name\":\"
+  218482608\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\"
+  :\"userID\"},\"269461791\":{\"name\":\"269461791\",\"value\":true,\"rule_id\":\"disabled\"
+  ,\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"295207513\":{\"name\":\"295207513\
+  ",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"stableI
+  D\"},\"335057735\":{\"name\":\"335057735\",\"value\":true,\"rule_id\":\"2NcL9pH5jCD404I3hC
+  875a\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"345354045\":{\"name\":\"345354
+  045\",\"value\":true,\"rule_id\":\"731sdSdWyHhBiEE1adOfmh:100.00:3\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"387092580\":{\"name\":\"387092580\",\"value\":true,\"rule_
+  id\":\"7qOXeqCAXrRktgPaQsSEti\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"48275
+  2608\":{\"name\":\"482752608\",\"value\":true,\"rule_id\":\"6F3HFvSl8uy2H5Nb6HqJHj\",\"sec
+  ondary_exposures\":[],\"id_type\":\"userID\"},\"491701917\":{\"name\":\"491701917\",\"valu
+  e\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"499
+  445266\":{\"name\":\"499445266\",\"value\":true,\"rule_id\":\"2zczvl3rRbJmKMnEJmM02f\",\"s
+  econdary_exposures\":[],\"id_type\":\"userID\"},\"757817760\":{\"name\":\"757817760\",\"va
+  lue\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"7
+  98024607\":{\"name\":\"798024607\",\"value\":true,\"rule_id\":\"4otvCRNFwhd8AnJjkaVpwP:100
+  .00:3\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"809494859\":{\"name\":\"80949
+  4859\",\"value\":true,\"rule_id\":\"I3omdIF7hiMPQMBUykfTX:100.00:2\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"857282395\":{\"name\":\"857282395\",\"value\":false,\"rule
+  _id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"969152394\":{\"name
+  \":\"969152394\",\"value\":true,\"rule_id\":\"6wbAdwvR4u4YIbEn5dVXxA:100.00:2\",\"secondar
+  y_exposures\":[],\"id_type\":\"userID\"},\"1070993832\":{\"name\":\"1070993832\",\"value\"
+  :false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"120077
+  0180\":{\"name\":\"1200770180\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposu
+  res\":[],\"id_type\":\"userID\"},\"1396019509\":{\"name\":\"1396019509\",\"value\":false,\
+  "rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"1436889564\":{
+  \"name\":\"1436889564\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"1474439853\":{\"name\":\"1474439853\",\"value\":false,\"rule_id
+  \":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"1526785582\":{\"name\"
+  :\"1526785582\",\"value\":true,\"rule_id\":\"71xZspLE4r36IIC5pQj3ow\",\"secondary_exposure
+  s\":[],\"id_type\":\"userID\"},\"1553925866\":{\"name\":\"1553925866\",\"value\":true,\"ru
+  le_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"1614872978\":{
+  \"name\":\"1614872978\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[]
+  ,\"id_type\":\"stableID\"},\"1766036343\":{\"name\":\"1766036343\",\"value\":true,\"rule_i
+  d\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"1797068334\":{\"na
+  me\":\"1797068334\",\"value\":true,\"rule_id\":\"26HcPQk5y0JPpq53MnAUvl\",\"secondary_expo
+  sures\":[],\"id_type\":\"userID\"},\"1862581570\":{\"name\":\"1862581570\",\"value\":true,
+  \"rule_id\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\",\"secondary_exposures\":[],\"id_type\":\"u
+  serID\"},\"2185160558\":{\"name\":\"2185160558\",\"value\":false,\"rule_id\":\"default\",\
+  "secondary_exposures\":[],\"id_type\":\"userID\"},\"2254327457\":{\"name\":\"2254327457\",
+  \"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"}
+  ,\"2340012884\":{\"name\":\"2340012884\",\"value\":false,\"rule_id\":\"default\",\"seconda
+  ry_exposures\":[],\"id_type\":\"userID\"},\"2602694798\":{\"name\":\"2602694798\",\"value\
+  ":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"26183
+  00873\":{\"name\":\"2618300873\",\"value\":true,\"rule_id\":\"VJI2RZXTWRyAfDCgs2AZ5:100.00
+  :3\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"2794498451\":{\"name\":\"27944
+  98451\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"u
+  serID\"},\"2843948931\":{\"name\":\"2843948931\",\"value\":true,\"rule_id\":\"3ChENFp7VkCb
+  Acg5HVesYq:100.00:1\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"2878451644\":{\
+  "name\":\"2878451644\",\"value\":true,\"rule_id\":\"jXLaI5rguXpKga8ez8YmT:100.00:3\",\"sec
+  ondary_exposures\":[],\"id_type\":\"userID\"},\"2882757490\":{\"name\":\"2882757490\",\"va
+  lue\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"2
+  926794380\":{\"name\":\"2926794380\",\"value\":false,\"rule_id\":\"default\",\"secondary_e
+  xposures\":[],\"id_type\":\"userID\"},\"3021451191\":{\"name\":\"3021451191\",\"value\":fa
+  lse,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"311519705
+  4\":{\"name\":\"3115197054\",\"value\":true,\"rule_id\":\"40BuInaGZIYNSFrVqZCr7a\",\"secon
+  dary_exposures\":[],\"id_type\":\"userID\"},\"3282749987\":{\"name\":\"3282749987\",\"valu
+  e\":true,\"rule_id\":\"7IQeMfio5o8DjknfsDgjqE:100.00:3\",\"secondary_exposures\":[],\"id_t
+  ype\":\"userID\"},\"3391285753\":{\"name\":\"3391285753\",\"value\":true,\"rule_id\":\"dis
+  abled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"3570002952\":{\"name\":\"35
+  70002952\",\"value\":true,\"rule_id\":\"IM348GHTSC0LJVvG4NdOB\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"3716405229\":{\"name\":\"3716405229\",\"value\":false,\"rule_id
+  \":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"3862696535\":{\"name\"
+  :\"3862696535\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_ty
+  pe\":\"userID\"},\"3867004153\":{\"name\":\"3867004153\",\"value\":true,\"rule_id\":\"5II5
+  rZZAmSsuNYNEWcRfNZ:100.00:1\",\"secondary_exposures\":[{\"gate\":\"2996255573\",\"gateValu
+  e\":\"false\",\"ruleID\":\"2Pvug3H5J3HhDTMgv6fmeS:5.00:1\"}],\"id_type\":\"userID\"},\"388
+  4705820\":{\"name\":\"3884705820\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exp
+  osures\":[],\"id_type\":\"stableID\"},\"4067056285\":{\"name\":\"4067056285\",\"value\":fa
+  lse,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"414221841
+  3\":{\"name\":\"4142218413\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"4242882860\":{\"name\":\"4242882860\",\"value\":false,\"ru
+  le_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"4289281104\":{\"n
+  ame\":\"4289281104\",\"value\":true,\"rule_id\":\"6kaUB0WibrUbDhk3gG1voC\",\"secondary_exp
+  osures\":[],\"id_type\":\"userID\"}},\"dynamic_configs\":{\"183683058\":{\"name\":\"183683
+  058\",\"value\":{\"creatorsOnly\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launched
+  Group\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_
+  type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"191888
+  894\":{\"name\":\"191888894\",\"value\":{\"shouldShow\":true},\"group\":\"launchedGroup\",
+  \"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group
+  _name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_ac
+  tive\":false},\"192197615\":{\"name\":\"192197615\",\"value\":{\"similar_sounds_model\":\"
+  control\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilter\":\"enabl
+  ed\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\
+  ",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_id\":\"launc
+  hedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"
+  explicit_parameters\":[\"knn_version\"],\"id_type\":\"userID\",\"is_user_in_experiment\":f
+  alse,\"is_experiment_active\":false,\"is_in_layer\":true},\"225579016\":{\"name\":\"225579
+  016\",\"value\":{\"profile_control_v2\":false},\"group\":\"2gD6dY1DLu5mjSEeNoncU\",\"rule_
+  id\":\"2gD6dY1DLu5mjSEeNoncU\",\"is_device_based\":false,\"secondary_exposures\":[],\"grou
+  p_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment\":true,\"is_experiment
+  _active\":true},\"301845008\":{\"name\":\"301845008\",\"value\":{},\"group\":\"targetingGa
+  te\",\"rule_id\":\"targetingGate\",\"is_device_based\":true,\"secondary_exposures\":[{\"ga
+  te\":\"4142218413\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"id_type\":\"stableI
+  D\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"570670955\":{\"name\
+  ":\"570670955\",\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_edit_action_b
+  uttons\":true,\"track_page_mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_
+  in_webi\":false,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"launchedGroup\",
+  \"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group
+  _name\":\"Test\",\"explicit_parameters\":[\"v2_new_edit_action_buttons\"],\"id_type\":\"us
+  erID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true
+  },\"664527186\":{\"name\":\"664527186\",\"value\":{\"enabled\":false},\"group\":\"3hS7L1Va
+  4frT7KFXtmL1Vp\",\"rule_id\":\"3hS7L1Va4frT7KFXtmL1Vp\",\"is_device_based\":true,\"seconda
+  ry_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"stableID\",\"is_user_in_experim
+  ent\":true,\"is_experiment_active\":true},\"721832964\":{\"name\":\"721832964\",\"value\":
+  {\"enabled\":false},\"group\":\"64XefB2oj7u8cozvFkcAt4\",\"rule_id\":\"64XefB2oj7u8cozvFkc
+  At4\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"id
+  _type\":\"userID\",\"is_user_in_experiment\":true,\"is_experiment_active\":true},\"7463013
+  05\":{\"name\":\"746301305\",\"value\":{\"is_artist_studio\":false},\"group\":\"launchedGr
+  oup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\
+  "group_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_expe
+  riment_active\":false},\"963533814\":{\"name\":\"963533814\",\"value\":{\"creator_upsell_c
+  opy\":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora
+  ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu
+  upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera
+  nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator_button_ui\":true,\"fan_butt
+  on_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\":false,\"creator_upsell_text
+  _color\":\"#ffffff\",\"fan_upsell_text_color\":\"\u003c%default%\u003e\",\"creator_upsell_
+  background_color\":\"#000000\",\"fan_upsell_background_color\":\"\u003c%default%\u003e\",\
+  "creator_upsell_border_color\":\"#FF5500\",\"fan_upsell_border_color\":\"\u003c%default%\u
+  003e\",\"creator_cta_target\":\"inline_checkout\",\"applies_to_user_type\":\"creator\",\"a
+  pplies_to_creator_plans\":[\"free\"],\"applies_to_fan_plans\":[\"free\"],\"creator_promo_c
+  ode\":\"\"},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\"se
+  condary_exposures\":[],\"explicit_parameters\":[\"creator_upsell_copy\",\"fan_upsell_show\
+  ",\"creator_upsell_show\",\"creator_upsell_background_color\",\"creator_upsell_text_color\
+  ",\"creator_button_ui\",\"creator_upsell_border_color\",\"creator_cta_target\",\"fan_butto
+  n_ui\",\"fan_upsell_background_color\",\"fan_upsell_border_color\",\"applies_to_user_type\
+  ",\"fan_upsell_text_color\",\"applies_to_creator_plans\",\"applies_to_fan_plans\",\"creato
+  r_promo_code\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_act
+  ive\":false,\"is_in_layer\":true},\"989509283\":{\"name\":\"989509283\",\"value\":{},\"gro
+  up\":\"targetingGate\",\"rule_id\":\"targetingGate\",\"is_device_based\":false,\"secondary
+  _exposures\":[{\"gate\":\"2254327457\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"
+  id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"104
+  1511405\":{\"name\":\"1041511405\",\"value\":{\"similar_sounds_model\":\"control\",\"useBi
+  gtable\":false,\"activityFilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_conte
+  nt_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_v
+  ariant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_d
+  evice_based\":false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"explicit_param
+  eters\":[\"audiogene_autoplay\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"
+  is_experiment_active\":false,\"is_in_layer\":true},\"1145461068\":{\"name\":\"1145461068\"
+  ,\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_edit_action_buttons\":true,\
+  "track_page_mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_in_webi\":false
+  ,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"launchedGroup\",\"rule_id\":\"l
+  aunchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Contr
+  ol\",\"explicit_parameters\":[\"track_page_distribution_upsell\"],\"id_type\":\"userID\",\
+  "is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"1156
+  106472\":{\"name\":\"1156106472\",\"value\":{\"test\":\"foo\"},\"group\":\"7AgUKaRQ4YJCA8H
+  5FR5Vt1\",\"rule_id\":\"7AgUKaRQ4YJCA8H5FR5Vt1\",\"is_device_based\":true,\"secondary_expo
+  sures\":[],\"group_name\":\"Control\",\"id_type\":\"stableID\",\"is_user_in_experiment\":t
+  rue,\"is_experiment_active\":true},\"1325617069\":{\"name\":\"1325617069\",\"value\":{\"up
+  dated_home_hook_ui\":false,\"add_get_heard_home_hook\":true},\"group\":\"prestart\",\"rule
+  _id\":\"prestart\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_paramet
+  ers\":[\"updated_home_hook_ui\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"
+  is_experiment_active\":false,\"is_in_layer\":true},\"1375997689\":{\"name\":\"1375997689\"
+  ,\"value\":{\"showBanner\":false,\"displayAfterDismissed\":false},\"group\":\"launchedGrou
+  p\",\"rule_id\":\"launchedGroup\",\"is_device_based\":true,\"secondary_exposures\":[],\"gr
+  oup_name\":\"Control\",\"id_type\":\"stableID\",\"is_user_in_experiment\":false,\"is_exper
+  iment_active\":false},\"1407605912\":{\"name\":\"1407605912\",\"value\":{},\"group\":\"inl
+  ineTargetingRules\",\"rule_id\":\"inlineTargetingRules\",\"is_device_based\":false,\"secon
+  dary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment
+  _active\":true},\"1433112660\":{\"name\":\"1433112660\",\"value\":{},\"group\":\"inlineTar
+  getingRules\",\"rule_id\":\"inlineTargetingRules\",\"is_device_based\":false,\"secondary_e
+  xposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_activ
+  e\":false},\"1452138818\":{\"name\":\"1452138818\",\"value\":{\"use_soundcloud\":true},\"g
+  roup\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"seconda
+  ry_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\"
+  :false,\"is_experiment_active\":false},\"1474511987\":{\"name\":\"1474511987\",\"value\":{
+  \"enabled\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_ba
+  sed\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is
+  _user_in_experiment\":false,\"is_experiment_active\":false},\"1620275931\":{\"name\":\"162
+  0275931\",\"value\":{\"web_artist_studio_nav_bar\":false},\"group\":\"abandoned\",\"rule_i
+  d\":\"abandoned\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_paramete
+  rs\":[\"web_artist_studio_nav_bar\"],\"id_type\":\"userID\",\"is_user_in_experiment\":fals
+  e,\"is_experiment_active\":false,\"is_in_layer\":true},\"1658564830\":{\"name\":\"16585648
+  30\",\"value\":{\"artist_studio_benefits\":false,\"is_promotions_enabled\":false},\"group\
+  ":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":true,\"secondary_exposures\"
+  :[],\"explicit_parameters\":[\"is_promotions_enabled\"],\"id_type\":\"stableID\",\"is_user
+  _in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"1778302359\"
+  :{\"name\":\"1778302359\",\"value\":{\"signupWallType\":\"soft\"},\"group\":\"launchedGrou
+  p\",\"rule_id\":\"launchedGroup\",\"is_device_based\":true,\"secondary_exposures\":[],\"gr
+  oup_name\":\"Test - Soft Prompt\",\"id_type\":\"stableID\",\"is_user_in_experiment\":false
+  ,\"is_experiment_active\":false},\"1807631156\":{\"name\":\"1807631156\",\"value\":{\"arti
+  st_studio_benefits\":false,\"is_promotions_enabled\":false},\"group\":\"abandoned\",\"rule
+  _id\":\"abandoned\",\"is_device_based\":true,\"secondary_exposures\":[],\"explicit_paramet
+  ers\":[\"insights_fans\"],\"id_type\":\"stableID\",\"is_user_in_experiment\":false,\"is_ex
+  periment_active\":false,\"is_in_layer\":true},\"1888596127\":{\"name\":\"1888596127\",\"va
+  lue\":{\"creator_upsell_copy\":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade
+  now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez
+  maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize
+  agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator
+  _button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\"
+  :false,\"creator_upsell_text_color\":\"#ff5500\",\"fan_upsell_text_color\":\"\u003c%defaul
+  t%\u003e\",\"creator_upsell_background_color\":\"\u003c%default%\u003e\",\"fan_upsell_back
+  ground_color\":\"\u003c%default%\u003e\",\"creator_upsell_border_color\":\"#ff5500\",\"fan
+  _upsell_border_color\":\"\u003c%default%\u003e\",\"creator_cta_target\":\"plan_picker\",\"
+  applies_to_user_type\":\"creator\",\"applies_to_creator_plans\":[\"all_plans\"],\"applies_
+  to_fan_plans\":[\"all_plans\"],\"creator_promo_code\":\"\"},\"group\":\"1GkA5tYjff6qH5Zag2
+  eyT6:override\",\"rule_id\":\"1GkA5tYjff6qH5Zag2eyT6:override\",\"is_device_based\":false,
+  \"secondary_exposures\":[{\"gate\":\"1862581570\",\"gateValue\":\"true\",\"ruleID\":\"70ks
+  t7vAmHtdPQ6AGjoChw:100.00:1\"}],\"group_name\":\"Control\",\"explicit_parameters\":[\"crea
+  tor_upsell_copy\",\"fan_upsell_show\",\"creator_upsell_show\",\"creator_upsell_background_
+  color\",\"creator_upsell_text_color\",\"creator_button_ui\",\"creator_upsell_border_color\
+  ",\"creator_cta_target\",\"fan_button_ui\",\"fan_upsell_background_color\",\"fan_upsell_bo
+  rder_color\",\"applies_to_user_type\",\"fan_upsell_text_color\",\"applies_to_creator_plans
+  \",\"applies_to_fan_plans\",\"creator_promo_code\"],\"id_type\":\"userID\",\"is_user_in_ex
+  periment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"2002574928\":{\"na
+  me\":\"2002574928\",\"value\":{},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_devi
+  ce_based\":true,\"secondary_exposures\":[],\"id_type\":\"stableID\",\"is_user_in_experimen
+  t\":false,\"is_experiment_active\":false},\"2121026242\":{\"name\":\"2121026242\",\"value\
+  ":{\"similar_sounds_model\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":fa
+  lse,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":fa
+  lse,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launc
+  hedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\"
+  :[],\"group_name\":\"Test\",\"explicit_parameters\":[\"activityFilter\"],\"id_type\":\"use
+  rID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true}
+  ,\"2126819031\":{\"name\":\"2126819031\",\"value\":{},\"group\":\"inlineTargetingRules\",\
+  "rule_id\":\"inlineTargetingRules\",\"is_device_based\":false,\"secondary_exposures\":[],\
+  "id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":true},\"216
+  2508810\":{\"name\":\"2162508810\",\"value\":{\"creator_upsell_copy\":{\"en\":\"Upgrade
+  now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade
+  jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna
+  ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan
+  _upsell_copy\":{},\"creator_button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show
+  \":true,\"fan_upsell_show\":false,\"creator_upsell_text_color\":\"#ffffff\",\"fan_upsell_t
+  ext_color\":\"\u003c%default%\u003e\",\"creator_upsell_background_color\":\"#000000\",\"fa
+  n_upsell_background_color\":\"\u003c%default%\u003e\",\"creator_upsell_border_color\":\"#F
+  F5500\",\"fan_upsell_border_color\":\"\u003c%default%\u003e\",\"creator_cta_target\":\"inl
+  ine_checkout\",\"applies_to_user_type\":\"creator\",\"applies_to_creator_plans\":[\"free\"
+  ],\"applies_to_fan_plans\":[\"free\"],\"creator_promo_code\":\"\"},\"group\":\"prestart\",
+  \"rule_id\":\"prestart\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_p
+  arameters\":[\"creator_upsell_copy\",\"fan_upsell_show\",\"creator_upsell_show\",\"creator
+  _upsell_background_color\",\"creator_upsell_text_color\",\"creator_button_ui\",\"creator_u
+  psell_border_color\",\"creator_cta_target\",\"fan_button_ui\",\"fan_upsell_background_colo
+  r\",\"fan_upsell_border_color\",\"applies_to_user_type\",\"fan_upsell_text_color\",\"appli
+  es_to_creator_plans\",\"applies_to_fan_plans\",\"creator_promo_code\"],\"id_type\":\"userI
+  D\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\
+  "2182036919\":{\"name\":\"2182036919\",\"value\":{\"showUpdatedActionsForOwnTrack\":true},
+  \"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"seco
+  ndary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experimen
+  t\":false,\"is_experiment_active\":false},\"2307011534\":{\"name\":\"2307011534\",\"value\
+  ":{\"web_artist_studio_nav_bar\":false},\"group\":\"targetingGate\",\"rule_id\":\"targetin
+  gGate\",\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"10789665\",\"gateVa
+  lue\":\"false\",\"ruleID\":\"4bA2yDCu3wgS7mdUPJTrT9\"}],\"explicit_parameters\":[\"web_art
+  ist_studio_nav_bar\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experime
+  nt_active\":true,\"is_in_layer\":true},\"2307281874\":{\"name\":\"2307281874\",\"value\":{
+  \"similar_sounds_model\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":false
+  ,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false
+  ,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launched
+  Group\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[]
+  ,\"group_name\":\"Control\",\"explicit_parameters\":[\"similar_sounds_model\"],\"id_type\"
+  :\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\"
+  :true},\"2311548162\":{\"name\":\"2311548162\",\"value\":{\"is_artist_studio\":false},\"gr
+  oup\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondar
+  y_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment
+  \":false,\"is_experiment_active\":false},\"2311548163\":{\"name\":\"2311548163\",\"value\"
+  :{\"is_artist_studio\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"i
+  s_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"us
+  erID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"2479513706\":{\"n
+  ame\":\"2479513706\",\"value\":{\"artist_studio_benefits\":false,\"is_promotions_enabled\"
+  :false},\"group\":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":true,\"secon
+  dary_exposures\":[],\"explicit_parameters\":[\"artist_studio_benefits\"],\"id_type\":\"sta
+  bleID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":tru
+  e},\"2500404082\":{\"name\":\"2500404082\",\"value\":{},\"group\":\"prestart\",\"rule_id\"
+  :\"prestart\",\"is_device_based\":true,\"secondary_exposures\":[],\"id_type\":\"stableID\"
+  ,\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"2510295732\":{\"name\":
+  \"2510295732\",\"value\":{\"has_2fa_removed\":false},\"group\":\"1wdtOFM8f2fRT0Od0IAFaq\",
+  \"rule_id\":\"1wdtOFM8f2fRT0Od0IAFaq\",\"is_device_based\":false,\"secondary_exposures\":[
+  ],\"group_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment\":true,\"is_ex
+  periment_active\":true},\"2533632282\":{\"name\":\"2533632282\",\"value\":{\"similar_sound
+  s_model\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilt
+  er\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\
+  ":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_
+  id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\"
+  :\"Test\",\"explicit_parameters\":[\"sdui_content_enabled\"],\"id_type\":\"userID\",\"is_u
+  ser_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"284536659
+  0\":{\"name\":\"2845366590\",\"value\":{\"showReplaceTrack\":true},\"group\":\"launchedGro
+  up\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"
+  group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experime
+  nt_active\":false},\"2956529455\":{\"name\":\"2956529455\",\"value\":{\"track_page_distrib
+  ution_upsell\":false,\"v2_new_edit_action_buttons\":true,\"track_page_mastering_upsell\":f
+  alse,\"v2_webi_track_page\":false,\"render_in_webi\":false,\"get_heard_enrollment_track_pa
+  ge_v2\":false},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\
+  "secondary_exposures\":[],\"explicit_parameters\":[\"get_heard_enrollment_track_page_v2\"]
+  ,\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"i
+  s_in_layer\":true},\"2967384318\":{\"name\":\"2967384318\",\"value\":{\"similar_sounds_mod
+  el\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilter\":
+  \"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\":\"v
+  oyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_id\":
+  \"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"214728719
+  7\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"group_name\":\"Test\",\"explicit_pa
+  rameters\":[\"new_for_you_variant\"],\"id_type\":\"userID\",\"is_user_in_experiment\":fals
+  e,\"is_experiment_active\":false,\"is_in_layer\":true},\"3218374118\":{\"name\":\"32183741
+  18\",\"value\":{\"is_dismissal_enabled\":true},\"group\":\"launchedGroup\",\"rule_id\":\"l
+  aunchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"2996255573\"
+  ,\"gateValue\":\"false\",\"ruleID\":\"2Pvug3H5J3HhDTMgv6fmeS:5.00:1\"},{\"gate\":\"3867004
+  153\",\"gateValue\":\"true\",\"ruleID\":\"5II5rZZAmSsuNYNEWcRfNZ:100.00:1\"}],\"group_name
+  \":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\
+  ":false},\"3292527235\":{\"name\":\"3292527235\",\"value\":{},\"group\":\"prestart\",\"rul
+  e_id\":\"prestart\",\"is_device_based\":false,\"secondary_exposures\":[],\"id_type\":\"use
+  rID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"3444681233\":{\"na
+  me\":\"3444681233\",\"value\":{\"enabled\":true},\"group\":\"2iM0KX0gPjXHWp9ctQqFkZ\",\"ru
+  le_id\":\"2iM0KX0gPjXHWp9ctQqFkZ\",\"is_device_based\":false,\"secondary_exposures\":[],\"
+  group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":true,\"is_experimen
+  t_active\":true},\"3527634995\":{\"name\":\"3527634995\",\"value\":{\"updated_home_hook_ui
+  \":false,\"add_get_heard_home_hook\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launc
+  hedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"
+  explicit_parameters\":[\"add_get_heard_home_hook\"],\"id_type\":\"userID\",\"is_user_in_ex
+  periment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"3597745802\":{\"na
+  me\":\"3597745802\",\"value\":{\"ids\":[]},\"group\":\"default\",\"rule_id\":\"default\",\
+  "is_device_based\":false,\"secondary_exposures\":[],\"id_type\":\"userID\",\"passed\":fals
+  e},\"3687986481\":{\"name\":\"3687986481\",\"value\":{\"variant\":\"variant_3\"},\"group\"
+  :\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exp
+  osures\":[],\"group_name\":\"Compact banner\",\"id_type\":\"userID\",\"is_user_in_experime
+  nt\":false,\"is_experiment_active\":false},\"3712981815\":{\"name\":\"3712981815\",\"value
+  \":{\"enabled\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_devic
+  e_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",
+  \"is_user_in_experiment\":false,\"is_experiment_active\":false},\"3791752530\":{\"name\":\
+  "3791752530\",\"value\":{\"cooldown_days\":4},\"group\":\"default\",\"rule_id\":\"default\
+  ",\"is_device_based\":false,\"secondary_exposures\":[],\"id_type\":\"userID\",\"passed\":f
+  alse},\"3807132424\":{\"name\":\"3807132424\",\"value\":{\"track_page_distribution_upsell\
+  ":false,\"v2_new_edit_action_buttons\":true,\"track_page_mastering_upsell\":false,\"v2_web
+  i_track_page\":false,\"render_in_webi\":false,\"get_heard_enrollment_track_page_v2\":false
+  },\"group\":\"experimentStopped\",\"rule_id\":\"experimentStopped\",\"is_device_based\":fa
+  lse,\"secondary_exposures\":[],\"explicit_parameters\":[\"track_page_mastering_upsell\"],\
+  "id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_
+  in_layer\":true},\"3810418923\":{\"name\":\"3810418923\",\"value\":{},\"group\":\"prestart
+  \",\"rule_id\":\"prestart\",\"is_device_based\":false,\"secondary_exposures\":[],\"id_type
+  \":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"3863468526
+  \":{\"name\":\"3863468526\",\"value\":{\"show_banner\":true,\"show_smart_nudge\":true},\"g
+  roup\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"seconda
+  ry_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\"
+  :false,\"is_experiment_active\":false},\"3868951477\":{\"name\":\"3868951477\",\"value\":{
+  \"similar_sounds_model\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":false
+  ,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false
+  ,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"abandone
+  d\",\"rule_id\":\"abandoned\",\"is_device_based\":false,\"secondary_exposures\":[],\"expli
+  cit_parameters\":[\"similar_sounds_model\"],\"id_type\":\"userID\",\"is_user_in_experiment
+  \":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"3921342276\":{\"name\":\"3
+  921342276\",\"value\":{\"dismissible_before_1st_upload\":true,\"show_before_1st_upload\":t
+  rue,\"show_after_2nd_upload\":true,\"show_dismissable_after_2nd_upload\":false},\"group\":
+  \"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_expo
+  sures\":[],\"group_name\":\"1st and 3rd\",\"id_type\":\"userID\",\"is_user_in_experiment\"
+  :false,\"is_experiment_active\":false},\"4010853418\":{\"name\":\"4010853418\",\"value\":{
+  \"track_page_distribution_upsell\":false,\"v2_new_edit_action_buttons\":true,\"track_page_
+  mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_in_webi\":false,\"get_heard
+  _enrollment_track_page_v2\":false},\"group\":\"layerAssignment\",\"rule_id\":\"layerAssign
+  ment\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_parameters\":[\"ren
+  der_in_webi\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_acti
+  ve\":true,\"is_in_layer\":true},\"4075954800\":{\"name\":\"4075954800\",\"value\":{},\"gro
+  up\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\"secondary_exposures
+  \":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":fals
+  e},\"4111317710\":{\"name\":\"4111317710\",\"value\":{\"showExtendedTrackList\":true},\"gr
+  oup\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":true,\"secondary
+  _exposures\":[],\"group_name\":\"Test\",\"id_type\":\"stableID\",\"is_user_in_experiment\"
+  :false,\"is_experiment_active\":false},\"4141614194\":{\"name\":\"4141614194\",\"value\":{
+  \"creator_upsell_copy\":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora
+  ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu
+  upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera
+  nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator_button_ui\":true,\"fan_butt
+  on_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\":false,\"creator_upsell_text
+  _color\":\"#ffffff\",\"fan_upsell_text_color\":\"\u003c%default%\u003e\",\"creator_upsell_
+  background_color\":\"#000000\",\"fan_upsell_background_color\":\"\u003c%default%\u003e\",\
+  "creator_upsell_border_color\":\"#FF5500\",\"fan_upsell_border_color\":\"\u003c%default%\u
+  003e\",\"creator_cta_target\":\"inline_checkout\",\"applies_to_user_type\":\"creator\",\"a
+  pplies_to_creator_plans\":[\"free\"],\"applies_to_fan_plans\":[\"free\"],\"creator_promo_c
+  ode\":\"\"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":
+  false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"explicit_parameters\":[\"fan
+  _upsell_copy\",\"fan_upsell_show\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false
+  ,\"is_experiment_active\":false,\"is_in_layer\":true},\"4196139333\":{\"name\":\"419613933
+  3\",\"value\":{\"web_post_upload_transcoding_in_process_ui\":true,\"web_upload_cannot_crea
+  te_until_transcode_starts\":false},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup
+  \",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"UI Updates\",\"id
+  _type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false}},\"laye
+  r_configs\":{\"172878743\":{\"name\":\"172878743\",\"value\":{\"similar_sounds_model\":\"c
+  ontrol\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilter\":\"enable
+  d\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\"
+  ,\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"default\",\"rule_id\":\"default\",\"
+  is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"2147287197\",\"gateValue\":\"
+  false\",\"ruleID\":\"default\"}],\"explicit_parameters\":[],\"undelegated_secondary_exposu
+  res\":[{\"gate\":\"2147287197\",\"gateValue\":\"false\",\"ruleID\":\"default\"}]},\"727316
+  503\":{\"name\":\"727316503\",\"value\":{\"cta_url\":\"https://checkout.soundcloud.com/art
+  ist#planPicker\",\"target\":\"_blank\",\"enabled\":false,\"webflow_url\":\"https://communi
+  ty.soundcloud.com/self-serve-iframe/test01\",\"accessibility_text\":\"Free 30 days trial\"
+  ,\"applies_to_targeting_type\":\"creator_upsell\",\"applies_to_followers\":\"\"},\"group\"
+  :\"default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary_exposures\":[],
+  \"explicit_parameters\":[],\"undelegated_secondary_exposures\":[]},\"893254090\":{\"name\"
+  :\"893254090\",\"value\":{\"updated_home_hook_ui\":false,\"add_get_heard_home_hook\":true}
+  ,\"group\":\"default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary_expos
+  ures\":[],\"explicit_parameters\":[],\"undelegated_secondary_exposures\":[]},\"1294592268\
+  ":{\"name\":\"1294592268\",\"value\":{\"web_artist_studio_nav_bar\":false},\"group\":\"tar
+  getingGate\",\"rule_id\":\"targetingGate\",\"is_device_based\":false,\"secondary_exposures
+  \":[{\"gate\":\"10789665\",\"gateValue\":\"false\",\"ruleID\":\"4bA2yDCu3wgS7mdUPJTrT9\"}]
+  ,\"explicit_parameters\":[\"web_artist_studio_nav_bar\"],\"allocated_experiment_name\":\"2
+  307011534\",\"is_experiment_active\":true,\"is_user_in_experiment\":false,\"undelegated_se
+  condary_exposures\":[]},\"1660129035\":{\"name\":\"1660129035\",\"value\":{\"artist_studio
+  _benefits\":false,\"is_promotions_enabled\":false},\"group\":\"default\",\"rule_id\":\"def
+  ault\",\"is_device_based\":true,\"secondary_exposures\":[],\"explicit_parameters\":[],\"un
+  delegated_secondary_exposures\":[]},\"2412457678\":{\"name\":\"2412457678\",\"value\":{\"t
+  rack_page_distribution_upsell\":false,\"v2_new_edit_action_buttons\":true,\"track_page_mas
+  tering_upsell\":false,\"v2_webi_track_page\":false,\"render_in_webi\":false,\"get_heard_en
+  rollment_track_page_v2\":false},\"group\":\"default\",\"rule_id\":\"default\",\"is_device_
+  based\":false,\"secondary_exposures\":[],\"explicit_parameters\":[],\"undelegated_secondar
+  y_exposures\":[]},\"2465703532\":{\"name\":\"2465703532\",\"value\":{\"creator_upsell_copy
+  \":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora
+  ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu
+  upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera
+  nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator_button_ui\":true,\"fan_butt
+  on_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\":false,\"creator_upsell_text
+  _color\":\"#ff5500\",\"fan_upsell_text_color\":\"\u003c%default%\u003e\",\"creator_upsell_
+  background_color\":\"\u003c%default%\u003e\",\"fan_upsell_background_color\":\"\u003c%defa
+  ult%\u003e\",\"creator_upsell_border_color\":\"#ff5500\",\"fan_upsell_border_color\":\"\u0
+  03c%default%\u003e\",\"creator_cta_target\":\"plan_picker\",\"applies_to_user_type\":\"cre
+  ator\",\"applies_to_creator_plans\":[\"all_plans\"],\"applies_to_fan_plans\":[\"all_plans\
+  "],\"creator_promo_code\":\"\"},\"group\":\"1GkA5tYjff6qH5Zag2eyT6:override\",\"rule_id\":
+  \"1GkA5tYjff6qH5Zag2eyT6:override\",\"is_device_based\":false,\"secondary_exposures\":[{\"
+  gate\":\"1862581570\",\"gateValue\":\"true\",\"ruleID\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\
+  "}],\"group_name\":\"Control\",\"explicit_parameters\":[\"creator_upsell_copy\",\"fan_upse
+  ll_show\",\"creator_upsell_show\",\"creator_upsell_background_color\",\"creator_upsell_tex
+  t_color\",\"creator_button_ui\",\"creator_upsell_border_color\",\"creator_cta_target\",\"f
+  an_button_ui\",\"fan_upsell_background_color\",\"fan_upsell_border_color\",\"applies_to_us
+  er_type\",\"fan_upsell_text_color\",\"applies_to_creator_plans\",\"applies_to_fan_plans\",
+  \"creator_promo_code\"],\"allocated_experiment_name\":\"1888596127\",\"is_experiment_activ
+  e\":false,\"is_user_in_experiment\":false,\"undelegated_secondary_exposures\":[{\"gate\":\
+  "1862581570\",\"gateValue\":\"true\",\"ruleID\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\"}]}},\"
+  sdkParams\":{},\"has_updates\":true,\"generator\":\"statsig-node-
+  sdk\",\"sdkInfo\":{\"sdkType\":\"statsig-node\",\"sdkVersion\":\"6.4.2\"},\"time\":1779926
+  415809,\"evaluated_keys\":{\"customIDs\":{\"stableID\":\"88a6ac02-5b52-40a0-ba03-
+  00558f4907f6\"}},\"hash_used\":\"djb2\",\"user\":{\"customIDs\":{\"stableID\":\"88a6ac02-
+  5b52-40a0-ba03-
+  00558f4907f6\"},\"country\":\"CM\",\"appVersion\":\"1779807420\",\"custom\":{\"region\":\"
+  LT\",\"tracksCount\":0},\"statsigEnvironment\":{\"tier\":\"production\"}},\"recording_bloc
+  ked\":true,\"can_record_session\":false,\"session_recording_rate\":1}","user":{"customIDs"
+  :{"stableID":"88a6ac02-5b52-40a0-ba03-
+  00558f4907f6"},"country":"CM","appVersion":"1779807420","custom":{"region":"LT","tracksCou
+  nt":0},"statsigEnvironment":{"tier":"production"}}}},{"hydratable":"trackingBrowserTabId",
+  "data":"1987b9"},{"hydratable":"apiClient","data":{"id":"POy4x48uHpENQjixAeI9vTRMsXqo4LnX"
+  ,"isExpiring":false}},{"hydratable":"user","data":{"avatar_url":"https://i1.sndcdn.com/ava
+  tars-kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","city":null,"comments_count":0,"country_code":null
+  ,"created_at":null,"creator_subscriptions":[{"product":{"id":"creator-pro-
+  unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-
+  unlimited"}},"description":"RADIO ACTIVITÉ est un atelier d’initiation à la
+  radio.\n\nL’atelier est mobile et s’adapte au lieu et aux participants. Il se déplace dans
+  des centres sociaux, des théâtres, des festivals, des maisons de retraite, des camps de
+  réfugiés, en milieu urbain et rural, en France et à l’étranger…\n\nSa finalité est de
+  rassembler les participants autour de la création d’une émission de radio, en direct, sur
+  le sujet de leur choix. Les participants sont animateurs, journalistes, musiciens, et
+  chroniqueurs de leur émission.\n\nIls créent ainsi un espace de parole pour se raconter,
+  échanger, et réfléchir par la radio.\n\nRadio Activité porte aussi le projet Microcamp
+  Radio, et part sur la route des camps de réfugiés de France, de Géorgie et d’Irak, pour
+  faire entendre la voix des réfugiés au-delà des frontières et des limites des camps.
+  \n..\n\nRadio Activité run radio workshops that gives participants the opportunity to
+  create a radio program.\n\nThe workshop is mobile and adjustable to the place, context,
+  and participants. It is held in social centres, theatres, festivals, retirement homes,
+  refugee camps, in cities and countrysides, in France, Georgia, Iraq, Greece…\n\nIt aims to
+  gather participants around the creation of a live radio program, on a topic of their
+  choice. Participants are the journalists, speakers, interviewers and interviewees of their
+  broadcast.\nThey open a space of dialogue to share, speak, and think through
+  radio.\n\nRadio Activité also holds the project ‘Microcamp Radio’, where we are on the
+  road visiting refugee camps in France, Georgia, Turkey, Greece and Irak, to make the voice
+  of refugees heard above the borders and limits of camps. \n\n..\n\nالورشة متنقلة وتتكيّف
+  مع المكان والمشتركين. تتنقل بين المراكز الاجتماعية، المسارح، المهراجانات، دور رعاية
+  المسنّين، مخيمات اللاجئين، بين المدن و الريف، في فرنسا و في الخارج. \n\nهدفها جمع أشخاص،
+  يعيشون في الإقليم نفسه، حول مشروع إنتاج برنامج إذاعي، يبثّ مباشرة، عن موضوع يختارونه
+  بأنفسهم. المشاركون ينقسمون إلى: مقدّمين، صحافيين، موسيقيين ومعدّي برامج.\n\nبلقائهم هذا،
+  يبتكر المشاركون مساحة للتعبير تسمح بالتعارف، بتبادل الآراء وبالتفكير عبر العمل
+  الإذاعي.\n\nهذا الصيف، يعمل «راديو أكتيفيتيه» على مشروع «ميكروكامب راديو» (إذاعة ميكروفون
+  المخيّم): يتنقّل على طرق مخيمات فرنسا وجورجيا والعراق ليُسمِع صوت اللاجئين وراء الحدود
+  وخارج المخيمات. للمتابعة والاستماع، اضغط/ي هنا.","followers_count":77,"followings_count":0
+  ,"first_name":"","full_name":"","groups_count":0,"id":312932959,"kind":"user","last_modifi
+  ed":"2026-01-
+  15T16:36:29Z","last_name":"","likes_count":9,"playlist_likes_count":2,"permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","playlist_count":59,"rep
+  osts_count":null,"track_count":409,"uri":"https://api.soundcloud.com/users/soundcloud%3Aus
+  ers%3A312932959","urn":"soundcloud:users:312932959","username":"Radio Activité","verified"
+  :false,"visuals":{"urn":"soundcloud:users:312932959","enabled":true,"visuals":[{"urn":"sou
+  ndcloud:visuals:193356204","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-
+  000312932959-fElQLh-original.jpg"}],"tracking":null},"badges":{"pro":false,"creator_mid_ti
+  er":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-
+  playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959","date_of_birth":null,"url":"/radio-activite"}}];
+--------------------------------------------------
+Titre   : Stream Radio Activité | Listen to A la découverte
+Lien    : https://soundcloud.com/radio-activite/sets/a-la-decouverte-daumale
+Résumé  : Épisode 2 - Balade Paisible Bois De La Vierge by Radio Activité ... Épisode 4 - Les Enfants Du Verre by Radio Activité
+Source  : contenu enrichi depuis la page liée
+Détail  :
+  (function () { var theme = window.matchMedia('(prefers-color-scheme: dark)').matches ?
+  'dark' : 'light'; document.body.classList.remove('theme-dark');
+  document.body.classList.add('theme-' + theme); })();
+  .header{width:100%;background:var(--background-surface-
+  color);height:46px}.header__logo{background:var(--background-surface-
+  color)}.header__logoLink{display:flex;flex-direction:column;justify-content:center;align-
+  content:center;height:46px;width:48px}.header__logoLink svg{color:var(--primary-
+  color)}.header__logoLink:focus{background-
+  color:rgba(255,72,0,.8);outline:0}#header__loading{margin:13px auto
+  0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-
+  dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px} SoundCloud
+  window.setTimeout((function(){if(!window.__sc_abortApp){var
+  e=window.document.getElementById("header__loading");e&&(e.className="")}}),6e3)
+  .errorPage__inner{width:580px;margin:0 auto;position:relative;padding-
+  top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png)
+  no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-
+  bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-
+  size:20px}.errorButtons{margin-top:30px}@media (max-
+  width:1280px){.errorPage__inner{background-size:80%}} JavaScript is disabled You need to
+  enable JavaScript to use SoundCloud Show me how to enable it A la découverte d'Aumale by
+  Radio Activité published on 2022-11-15T08:52:29Z Contains tracks Épisode 1 - Showband
+  Auranja by Radio Activité published on 2022-11-15T08:50:45Z Épisode 2 - Balade Paisible
+  Bois De La Vierge by Radio Activité published on 2022-11-15T08:57:08Z Épisode 3 -
+  Histoire D'Aumale by Radio Activité published on 2022-11-15T08:59:40Z Épisode 4 - Les
+  Enfants Du Verre by Radio Activité published on 2022-11-15T09:01:54Z Albums from this user
+  Playlists from this user Users who like A la découverte d'Aumale Users who reposted A la
+  découverte d'Aumale License: all-rights-reserved
+  #updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;backgr
+  ound:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat
+  50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-
+  height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-
+  top:0} Your current browser isn't compatible with SoundCloud. Please download one of our
+  supported browsers. Need help? Chrome | Firefox | Safari | Edge window.__sc_abortApp&&(win
+  dow.document.getElementById("updateBrowserMessage").style.display="block") Sorry!
+  Something went wrong Is your network connection unstable or browser outdated? I need help
+  function displayError(){if(!window.__sc_abortApp){var r=window.document,e=r.getElementById
+  ("error__timeout"),o=r.getElementById("header__loading");e&&o&&(e.className="errorPage__in
+  ner",o.className="sc-
+  hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError Popular
+  searches window.dataLayer = window.dataLayer || []; function gtag() {
+  dataLayer.push(arguments); } gtag('consent', 'default', { 'ad_storage': 'denied',
+  'analytics_storage': 'denied', 'functionality_storage': 'denied',
+  'personalization_storage': 'denied', 'security_storage': 'granted', 'ad_user_data':
+  'denied', 'ad_personalization': 'denied', 'region': [ 'BE', 'EL', 'LT', 'PT', 'BG', 'ES',
+  'LU', 'RO', 'CZ', 'FR', 'HU', 'SI', 'DK', 'HR', 'MT', 'SK', 'DE', 'IT', 'NL', 'FI', 'EE',
+  'CY', 'AT', 'SE', 'IE', 'LV', 'PL', 'US-CA' ] }); gtag('consent', 'default', {
+  'ad_storage': 'granted', 'analytics_storage': 'granted', 'functionality_storage':
+  'granted', 'personalization_storage': 'granted', 'security_storage': 'granted',
+  'ad_user_data': 'granted', 'ad_personalization': 'granted' }); (function (global) {
+  function OptanonWrapper() { var activeGroups = (global.OptanonActiveGroups ||
+  '').split(','); if (Array.isArray(OptanonWrapper.callbacks)) { for (var i = 0, max =
+  OptanonWrapper.callbacks.length; i < max; i++) { try {
+  OptanonWrapper.callbacks[i](activeGroups); } catch (e) {} } } OptanonWrapper.isLoaded =
+  true; }; OptanonWrapper.callbacks = []; OptanonWrapper.isLoaded = false;
+  global.OptanonWrapper = OptanonWrapper; }(window)); window.__sc_version="1779807420"
+  window.__sc_hydration = [{"hydratable":"anonymousId","data":"804661-797675-442902-
+  306760"},{"hydratable":"features","data":{"features":["v2_dsa_report_content_links","mobi_
+  webauth_oauth_mode","mobi_use_auth_internal_analytics","v2_use_onetrust_tcfv2_us_ca","mobi
+  _enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","mobi_use_
+  onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","mobi_dsa_report_content_form","v2_use_onetru
+  st_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_use_onetrust_tcfv2_eu2","checkout_send
+  _segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_cr
+  eator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_wit
+  h_caption","v2_use_drm_transcodings","v2_webi_embed_container","mobi_use_dwt","v2_use_onet
+  rust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page
+  ","v2_use_onetrust_gb","v2_dsa_ad_compliance","checkout_use_extole","use_onetrust_async","
+  creator_mid_tier_not_us","mobi_dsa_report_content_links","v2_signals_collection","v2_track
+  _level_distro_to_plan_picker","v2_direct_support_link","checkout_web_products","v2_api_aut
+  h_sign_out","v2_ie11_support_end","checkout_use_new_connect","mobi_dsa_ad_compliance","v2_
+  skip_prerendered_navigate","cd_repost_to_artists","v2_enable_crossfade","v2_tracking_moeng
+  age_integration","mobi_report_content_links","creator_mid_tier_canada","v2_hq_file_storage
+  _release","gql_tracks","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_storie
+  s_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","v2_use
+  _dwt","v2_use_updated_alert_banner_quota_upsell","creator_mid_tier_downgrade_downgrade","v
+  2_enable_onetrust","v2_signed_out_cancellation_flow","v2_import_playlist_experiment","v2_d
+  isable_sidebar_comments_count","v2_upload_redirection","v2_subhub_churn_intercept","checko
+  ut_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","
+  v2_comscore_udm_2","checkout_creator_coupon_codes_enabled","fpi_messaging_drawer","v2_use_
+  onetrust_us","v2_featured_fans_opt_out","v2_comment_sorting","mobi_open_app_soft_wall","sh
+  orten_on_soundcloud","sc4a_benefits_iframe","checkout_use_recurly_with_paypal","creator_mi
+  d_tier_not_germany_france_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use
+  _onetrust_elsewhere","v2_use_onetrust_eu3","v2_use_onetrust_tcfv2_ex_us","creator_mid_tier
+  ","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search
+  ","v2_use_onetrust_user_id_ex_us","creator_mid_tier_upgrade_downgrade","v2_use_new_connect
+  ","v2_use_onetrust_tcfv2_eu2","mobi_interstitial_ad","v2_get_heard","v2_interstitial_ad","
+  v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2
+  _repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","creator_mid_tier_anz","v2_t
+  ags_recent_tracks","sc4a_onboarding_checklist","show_disabled_tracks","v2_statsig_hydrate_
+  init","mobi_new_ad_placements","mobi_use_onetrust_eu2","v2_velvetcake_profile_widget","v2_
+  use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_e
+  xperiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinit
+  y","v2_enable_crossfade_upload","request_takedown","v2_monetization_mx","v2_webauth_oauth_
+  mode","v2_google_one_tap","v2_enable_pwa","v2_use_extole","mobi_use_drm_transcodings","mob
+  i_use_hls_hack","creator_mid_tier_uk","v2_stories","v2_use_onetrust_user_id_eu1","v2_use_o
+  netrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v
+  2_enable_onetrust_tcfv2","v2_enable_crossfade_track_manager","v2_enable_tcfv2_consent_stri
+  ng_cache","v2_track_manager_redirection","use_on_soundcloud_short_links","mobi_send_segmen
+  t_events_to_event_gateway","artist_fan_connection_widget","v2_update_sidebar_module_header
+  s"]}},{"hydratable":"geoip","data":{"country_code":"CM","country_name":"Cameroon","region"
+  :"LT","city":"Douala","latitude":4.0505,"longitude":9.7023,"timezone":"Africa/Douala"}},{"
+  hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":false,"analy
+  tics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":false,"legisl
+  ation":[]}},{"hydratable":"statsigClientInitializeResponse","data":{"configString":"{\"fea
+  ture_gates\":{\"5688754\":{\"name\":\"5688754\",\"value\":true,\"rule_id\":\"2Zo2QZEphAfIp
+  iQETzoWjS\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"10789665\":{\"name\":\"10
+  789665\",\"value\":false,\"rule_id\":\"4bA2yDCu3wgS7mdUPJTrT9\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"163128860\":{\"name\":\"163128860\",\"value\":false,\"rule_id\"
+  :\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"218482608\":{\"name\":\"
+  218482608\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\"
+  :\"userID\"},\"269461791\":{\"name\":\"269461791\",\"value\":true,\"rule_id\":\"disabled\"
+  ,\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"295207513\":{\"name\":\"295207513\
+  ",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"stableI
+  D\"},\"335057735\":{\"name\":\"335057735\",\"value\":true,\"rule_id\":\"2NcL9pH5jCD404I3hC
+  875a\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"345354045\":{\"name\":\"345354
+  045\",\"value\":true,\"rule_id\":\"731sdSdWyHhBiEE1adOfmh:100.00:3\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"387092580\":{\"name\":\"387092580\",\"value\":true,\"rule_
+  id\":\"7qOXeqCAXrRktgPaQsSEti\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"48275
+  2608\":{\"name\":\"482752608\",\"value\":true,\"rule_id\":\"6F3HFvSl8uy2H5Nb6HqJHj\",\"sec
+  ondary_exposures\":[],\"id_type\":\"userID\"},\"491701917\":{\"name\":\"491701917\",\"valu
+  e\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"499
+  445266\":{\"name\":\"499445266\",\"value\":true,\"rule_id\":\"2zczvl3rRbJmKMnEJmM02f\",\"s
+  econdary_exposures\":[],\"id_type\":\"userID\"},\"757817760\":{\"name\":\"757817760\",\"va
+  lue\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"7
+  98024607\":{\"name\":\"798024607\",\"value\":true,\"rule_id\":\"4otvCRNFwhd8AnJjkaVpwP:100
+  .00:3\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"809494859\":{\"name\":\"80949
+  4859\",\"value\":true,\"rule_id\":\"I3omdIF7hiMPQMBUykfTX:100.00:2\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"857282395\":{\"name\":\"857282395\",\"value\":false,\"rule
+  _id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"969152394\":{\"name
+  \":\"969152394\",\"value\":true,\"rule_id\":\"6wbAdwvR4u4YIbEn5dVXxA:100.00:2\",\"secondar
+  y_exposures\":[],\"id_type\":\"userID\"},\"1070993832\":{\"name\":\"1070993832\",\"value\"
+  :false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"120077
+  0180\":{\"name\":\"1200770180\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposu
+  res\":[],\"id_type\":\"userID\"},\"1396019509\":{\"name\":\"1396019509\",\"value\":false,\
+  "rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"1436889564\":{
+  \"name\":\"1436889564\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"1474439853\":{\"name\":\"1474439853\",\"value\":false,\"rule_id
+  \":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"1526785582\":{\"name\"
+  :\"1526785582\",\"value\":true,\"rule_id\":\"71xZspLE4r36IIC5pQj3ow\",\"secondary_exposure
+  s\":[],\"id_type\":\"userID\"},\"1553925866\":{\"name\":\"1553925866\",\"value\":true,\"ru
+  le_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"1614872978\":{
+  \"name\":\"1614872978\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[]
+  ,\"id_type\":\"stableID\"},\"1766036343\":{\"name\":\"1766036343\",\"value\":true,\"rule_i
+  d\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"1797068334\":{\"na
+  me\":\"1797068334\",\"value\":true,\"rule_id\":\"26HcPQk5y0JPpq53MnAUvl\",\"secondary_expo
+  sures\":[],\"id_type\":\"userID\"},\"1862581570\":{\"name\":\"1862581570\",\"value\":true,
+  \"rule_id\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\",\"secondary_exposures\":[],\"id_type\":\"u
+  serID\"},\"2185160558\":{\"name\":\"2185160558\",\"value\":false,\"rule_id\":\"default\",\
+  "secondary_exposures\":[],\"id_type\":\"userID\"},\"2254327457\":{\"name\":\"2254327457\",
+  \"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"}
+  ,\"2340012884\":{\"name\":\"2340012884\",\"value\":false,\"rule_id\":\"default\",\"seconda
+  ry_exposures\":[],\"id_type\":\"userID\"},\"2602694798\":{\"name\":\"2602694798\",\"value\
+  ":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"26183
+  00873\":{\"name\":\"2618300873\",\"value\":true,\"rule_id\":\"VJI2RZXTWRyAfDCgs2AZ5:100.00
+  :3\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"2794498451\":{\"name\":\"27944
+  98451\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exposures\":[],\"id_type\":\"u
+  serID\"},\"2843948931\":{\"name\":\"2843948931\",\"value\":true,\"rule_id\":\"3ChENFp7VkCb
+  Acg5HVesYq:100.00:1\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"2878451644\":{\
+  "name\":\"2878451644\",\"value\":true,\"rule_id\":\"jXLaI5rguXpKga8ez8YmT:100.00:3\",\"sec
+  ondary_exposures\":[],\"id_type\":\"userID\"},\"2882757490\":{\"name\":\"2882757490\",\"va
+  lue\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"2
+  926794380\":{\"name\":\"2926794380\",\"value\":false,\"rule_id\":\"default\",\"secondary_e
+  xposures\":[],\"id_type\":\"userID\"},\"3021451191\":{\"name\":\"3021451191\",\"value\":fa
+  lse,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"311519705
+  4\":{\"name\":\"3115197054\",\"value\":true,\"rule_id\":\"40BuInaGZIYNSFrVqZCr7a\",\"secon
+  dary_exposures\":[],\"id_type\":\"userID\"},\"3282749987\":{\"name\":\"3282749987\",\"valu
+  e\":true,\"rule_id\":\"7IQeMfio5o8DjknfsDgjqE:100.00:3\",\"secondary_exposures\":[],\"id_t
+  ype\":\"userID\"},\"3391285753\":{\"name\":\"3391285753\",\"value\":true,\"rule_id\":\"dis
+  abled\",\"secondary_exposures\":[],\"id_type\":\"stableID\"},\"3570002952\":{\"name\":\"35
+  70002952\",\"value\":true,\"rule_id\":\"IM348GHTSC0LJVvG4NdOB\",\"secondary_exposures\":[]
+  ,\"id_type\":\"userID\"},\"3716405229\":{\"name\":\"3716405229\",\"value\":false,\"rule_id
+  \":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"3862696535\":{\"name\"
+  :\"3862696535\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_ty
+  pe\":\"userID\"},\"3867004153\":{\"name\":\"3867004153\",\"value\":true,\"rule_id\":\"5II5
+  rZZAmSsuNYNEWcRfNZ:100.00:1\",\"secondary_exposures\":[{\"gate\":\"2996255573\",\"gateValu
+  e\":\"false\",\"ruleID\":\"2Pvug3H5J3HhDTMgv6fmeS:5.00:1\"}],\"id_type\":\"userID\"},\"388
+  4705820\":{\"name\":\"3884705820\",\"value\":true,\"rule_id\":\"disabled\",\"secondary_exp
+  osures\":[],\"id_type\":\"stableID\"},\"4067056285\":{\"name\":\"4067056285\",\"value\":fa
+  lse,\"rule_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"414221841
+  3\":{\"name\":\"4142218413\",\"value\":false,\"rule_id\":\"default\",\"secondary_exposures
+  \":[],\"id_type\":\"userID\"},\"4242882860\":{\"name\":\"4242882860\",\"value\":false,\"ru
+  le_id\":\"default\",\"secondary_exposures\":[],\"id_type\":\"userID\"},\"4289281104\":{\"n
+  ame\":\"4289281104\",\"value\":true,\"rule_id\":\"6kaUB0WibrUbDhk3gG1voC\",\"secondary_exp
+  osures\":[],\"id_type\":\"userID\"}},\"dynamic_configs\":{\"183683058\":{\"name\":\"183683
+  058\",\"value\":{\"creatorsOnly\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launched
+  Group\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_
+  type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"191888
+  894\":{\"name\":\"191888894\",\"value\":{\"shouldShow\":true},\"group\":\"launchedGroup\",
+  \"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group
+  _name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_ac
+  tive\":false},\"192197615\":{\"name\":\"192197615\",\"value\":{\"similar_sounds_model\":\"
+  control\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilter\":\"enabl
+  ed\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\
+  ",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_id\":\"launc
+  hedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"
+  explicit_parameters\":[\"knn_version\"],\"id_type\":\"userID\",\"is_user_in_experiment\":f
+  alse,\"is_experiment_active\":false,\"is_in_layer\":true},\"225579016\":{\"name\":\"225579
+  016\",\"value\":{\"profile_control_v2\":false},\"group\":\"2gD6dY1DLu5mjSEeNoncU\",\"rule_
+  id\":\"2gD6dY1DLu5mjSEeNoncU\",\"is_device_based\":false,\"secondary_exposures\":[],\"grou
+  p_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment\":true,\"is_experiment
+  _active\":true},\"301845008\":{\"name\":\"301845008\",\"value\":{},\"group\":\"targetingGa
+  te\",\"rule_id\":\"targetingGate\",\"is_device_based\":true,\"secondary_exposures\":[{\"ga
+  te\":\"4142218413\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"id_type\":\"stableI
+  D\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"570670955\":{\"name\
+  ":\"570670955\",\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_edit_action_b
+  uttons\":true,\"track_page_mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_
+  in_webi\":false,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"launchedGroup\",
+  \"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group
+  _name\":\"Test\",\"explicit_parameters\":[\"v2_new_edit_action_buttons\"],\"id_type\":\"us
+  erID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true
+  },\"664527186\":{\"name\":\"664527186\",\"value\":{},\"group\":\"layerAssignment\",\"rule_
+  id\":\"layerAssignment\",\"is_device_based\":true,\"secondary_exposures\":[],\"id_type\":\
+  "stableID\",\"is_user_in_experiment\":false,\"is_experiment_active\":true},\"721832964\":{
+  \"name\":\"721832964\",\"value\":{\"enabled\":false},\"group\":\"64XefB2oj7u8cozvFkcAt4\",
+  \"rule_id\":\"64XefB2oj7u8cozvFkcAt4\",\"is_device_based\":false,\"secondary_exposures\":[
+  ],\"group_name\":\"Control\",\"id_type\":\"userID\",\"is_user_in_experiment\":true,\"is_ex
+  periment_active\":true},\"746301305\":{\"name\":\"746301305\",\"value\":{\"is_artist_studi
+  o\":false},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":f
+  alse,\"secondary_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"userID\",\"is_use
+  r_in_experiment\":false,\"is_experiment_active\":false},\"963533814\":{\"name\":\"96353381
+  4\",\"value\":{\"creator_upsell_copy\":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade
+  now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez
+  maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize
+  agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator
+  _button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\"
+  :false,\"creator_upsell_text_color\":\"#ffffff\",\"fan_upsell_text_color\":\"\u003c%defaul
+  t%\u003e\",\"creator_upsell_background_color\":\"#000000\",\"fan_upsell_background_color\"
+  :\"\u003c%default%\u003e\",\"creator_upsell_border_color\":\"#FF5500\",\"fan_upsell_border
+  _color\":\"\u003c%default%\u003e\",\"creator_cta_target\":\"inline_checkout\",\"applies_to
+  _user_type\":\"creator\",\"applies_to_creator_plans\":[\"free\"],\"applies_to_fan_plans\":
+  [\"free\"],\"creator_promo_code\":\"\"},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"
+  is_device_based\":false,\"secondary_exposures\":[],\"explicit_parameters\":[\"creator_upse
+  ll_copy\",\"fan_upsell_show\",\"creator_upsell_show\",\"creator_upsell_background_color\",
+  \"creator_upsell_text_color\",\"creator_button_ui\",\"creator_upsell_border_color\",\"crea
+  tor_cta_target\",\"fan_button_ui\",\"fan_upsell_background_color\",\"fan_upsell_border_col
+  or\",\"applies_to_user_type\",\"fan_upsell_text_color\",\"applies_to_creator_plans\",\"app
+  lies_to_fan_plans\",\"creator_promo_code\"],\"id_type\":\"userID\",\"is_user_in_experiment
+  \":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"989509283\":{\"name\":\"98
+  9509283\",\"value\":{},\"group\":\"targetingGate\",\"rule_id\":\"targetingGate\",\"is_devi
+  ce_based\":false,\"secondary_exposures\":[{\"gate\":\"2254327457\",\"gateValue\":\"false\"
+  ,\"ruleID\":\"default\"}],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_expe
+  riment_active\":false},\"1041511405\":{\"name\":\"1041511405\",\"value\":{\"similar_sounds
+  _model\":\"control\",\"useBigtable\":false,\"activityFilterEnabled\":false,\"activityFilte
+  r\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_autoplay\":false,\"knn_version\"
+  :\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_i
+  d\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":
+  \"Control\",\"explicit_parameters\":[\"audiogene_autoplay\"],\"id_type\":\"userID\",\"is_u
+  ser_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"114546106
+  8\":{\"name\":\"1145461068\",\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_
+  edit_action_buttons\":true,\"track_page_mastering_upsell\":false,\"v2_webi_track_page\":fa
+  lse,\"render_in_webi\":false,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"lau
+  nchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures
+  \":[],\"group_name\":\"Control\",\"explicit_parameters\":[\"track_page_distribution_upsell
+  \"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,
+  \"is_in_layer\":true},\"1156106472\":{\"name\":\"1156106472\",\"value\":{\"test\":\"foo\"}
+  ,\"group\":\"7AgUKaRQ4YJCA8H5FR5Vt1\",\"rule_id\":\"7AgUKaRQ4YJCA8H5FR5Vt1\",\"is_device_b
+  ased\":true,\"secondary_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"stableID\"
+  ,\"is_user_in_experiment\":true,\"is_experiment_active\":true},\"1325617069\":{\"name\":\"
+  1325617069\",\"value\":{\"updated_home_hook_ui\":false,\"add_get_heard_home_hook\":true},\
+  "group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\"secondary_expos
+  ures\":[],\"explicit_parameters\":[\"updated_home_hook_ui\"],\"id_type\":\"userID\",\"is_u
+  ser_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"137599768
+  9\":{\"name\":\"1375997689\",\"value\":{\"showBanner\":false,\"displayAfterDismissed\":fal
+  se},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":true,\"s
+  econdary_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"stableID\",\"is_user_in_e
+  xperiment\":false,\"is_experiment_active\":false},\"1407605912\":{\"name\":\"1407605912\",
+  \"value\":{},\"group\":\"inlineTargetingRules\",\"rule_id\":\"inlineTargetingRules\",\"is_
+  device_based\":false,\"secondary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experi
+  ment\":false,\"is_experiment_active\":true},\"1433112660\":{\"name\":\"1433112660\",\"valu
+  e\":{},\"group\":\"inlineTargetingRules\",\"rule_id\":\"inlineTargetingRules\",\"is_device
+  _based\":false,\"secondary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\"
+  :false,\"is_experiment_active\":false},\"1452138818\":{\"name\":\"1452138818\",\"value\":{
+  \"use_soundcloud\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_de
+  vice_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID
+  \",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"1474511987\":{\"name\
+  ":\"1474511987\",\"value\":{\"enabled\":true},\"group\":\"launchedGroup\",\"rule_id\":\"la
+  unchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\"
+  ,\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"
+  1620275931\":{\"name\":\"1620275931\",\"value\":{\"web_artist_studio_nav_bar\":false},\"gr
+  oup\":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":false,\"secondary_exposu
+  res\":[],\"explicit_parameters\":[\"web_artist_studio_nav_bar\"],\"id_type\":\"userID\",\"
+  is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"16585
+  64830\":{\"name\":\"1658564830\",\"value\":{\"artist_studio_benefits\":false,\"is_promotio
+  ns_enabled\":false},\"group\":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":
+  true,\"secondary_exposures\":[],\"explicit_parameters\":[\"is_promotions_enabled\"],\"id_t
+  ype\":\"stableID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_
+  layer\":true},\"1778302359\":{\"name\":\"1778302359\",\"value\":{\"signupWallType\":\"soft
+  \"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":true,\"s
+  econdary_exposures\":[],\"group_name\":\"Test - Soft Prompt\",\"id_type\":\"stableID\",\"i
+  s_user_in_experiment\":false,\"is_experiment_active\":false},\"1807631156\":{\"name\":\"18
+  07631156\",\"value\":{\"artist_studio_benefits\":false,\"is_promotions_enabled\":false},\"
+  group\":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":true,\"secondary_expos
+  ures\":[],\"explicit_parameters\":[\"insights_fans\"],\"id_type\":\"stableID\",\"is_user_i
+  n_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},\"1888596127\":{
+  \"name\":\"1888596127\",\"value\":{\"creator_upsell_copy\":{\"en\":\"Upgrade
+  now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade
+  jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna
+  ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan
+  _upsell_copy\":{},\"creator_button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show
+  \":true,\"fan_upsell_show\":false,\"creator_upsell_text_color\":\"#ff5500\",\"fan_upsell_t
+  ext_color\":\"\u003c%default%\u003e\",\"creator_upsell_background_color\":\"\u003c%default
+  %\u003e\",\"fan_upsell_background_color\":\"\u003c%default%\u003e\",\"creator_upsell_borde
+  r_color\":\"#ff5500\",\"fan_upsell_border_color\":\"\u003c%default%\u003e\",\"creator_cta_
+  target\":\"plan_picker\",\"applies_to_user_type\":\"creator\",\"applies_to_creator_plans\"
+  :[\"all_plans\"],\"applies_to_fan_plans\":[\"all_plans\"],\"creator_promo_code\":\"\"},\"g
+  roup\":\"1GkA5tYjff6qH5Zag2eyT6:override\",\"rule_id\":\"1GkA5tYjff6qH5Zag2eyT6:override\"
+  ,\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"1862581570\",\"gateValue\"
+  :\"true\",\"ruleID\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\"}],\"group_name\":\"Control\",\"ex
+  plicit_parameters\":[\"creator_upsell_copy\",\"fan_upsell_show\",\"creator_upsell_show\",\
+  "creator_upsell_background_color\",\"creator_upsell_text_color\",\"creator_button_ui\",\"c
+  reator_upsell_border_color\",\"creator_cta_target\",\"fan_button_ui\",\"fan_upsell_backgro
+  und_color\",\"fan_upsell_border_color\",\"applies_to_user_type\",\"fan_upsell_text_color\"
+  ,\"applies_to_creator_plans\",\"applies_to_fan_plans\",\"creator_promo_code\"],\"id_type\"
+  :\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\"
+  :true},\"2002574928\":{\"name\":\"2002574928\",\"value\":{},\"group\":\"prestart\",\"rule_
+  id\":\"prestart\",\"is_device_based\":true,\"secondary_exposures\":[],\"id_type\":\"stable
+  ID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"2121026242\":{\"nam
+  e\":\"2121026242\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":false,\
+  "activityFilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":tru
+  e,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_v
+  oyager\"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":fa
+  lse,\"secondary_exposures\":[],\"group_name\":\"Test\",\"explicit_parameters\":[\"activity
+  Filter\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":
+  false,\"is_in_layer\":true},\"2126819031\":{\"name\":\"2126819031\",\"value\":{},\"group\"
+  :\"inlineTargetingRules\",\"rule_id\":\"inlineTargetingRules\",\"is_device_based\":false,\
+  "secondary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_expe
+  riment_active\":true},\"2162508810\":{\"name\":\"2162508810\",\"value\":{\"creator_upsell_
+  copy\":{\"en\":\"Upgrade now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora
+  ahora\",\"de\":\"Upgrade jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu
+  upgraden\",\"it\":\"Aggiorna ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera
+  nu\",\"pl\":\"Ulepsz teraz\"},\"fan_upsell_copy\":{},\"creator_button_ui\":true,\"fan_butt
+  on_ui\":false,\"creator_upsell_show\":true,\"fan_upsell_show\":false,\"creator_upsell_text
+  _color\":\"#ffffff\",\"fan_upsell_text_color\":\"\u003c%default%\u003e\",\"creator_upsell_
+  background_color\":\"#000000\",\"fan_upsell_background_color\":\"\u003c%default%\u003e\",\
+  "creator_upsell_border_color\":\"#FF5500\",\"fan_upsell_border_color\":\"\u003c%default%\u
+  003e\",\"creator_cta_target\":\"inline_checkout\",\"applies_to_user_type\":\"creator\",\"a
+  pplies_to_creator_plans\":[\"free\"],\"applies_to_fan_plans\":[\"free\"],\"creator_promo_c
+  ode\":\"\"},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\"se
+  condary_exposures\":[],\"explicit_parameters\":[\"creator_upsell_copy\",\"fan_upsell_show\
+  ",\"creator_upsell_show\",\"creator_upsell_background_color\",\"creator_upsell_text_color\
+  ",\"creator_button_ui\",\"creator_upsell_border_color\",\"creator_cta_target\",\"fan_butto
+  n_ui\",\"fan_upsell_background_color\",\"fan_upsell_border_color\",\"applies_to_user_type\
+  ",\"fan_upsell_text_color\",\"applies_to_creator_plans\",\"applies_to_fan_plans\",\"creato
+  r_promo_code\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_act
+  ive\":false,\"is_in_layer\":true},\"2182036919\":{\"name\":\"2182036919\",\"value\":{\"sho
+  wUpdatedActionsForOwnTrack\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup
+  \",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\
+  ":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"2307011534\
+  ":{\"name\":\"2307011534\",\"value\":{\"web_artist_studio_nav_bar\":false},\"group\":\"tar
+  getingGate\",\"rule_id\":\"targetingGate\",\"is_device_based\":false,\"secondary_exposures
+  \":[{\"gate\":\"10789665\",\"gateValue\":\"false\",\"ruleID\":\"4bA2yDCu3wgS7mdUPJTrT9\"}]
+  ,\"explicit_parameters\":[\"web_artist_studio_nav_bar\"],\"id_type\":\"userID\",\"is_user_
+  in_experiment\":false,\"is_experiment_active\":true,\"is_in_layer\":true},\"2307281874\":{
+  \"name\":\"2307281874\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":fa
+  lse,\"activityFilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\
+  ":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"
+  nfy_voyager\"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based
+  \":false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"explicit_parameters\":[\"
+  similar_sounds_model\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experi
+  ment_active\":false,\"is_in_layer\":true},\"2311548162\":{\"name\":\"2311548162\",\"value\
+  ":{\"is_artist_studio\":false},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\
+  "is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"id_type\"
+  :\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"2311548163\"
+  :{\"name\":\"2311548163\",\"value\":{\"is_artist_studio\":true},\"group\":\"launchedGroup\
+  ",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"gro
+  up_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_
+  active\":false},\"2479513706\":{\"name\":\"2479513706\",\"value\":{\"artist_studio_benefit
+  s\":false,\"is_promotions_enabled\":false},\"group\":\"abandoned\",\"rule_id\":\"abandoned
+  \",\"is_device_based\":true,\"secondary_exposures\":[],\"explicit_parameters\":[\"artist_s
+  tudio_benefits\"],\"id_type\":\"stableID\",\"is_user_in_experiment\":false,\"is_experiment
+  _active\":false,\"is_in_layer\":true},\"2500404082\":{\"name\":\"2500404082\",\"value\":{}
+  ,\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":true,\"secondary_expo
+  sures\":[],\"id_type\":\"stableID\",\"is_user_in_experiment\":false,\"is_experiment_active
+  \":false},\"2510295732\":{\"name\":\"2510295732\",\"value\":{\"has_2fa_removed\":false},\"
+  group\":\"1wdtOFM8f2fRT0Od0IAFaq\",\"rule_id\":\"1wdtOFM8f2fRT0Od0IAFaq\",\"is_device_base
+  d\":false,\"secondary_exposures\":[],\"group_name\":\"Control\",\"id_type\":\"userID\",\"i
+  s_user_in_experiment\":true,\"is_experiment_active\":true},\"2533632282\":{\"name\":\"2533
+  632282\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":false,\"activityF
+  ilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\"audiog
+  ene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},
+  \"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"seco
+  ndary_exposures\":[],\"group_name\":\"Test\",\"explicit_parameters\":[\"sdui_content_enabl
+  ed\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":fals
+  e,\"is_in_layer\":true},\"2845366590\":{\"name\":\"2845366590\",\"value\":{\"showReplaceTr
+  ack\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":
+  false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_
+  in_experiment\":false,\"is_experiment_active\":false},\"2956529455\":{\"name\":\"295652945
+  5\",\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_edit_action_buttons\":tru
+  e,\"track_page_mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_in_webi\":fa
+  lse,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"prestart\",\"rule_id\":\"pre
+  start\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_parameters\":[\"ge
+  t_heard_enrollment_track_page_v2\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false
+  ,\"is_experiment_active\":false,\"is_in_layer\":true},\"2967384318\":{\"name\":\"296738431
+  8\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":false,\"activityFilter
+  Enabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\"audiogene_a
+  utoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voyager\"},\"gro
+  up\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary
+  _exposures\":[{\"gate\":\"2147287197\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"
+  group_name\":\"Test\",\"explicit_parameters\":[\"new_for_you_variant\"],\"id_type\":\"user
+  ID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\":true},
+  \"3218374118\":{\"name\":\"3218374118\",\"value\":{\"is_dismissal_enabled\":true},\"group\
+  ":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_ex
+  posures\":[{\"gate\":\"2996255573\",\"gateValue\":\"false\",\"ruleID\":\"2Pvug3H5J3HhDTMgv
+  6fmeS:5.00:1\"},{\"gate\":\"3867004153\",\"gateValue\":\"true\",\"ruleID\":\"5II5rZZAmSsuN
+  YNEWcRfNZ:100.00:1\"}],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_in_experim
+  ent\":false,\"is_experiment_active\":false},\"3292527235\":{\"name\":\"3292527235\",\"valu
+  e\":{},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\"seconda
+  ry_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_a
+  ctive\":false},\"3444681233\":{\"name\":\"3444681233\",\"value\":{\"enabled\":true},\"grou
+  p\":\"2iM0KX0gPjXHWp9ctQqFkZ\",\"rule_id\":\"2iM0KX0gPjXHWp9ctQqFkZ\",\"is_device_based\":
+  false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"userID\",\"is_user_
+  in_experiment\":true,\"is_experiment_active\":true},\"3527634995\":{\"name\":\"3527634995\
+  ",\"value\":{\"updated_home_hook_ui\":false,\"add_get_heard_home_hook\":true},\"group\":\"
+  launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposu
+  res\":[],\"group_name\":\"Test\",\"explicit_parameters\":[\"add_get_heard_home_hook\"],\"i
+  d_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in
+  _layer\":true},\"3597745802\":{\"name\":\"3597745802\",\"value\":{\"ids\":[]},\"group\":\"
+  default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary_exposures\":[],\"i
+  d_type\":\"userID\",\"passed\":false},\"3687986481\":{\"name\":\"3687986481\",\"value\":{\
+  "variant\":\"variant_3\"},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_d
+  evice_based\":false,\"secondary_exposures\":[],\"group_name\":\"Compact banner\",\"id_type
+  \":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"3712981815
+  \":{\"name\":\"3712981815\",\"value\":{\"enabled\":true},\"group\":\"launchedGroup\",\"rul
+  e_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"group_name
+  \":\"Test\",\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\
+  ":false},\"3791752530\":{\"name\":\"3791752530\",\"value\":{\"cooldown_days\":4},\"group\"
+  :\"default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary_exposures\":[],
+  \"id_type\":\"userID\",\"passed\":false},\"3807132424\":{\"name\":\"3807132424\",\"value\"
+  :{\"track_page_distribution_upsell\":false,\"v2_new_edit_action_buttons\":true,\"track_pag
+  e_mastering_upsell\":false,\"v2_webi_track_page\":false,\"render_in_webi\":false,\"get_hea
+  rd_enrollment_track_page_v2\":false},\"group\":\"experimentStopped\",\"rule_id\":\"experim
+  entStopped\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_parameters\":
+  [\"track_page_mastering_upsell\"],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\
+  "is_experiment_active\":false,\"is_in_layer\":true},\"3810418923\":{\"name\":\"3810418923\
+  ",\"value\":{},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_based\":false,\
+  "secondary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_expe
+  riment_active\":false},\"3863468526\":{\"name\":\"3863468526\",\"value\":{\"show_banner\":
+  true,\"show_smart_nudge\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",
+  \"is_device_based\":false,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\
+  "userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"3868951477\":{
+  \"name\":\"3868951477\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":fa
+  lse,\"activityFilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\
+  ":true,\"audiogene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"
+  nfy_voyager\"},\"group\":\"abandoned\",\"rule_id\":\"abandoned\",\"is_device_based\":false
+  ,\"secondary_exposures\":[],\"explicit_parameters\":[\"similar_sounds_model\"],\"id_type\"
+  :\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"is_in_layer\"
+  :true},\"3921342276\":{\"name\":\"3921342276\",\"value\":{\"dismissible_before_1st_upload\
+  ":true,\"show_before_1st_upload\":true,\"show_after_2nd_upload\":true,\"show_dismissable_a
+  fter_2nd_upload\":false},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_de
+  vice_based\":false,\"secondary_exposures\":[],\"group_name\":\"1st and 3rd\",\"id_type\":\
+  "userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"4010853418\":{
+  \"name\":\"4010853418\",\"value\":{\"track_page_distribution_upsell\":false,\"v2_new_edit_
+  action_buttons\":true,\"track_page_mastering_upsell\":false,\"v2_webi_track_page\":false,\
+  "render_in_webi\":false,\"get_heard_enrollment_track_page_v2\":false},\"group\":\"layerAss
+  ignment\",\"rule_id\":\"layerAssignment\",\"is_device_based\":false,\"secondary_exposures\
+  ":[],\"explicit_parameters\":[\"render_in_webi\"],\"id_type\":\"userID\",\"is_user_in_expe
+  riment\":false,\"is_experiment_active\":true,\"is_in_layer\":true},\"4075954800\":{\"name\
+  ":\"4075954800\",\"value\":{},\"group\":\"prestart\",\"rule_id\":\"prestart\",\"is_device_
+  based\":false,\"secondary_exposures\":[],\"id_type\":\"userID\",\"is_user_in_experiment\":
+  false,\"is_experiment_active\":false},\"4111317710\":{\"name\":\"4111317710\",\"value\":{\
+  "showExtendedTrackList\":true},\"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\
+  "is_device_based\":true,\"secondary_exposures\":[],\"group_name\":\"Test\",\"id_type\":\"s
+  tableID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false},\"4141614194\":{
+  \"name\":\"4141614194\",\"value\":{\"creator_upsell_copy\":{\"en\":\"Upgrade
+  now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade
+  jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna
+  ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan
+  _upsell_copy\":{},\"creator_button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show
+  \":true,\"fan_upsell_show\":false,\"creator_upsell_text_color\":\"#ffffff\",\"fan_upsell_t
+  ext_color\":\"\u003c%default%\u003e\",\"creator_upsell_background_color\":\"#000000\",\"fa
+  n_upsell_background_color\":\"\u003c%default%\u003e\",\"creator_upsell_border_color\":\"#F
+  F5500\",\"fan_upsell_border_color\":\"\u003c%default%\u003e\",\"creator_cta_target\":\"inl
+  ine_checkout\",\"applies_to_user_type\":\"creator\",\"applies_to_creator_plans\":[\"free\"
+  ],\"applies_to_fan_plans\":[\"free\"],\"creator_promo_code\":\"\"},\"group\":\"launchedGro
+  up\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"secondary_exposures\":[],\"
+  group_name\":\"Control\",\"explicit_parameters\":[\"fan_upsell_copy\",\"fan_upsell_show\"]
+  ,\"id_type\":\"userID\",\"is_user_in_experiment\":false,\"is_experiment_active\":false,\"i
+  s_in_layer\":true},\"4196139333\":{\"name\":\"4196139333\",\"value\":{\"web_post_upload_tr
+  anscoding_in_process_ui\":true,\"web_upload_cannot_create_until_transcode_starts\":false},
+  \"group\":\"launchedGroup\",\"rule_id\":\"launchedGroup\",\"is_device_based\":false,\"seco
+  ndary_exposures\":[],\"group_name\":\"UI Updates\",\"id_type\":\"userID\",\"is_user_in_exp
+  eriment\":false,\"is_experiment_active\":false}},\"layer_configs\":{\"172878743\":{\"name\
+  ":\"172878743\",\"value\":{\"similar_sounds_model\":\"control\",\"useBigtable\":false,\"ac
+  tivityFilterEnabled\":false,\"activityFilter\":\"enabled\",\"sdui_content_enabled\":true,\
+  "audiogene_autoplay\":false,\"knn_version\":\"voyager\",\"new_for_you_variant\":\"nfy_voya
+  ger\"},\"group\":\"default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary
+  _exposures\":[{\"gate\":\"2147287197\",\"gateValue\":\"false\",\"ruleID\":\"default\"}],\"
+  explicit_parameters\":[],\"undelegated_secondary_exposures\":[{\"gate\":\"2147287197\",\"g
+  ateValue\":\"false\",\"ruleID\":\"default\"}]},\"727316503\":{\"name\":\"727316503\",\"val
+  ue\":{\"cta_url\":\"https://checkout.soundcloud.com/artist#planPicker\",\"target\":\"_blan
+  k\",\"enabled\":false,\"webflow_url\":\"https://community.soundcloud.com/self-serve-
+  iframe/test01\",\"accessibility_text\":\"Free 30 days trial\",\"applies_to_targeting_type\
+  ":\"creator_upsell\",\"applies_to_followers\":\"\"},\"group\":\"default\",\"rule_id\":\"de
+  fault\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_parameters\":[],\"
+  undelegated_secondary_exposures\":[]},\"893254090\":{\"name\":\"893254090\",\"value\":{\"u
+  pdated_home_hook_ui\":false,\"add_get_heard_home_hook\":true},\"group\":\"default\",\"rule
+  _id\":\"default\",\"is_device_based\":false,\"secondary_exposures\":[],\"explicit_paramete
+  rs\":[],\"undelegated_secondary_exposures\":[]},\"1294592268\":{\"name\":\"1294592268\",\"
+  value\":{\"web_artist_studio_nav_bar\":false},\"group\":\"targetingGate\",\"rule_id\":\"ta
+  rgetingGate\",\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"10789665\",\"
+  gateValue\":\"false\",\"ruleID\":\"4bA2yDCu3wgS7mdUPJTrT9\"}],\"explicit_parameters\":[\"w
+  eb_artist_studio_nav_bar\"],\"allocated_experiment_name\":\"2307011534\",\"is_experiment_a
+  ctive\":true,\"is_user_in_experiment\":false,\"undelegated_secondary_exposures\":[]},\"166
+  0129035\":{\"name\":\"1660129035\",\"value\":{\"artist_studio_benefits\":false,\"is_promot
+  ions_enabled\":false},\"group\":\"default\",\"rule_id\":\"default\",\"is_device_based\":tr
+  ue,\"secondary_exposures\":[],\"explicit_parameters\":[],\"undelegated_secondary_exposures
+  \":[]},\"2412457678\":{\"name\":\"2412457678\",\"value\":{\"track_page_distribution_upsell
+  \":false,\"v2_new_edit_action_buttons\":true,\"track_page_mastering_upsell\":false,\"v2_we
+  bi_track_page\":false,\"render_in_webi\":false,\"get_heard_enrollment_track_page_v2\":fals
+  e},\"group\":\"default\",\"rule_id\":\"default\",\"is_device_based\":false,\"secondary_exp
+  osures\":[],\"explicit_parameters\":[],\"undelegated_secondary_exposures\":[]},\"246570353
+  2\":{\"name\":\"2465703532\",\"value\":{\"creator_upsell_copy\":{\"en\":\"Upgrade
+  now\",\"en_GB\":\"Upgrade now\",\"es\":\"Mejora ahora\",\"de\":\"Upgrade
+  jetzt\",\"fr\":\"Améliorez maintenant\",\"nl\":\"Nu upgraden\",\"it\":\"Aggiorna
+  ora\",\"pt_BR\":\"Atualize agora\",\"sv\":\"Uppgradera nu\",\"pl\":\"Ulepsz teraz\"},\"fan
+  _upsell_copy\":{},\"creator_button_ui\":true,\"fan_button_ui\":false,\"creator_upsell_show
+  \":true,\"fan_upsell_show\":false,\"creator_upsell_text_color\":\"#ff5500\",\"fan_upsell_t
+  ext_color\":\"\u003c%default%\u003e\",\"creator_upsell_background_color\":\"\u003c%default
+  %\u003e\",\"fan_upsell_background_color\":\"\u003c%default%\u003e\",\"creator_upsell_borde
+  r_color\":\"#ff5500\",\"fan_upsell_border_color\":\"\u003c%default%\u003e\",\"creator_cta_
+  target\":\"plan_picker\",\"applies_to_user_type\":\"creator\",\"applies_to_creator_plans\"
+  :[\"all_plans\"],\"applies_to_fan_plans\":[\"all_plans\"],\"creator_promo_code\":\"\"},\"g
+  roup\":\"1GkA5tYjff6qH5Zag2eyT6:override\",\"rule_id\":\"1GkA5tYjff6qH5Zag2eyT6:override\"
+  ,\"is_device_based\":false,\"secondary_exposures\":[{\"gate\":\"1862581570\",\"gateValue\"
+  :\"true\",\"ruleID\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\"}],\"group_name\":\"Control\",\"ex
+  plicit_parameters\":[\"creator_upsell_copy\",\"fan_upsell_show\",\"creator_upsell_show\",\
+  "creator_upsell_background_color\",\"creator_upsell_text_color\",\"creator_button_ui\",\"c
+  reator_upsell_border_color\",\"creator_cta_target\",\"fan_button_ui\",\"fan_upsell_backgro
+  und_color\",\"fan_upsell_border_color\",\"applies_to_user_type\",\"fan_upsell_text_color\"
+  ,\"applies_to_creator_plans\",\"applies_to_fan_plans\",\"creator_promo_code\"],\"allocated
+  _experiment_name\":\"1888596127\",\"is_experiment_active\":false,\"is_user_in_experiment\"
+  :false,\"undelegated_secondary_exposures\":[{\"gate\":\"1862581570\",\"gateValue\":\"true\
+  ",\"ruleID\":\"70kst7vAmHtdPQ6AGjoChw:100.00:1\"}]}},\"sdkParams\":{},\"has_updates\":true
+  ,\"generator\":\"statsig-node-sdk\",\"sdkInfo\":{\"sdkType\":\"statsig-node\",\"sdkVersion
+  \":\"6.4.2\"},\"time\":1779926415809,\"evaluated_keys\":{\"customIDs\":{\"stableID\":\"f0b
+  b27dc-60d7-4b2b-b5d3-
+  c6aba1a1b4b0\"}},\"hash_used\":\"djb2\",\"user\":{\"customIDs\":{\"stableID\":\"f0bb27dc-
+  60d7-4b2b-b5d3-
+  c6aba1a1b4b0\"},\"country\":\"CM\",\"appVersion\":\"1779807420\",\"custom\":{\"region\":\"
+  LT\",\"tracksCount\":0},\"statsigEnvironment\":{\"tier\":\"production\"}},\"recording_bloc
+  ked\":true,\"can_record_session\":false,\"session_recording_rate\":1}","user":{"customIDs"
+  :{"stableID":"f0bb27dc-60d7-4b2b-b5d3-
+  c6aba1a1b4b0"},"country":"CM","appVersion":"1779807420","custom":{"region":"LT","tracksCou
+  nt":0},"statsigEnvironment":{"tier":"production"}}}},{"hydratable":"trackingBrowserTabId",
+  "data":"fae204"},{"hydratable":"apiClient","data":{"id":"POy4x48uHpENQjixAeI9vTRMsXqo4LnX"
+  ,"isExpiring":false}},{"hydratable":"user","data":{"avatar_url":"https://i1.sndcdn.com/ava
+  tars-kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","city":null,"comments_count":0,"country_code":null
+  ,"created_at":null,"creator_subscriptions":[{"product":{"id":"creator-pro-
+  unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-
+  unlimited"}},"description":"RADIO ACTIVITÉ est un atelier d’initiation à la
+  radio.\n\nL’atelier est mobile et s’adapte au lieu et aux participants. Il se déplace dans
+  des centres sociaux, des théâtres, des festivals, des maisons de retraite, des camps de
+  réfugiés, en milieu urbain et rural, en France et à l’étranger…\n\nSa finalité est de
+  rassembler les participants autour de la création d’une émission de radio, en direct, sur
+  le sujet de leur choix. Les participants sont animateurs, journalistes, musiciens, et
+  chroniqueurs de leur émission.\n\nIls créent ainsi un espace de parole pour se raconter,
+  échanger, et réfléchir par la radio.\n\nRadio Activité porte aussi le projet Microcamp
+  Radio, et part sur la route des camps de réfugiés de France, de Géorgie et d’Irak, pour
+  faire entendre la voix des réfugiés au-delà des frontières et des limites des camps.
+  \n..\n\nRadio Activité run radio workshops that gives participants the opportunity to
+  create a radio program.\n\nThe workshop is mobile and adjustable to the place, context,
+  and participants. It is held in social centres, theatres, festivals, retirement homes,
+  refugee camps, in cities and countrysides, in France, Georgia, Iraq, Greece…\n\nIt aims to
+  gather participants around the creation of a live radio program, on a topic of their
+  choice. Participants are the journalists, speakers, interviewers and interviewees of their
+  broadcast.\nThey open a space of dialogue to share, speak, and think through
+  radio.\n\nRadio Activité also holds the project ‘Microcamp Radio’, where we are on the
+  road visiting refugee camps in France, Georgia, Turkey, Greece and Irak, to make the voice
+  of refugees heard above the borders and limits of camps. \n\n..\n\nالورشة متنقلة وتتكيّف
+  مع المكان والمشتركين. تتنقل بين المراكز الاجتماعية، المسارح، المهراجانات، دور رعاية
+  المسنّين، مخيمات اللاجئين، بين المدن و الريف، في فرنسا و في الخارج. \n\nهدفها جمع أشخاص،
+  يعيشون في الإقليم نفسه، حول مشروع إنتاج برنامج إذاعي، يبثّ مباشرة، عن موضوع يختارونه
+  بأنفسهم. المشاركون ينقسمون إلى: مقدّمين، صحافيين، موسيقيين ومعدّي برامج.\n\nبلقائهم هذا،
+  يبتكر المشاركون مساحة للتعبير تسمح بالتعارف، بتبادل الآراء وبالتفكير عبر العمل
+  الإذاعي.\n\nهذا الصيف، يعمل «راديو أكتيفيتيه» على مشروع «ميكروكامب راديو» (إذاعة ميكروفون
+  المخيّم): يتنقّل على طرق مخيمات فرنسا وجورجيا والعراق ليُسمِع صوت اللاجئين وراء الحدود
+  وخارج المخيمات. للمتابعة والاستماع، اضغط/ي هنا.","followers_count":77,"followings_count":0
+  ,"first_name":"","full_name":"","groups_count":0,"id":312932959,"kind":"user","last_modifi
+  ed":"2026-01-
+  15T16:36:29Z","last_name":"","likes_count":9,"playlist_likes_count":2,"permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","playlist_count":59,"rep
+  osts_count":null,"track_count":409,"uri":"https://api.soundcloud.com/users/soundcloud%3Aus
+  ers%3A312932959","urn":"soundcloud:users:312932959","username":"Radio Activité","verified"
+  :false,"visuals":{"urn":"soundcloud:users:312932959","enabled":true,"visuals":[{"urn":"sou
+  ndcloud:visuals:193356204","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-
+  000312932959-fElQLh-original.jpg"}],"tracking":null},"badges":{"pro":false,"creator_mid_ti
+  er":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-
+  playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959","date_of_birth":null,"url":"/radio-activite"}},{"hydratable":"playlist
+  ","data":{"artwork_url":"https://i1.sndcdn.com/artworks-gjG1yAZSoV7jhOJy-y4baFw-large.jpg"
+  ,"created_at":"2022-11-
+  15T08:52:29Z","description":"","duration":1858350,"embeddable_by":"all","genre":"","id":15
+  27171409,"kind":"playlist","label_name":"","last_modified":"2022-11-
+  15T09:02:05Z","license":"all-rights-
+  reserved","likes_count":0,"managed_by_feeds":false,"permalink":"a-la-decouverte-
+  daumale","permalink_url":"https://soundcloud.com/radio-activite/sets/a-la-decouverte-dauma
+  le","public":true,"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_c
+  ount":0,"secret_token":null,"sharing":"public","tag_list":"","title":"A la découverte d'Au
+  male","uri":"https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1527171409","us
+  er_id":312932959,"set_type":"","is_album":false,"published_at":"2022-11-
+  15T08:52:29Z","display_date":"2022-11-
+  15T08:52:29Z","user":{"avatar_url":"https://i1.sndcdn.com/avatars-kQuRUWXxydAgIH1g-pQ1zgQ-
+  large.jpg","city":null,"comments_count":0,"country_code":null,"created_at":null,"creator_s
+  ubscriptions":[{"product":{"id":"creator-pro-
+  unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-
+  unlimited"}},"description":"RADIO ACTIVITÉ est un atelier d’initiation à la
+  radio.\n\nL’atelier est mobile et s’adapte au lieu et aux participants. Il se déplace dans
+  des centres sociaux, des théâtres, des festivals, des maisons de retraite, des camps de
+  réfugiés, en milieu urbain et rural, en France et à l’étranger…\n\nSa finalité est de
+  rassembler les participants autour de la création d’une émission de radio, en direct, sur
+  le sujet de leur choix. Les participants sont animateurs, journalistes, musiciens, et
+  chroniqueurs de leur émission.\n\nIls créent ainsi un espace de parole pour se raconter,
+  échanger, et réfléchir par la radio.\n\nRadio Activité porte aussi le projet Microcamp
+  Radio, et part sur la route des camps de réfugiés de France, de Géorgie et d’Irak, pour
+  faire entendre la voix des réfugiés au-delà des frontières et des limites des camps.
+  \n..\n\nRadio Activité run radio workshops that gives participants the opportunity to
+  create a radio program.\n\nThe workshop is mobile and adjustable to the place, context,
+  and participants. It is held in social centres, theatres, festivals, retirement homes,
+  refugee camps, in cities and countrysides, in France, Georgia, Iraq, Greece…\n\nIt aims to
+  gather participants around the creation of a live radio program, on a topic of their
+  choice. Participants are the journalists, speakers, interviewers and interviewees of their
+  broadcast.\nThey open a space of dialogue to share, speak, and think through
+  radio.\n\nRadio Activité also holds the project ‘Microcamp Radio’, where we are on the
+  road visiting refugee camps in France, Georgia, Turkey, Greece and Irak, to make the voice
+  of refugees heard above the borders and limits of camps. \n\n..\n\nالورشة متنقلة وتتكيّف
+  مع المكان والمشتركين. تتنقل بين المراكز الاجتماعية، المسارح، المهراجانات، دور رعاية
+  المسنّين، مخيمات اللاجئين، بين المدن و الريف، في فرنسا و في الخارج. \n\nهدفها جمع أشخاص،
+  يعيشون في الإقليم نفسه، حول مشروع إنتاج برنامج إذاعي، يبثّ مباشرة، عن موضوع يختارونه
+  بأنفسهم. المشاركون ينقسمون إلى: مقدّمين، صحافيين، موسيقيين ومعدّي برامج.\n\nبلقائهم هذا،
+  يبتكر المشاركون مساحة للتعبير تسمح بالتعارف، بتبادل الآراء وبالتفكير عبر العمل
+  الإذاعي.\n\nهذا الصيف، يعمل «راديو أكتيفيتيه» على مشروع «ميكروكامب راديو» (إذاعة ميكروفون
+  المخيّم): يتنقّل على طرق مخيمات فرنسا وجورجيا والعراق ليُسمِع صوت اللاجئين وراء الحدود
+  وخارج المخيمات. للمتابعة والاستماع، اضغط/ي هنا.","followers_count":77,"followings_count":0
+  ,"first_name":"","full_name":"","groups_count":0,"id":312932959,"kind":"user","last_modifi
+  ed":"2026-01-
+  15T16:36:29Z","last_name":"","likes_count":9,"playlist_likes_count":2,"permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","playlist_count":59,"rep
+  osts_count":null,"track_count":409,"uri":"https://api.soundcloud.com/users/soundcloud%3Aus
+  ers%3A312932959","urn":"soundcloud:users:312932959","username":"Radio Activité","verified"
+  :false,"visuals":{"urn":"soundcloud:users:312932959","enabled":true,"visuals":[{"urn":"sou
+  ndcloud:visuals:193356204","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-
+  000312932959-fElQLh-original.jpg"}],"tracking":null},"badges":{"pro":false,"creator_mid_ti
+  er":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-
+  playlists:artist-stations:312932959","station_permalink":"artist-stations:312932959","date
+  _of_birth":null},"tracks":[{"artwork_url":"https://i1.sndcdn.com/artworks-
+  gjG1yAZSoV7jhOJy-y4baFw-large.jpg","caption":null,"commentable":true,"comment_count":0,"cr
+  eated_at":"2022-11-
+  15T08:50:45Z","description":"","downloadable":false,"download_count":0,"duration":432744,"
+  full_duration":432744,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":138
+  3436654,"kind":"track","label_name":null,"last_modified":"2025-06-
+  23T08:59:41Z","license":"all-rights-reserved","likes_count":1,"permalink":"a-la-
+  decouverte-daumale-episode-1-showband-
+  auranja","permalink_url":"https://soundcloud.com/radio-activite/a-la-decouverte-daumale-
+  episode-1-showband-auranja","playback_count":18,"public":true,"publisher_metadata":{"id":1
+  383436654,"urn":"soundcloud:tracks:1383436654","contains_music":true},"purchase_title":nul
+  l,"purchase_url":null,"release_date":null,"reposts_count":1,"secret_token":null,"sharing":
+  "public","state":"finished","streamable":true,"tag_list":"","title":"Épisode 1 - Showband
+  Auranja","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1383436654","urn":
+  "soundcloud:tracks:1383436654","user_id":312932959,"visuals":null,"waveform_url":"https://
+  wave.sndcdn.com/QpLIQmyesLCL_m.json","display_date":"2022-11-
+  15T08:50:45Z","media":{"transcodings":[{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383436654/c957ce9b-23fe-430a-9523-
+  fcec6e294446/stream/hls","preset":"mp3_1_0","duration":432744,"snipped":false,"format":{"p
+  rotocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"ur
+  l":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1383436654/c957ce9b-23fe-430a-
+  9523-
+  fcec6e294446/stream/progressive","preset":"mp3_1_0","duration":432744,"snipped":false,"for
+  mat":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transco
+  ding":true}]},"station_urn":"soundcloud:system-playlists:track-
+  stations:1383436654","station_permalink":"track-stations:1383436654","track_authorization"
+  :"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJDTSIsInN1YiI6IiIsInJpZCI6IjM5NGNkMWYxLTI
+  4ZWQtNGZmZi05NTQyLTgxMzMwNTA2MjBjNyIsImlhdCI6MTc3OTkzNTI0NH0.zrVmcI6ZEJKsGbpqj4IaBYutozbTK
+  TEB-Z_To8s_u6s","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":{"avatar_url
+  ":"https://i1.sndcdn.com/avatars-kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","first_name":"","follo
+  wers_count":77,"full_name":"","id":312932959,"kind":"user","last_modified":"2026-01-
+  15T16:36:29Z","last_name":"","permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","uri":"https://api.sound
+  cloud.com/users/soundcloud%3Ausers%3A312932959","urn":"soundcloud:users:312932959","userna
+  me":"Radio Activité","verified":false,"city":null,"country_code":null,"badges":{"pro":fals
+  e,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundclou
+  d:system-playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959"}},{"artwork_url":"https://i1.sndcdn.com/artworks-
+  gjG1yAZSoV7jhOJy-y4baFw-large.jpg","caption":null,"commentable":true,"comment_count":0,"cr
+  eated_at":"2022-11-
+  15T08:57:08Z","description":"","downloadable":false,"download_count":0,"duration":384679,"
+  full_duration":384679,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":138
+  3438970,"kind":"track","label_name":null,"last_modified":"2025-06-
+  23T08:59:41Z","license":"all-rights-reserved","likes_count":0,"permalink":"a-la-
+  decouverte-daumale-episode-2-balade-paisible-bois-de-la-
+  vierge","permalink_url":"https://soundcloud.com/radio-activite/a-la-decouverte-daumale-
+  episode-2-balade-paisible-bois-de-la-vierge","playback_count":9,"public":true,"publisher_m
+  etadata":{"id":1383438970,"urn":"soundcloud:tracks:1383438970","contains_music":true},"pur
+  chase_title":null,"purchase_url":null,"release_date":null,"reposts_count":0,"secret_token"
+  :null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Épis
+  ode 2 - Balade Paisible Bois De La Vierge","uri":"https://api.soundcloud.com/tracks/soundc
+  loud%3Atracks%3A1383438970","urn":"soundcloud:tracks:1383438970","user_id":312932959,"visu
+  als":null,"waveform_url":"https://wave.sndcdn.com/gq5JtUE16ISM_m.json","display_date":"202
+  2-11-15T08:57:08Z","media":{"transcodings":[{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383438970/d9695d65-53f9-446d-b69a-
+  db7c4bfd6299/stream/hls","preset":"mp3_1_0","duration":384679,"snipped":false,"format":{"p
+  rotocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"ur
+  l":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1383438970/d9695d65-53f9-446d-
+  b69a-
+  db7c4bfd6299/stream/progressive","preset":"mp3_1_0","duration":384679,"snipped":false,"for
+  mat":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transco
+  ding":true}]},"station_urn":"soundcloud:system-playlists:track-
+  stations:1383438970","station_permalink":"track-stations:1383438970","track_authorization"
+  :"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJDTSIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc
+  3OTkzNTI0NH0.khy17t0FrhKZ2XHmR3dIwj8viiR9Uo9kkMBEuv5g6Q8","monetization_model":"NOT_APPLIC
+  ABLE","policy":"ALLOW","user":{"avatar_url":"https://i1.sndcdn.com/avatars-
+  kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","first_name":"","followers_count":77,"full_name":"","id
+  ":312932959,"kind":"user","last_modified":"2026-01-
+  15T16:36:29Z","last_name":"","permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","uri":"https://api.sound
+  cloud.com/users/soundcloud%3Ausers%3A312932959","urn":"soundcloud:users:312932959","userna
+  me":"Radio Activité","verified":false,"city":null,"country_code":null,"badges":{"pro":fals
+  e,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundclou
+  d:system-playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959"}},{"artwork_url":"https://i1.sndcdn.com/artworks-
+  gjG1yAZSoV7jhOJy-y4baFw-large.jpg","caption":null,"commentable":true,"comment_count":0,"cr
+  eated_at":"2022-11-
+  15T08:59:40Z","description":"","downloadable":false,"download_count":0,"duration":459138,"
+  full_duration":459128,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":138
+  3439831,"kind":"track","label_name":null,"last_modified":"2025-06-
+  23T08:59:41Z","license":"all-rights-
+  reserved","likes_count":0,"permalink":"episode-3-histoire-
+  daumale","permalink_url":"https://soundcloud.com/radio-activite/episode-3-histoire-daumale
+  ","playback_count":5,"public":true,"publisher_metadata":{"id":1383439831,"urn":"soundcloud
+  :tracks:1383439831","contains_music":true},"purchase_title":null,"purchase_url":null,"rele
+  ase_date":null,"reposts_count":0,"secret_token":null,"sharing":"public","state":"finished"
+  ,"streamable":true,"tag_list":"","title":"Épisode 3 - Histoire D'Aumale","uri":"https://a
+  pi.soundcloud.com/tracks/soundcloud%3Atracks%3A1383439831","urn":"soundcloud:tracks:138343
+  9831","user_id":312932959,"visuals":null,"waveform_url":"https://wave.sndcdn.com/KE5jU0IR1
+  R92_m.json","display_date":"2022-11-
+  15T08:59:40Z","media":{"transcodings":[{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383439831/5ca3f91a-e31f-4f53-97be-
+  504dbdc26d17/stream/hls","preset":"aac_160k","duration":459138,"snipped":false,"format":{"
+  protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_t
+  ranscoding":false},{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383439831/37a17d4f-4230-4d7e-8652-
+  62644f537908/stream/hls","preset":"aac_96k","duration":459138,"snipped":false,"format":{"p
+  rotocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_tr
+  anscoding":false},{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383439831/59cbef83-b868-4e20-872c-
+  d6418c6ff8d7/stream/hls","preset":"abr_sq","duration":459138,"snipped":false,"format":{"pr
+  otocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{
+  "url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1383439831/8c87c354-d988-
+  4fb8-b11d-
+  159cc74ce05e/stream/hls","preset":"mp3_1_0","duration":459128,"snipped":false,"format":{"p
+  rotocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"ur
+  l":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1383439831/8c87c354-d988-4fb8-
+  b11d-
+  159cc74ce05e/stream/progressive","preset":"mp3_1_0","duration":459128,"snipped":false,"for
+  mat":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transco
+  ding":true}]},"station_urn":"soundcloud:system-playlists:track-
+  stations:1383439831","station_permalink":"track-stations:1383439831","track_authorization"
+  :"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJDTSIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc
+  3OTkzNTI0NH0.khy17t0FrhKZ2XHmR3dIwj8viiR9Uo9kkMBEuv5g6Q8","monetization_model":"NOT_APPLIC
+  ABLE","policy":"ALLOW","user":{"avatar_url":"https://i1.sndcdn.com/avatars-
+  kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","first_name":"","followers_count":77,"full_name":"","id
+  ":312932959,"kind":"user","last_modified":"2026-01-
+  15T16:36:29Z","last_name":"","permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","uri":"https://api.sound
+  cloud.com/users/soundcloud%3Ausers%3A312932959","urn":"soundcloud:users:312932959","userna
+  me":"Radio Activité","verified":false,"city":null,"country_code":null,"badges":{"pro":fals
+  e,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundclou
+  d:system-playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959"}},{"artwork_url":"https://i1.sndcdn.com/artworks-
+  gjG1yAZSoV7jhOJy-y4baFw-large.jpg","caption":null,"commentable":true,"comment_count":0,"cr
+  eated_at":"2022-11-
+  15T09:01:54Z","description":"","downloadable":false,"download_count":0,"duration":581799,"
+  full_duration":581799,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":138
+  3440767,"kind":"track","label_name":null,"last_modified":"2025-06-
+  23T08:59:41Z","license":"all-rights-reserved","likes_count":0,"permalink":"episode-4-les-
+  enfants-du-verre","permalink_url":"https://soundcloud.com/radio-activite/episode-4-les-
+  enfants-du-verre","playback_count":11,"public":true,"publisher_metadata":{"id":1383440767,
+  "urn":"soundcloud:tracks:1383440767","contains_music":true},"purchase_title":null,"purchas
+  e_url":null,"release_date":null,"reposts_count":0,"secret_token":null,"sharing":"public","
+  state":"finished","streamable":true,"tag_list":"","title":"Épisode 4 - Les Enfants Du Ver
+  re","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1383440767","urn":"soun
+  dcloud:tracks:1383440767","user_id":312932959,"visuals":null,"waveform_url":"https://wave.
+  sndcdn.com/0u78g6Utx0ue_m.json","display_date":"2022-11-
+  15T09:01:54Z","media":{"transcodings":[{"url":"https://api-
+  v2.soundcloud.com/media/soundcloud:tracks:1383440767/a225275b-8540-4ea2-b7cf-
+  7ae85f2c3173/stream/hls","preset":"mp3_1_0","duration":581799,"snipped":false,"format":{"p
+  rotocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"ur
+  l":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1383440767/a225275b-8540-4ea2-
+  b7cf-
+  7ae85f2c3173/stream/progressive","preset":"mp3_1_0","duration":581799,"snipped":false,"for
+  mat":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transco
+  ding":true}]},"station_urn":"soundcloud:system-playlists:track-
+  stations:1383440767","station_permalink":"track-stations:1383440767","track_authorization"
+  :"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJDTSIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc
+  3OTkzNTI0NH0.khy17t0FrhKZ2XHmR3dIwj8viiR9Uo9kkMBEuv5g6Q8","monetization_model":"NOT_APPLIC
+  ABLE","policy":"ALLOW","user":{"avatar_url":"https://i1.sndcdn.com/avatars-
+  kQuRUWXxydAgIH1g-pQ1zgQ-large.jpg","first_name":"","followers_count":77,"full_name":"","id
+  ":312932959,"kind":"user","last_modified":"2026-01-
+  15T16:36:29Z","last_name":"","permalink":"radio-
+  activite","permalink_url":"https://soundcloud.com/radio-activite","uri":"https://api.sound
+  cloud.com/users/soundcloud%3Ausers%3A312932959","urn":"soundcloud:users:312932959","userna
+  me":"Radio Activité","verified":false,"city":null,"country_code":null,"badges":{"pro":fals
+  e,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundclou
+  d:system-playlists:artist-stations:312932959","station_permalink":"artist-
+  stations:312932959"}}],"track_count":4,"url":"/radio-activite/sets/a-la-decouverte-
+  daumale"}}];
+--------------------------------------------------
+Titre   : Activites - CCDX Amateur Radio Club
+Lien    : http://ccdxarc.org/index.php/Activites
+Résumé  : Amateur Radio Emergency Services - ARES is one of our many ways to give back to the community and one of our main reasons for keeping the frequencies ...
+Source  : contenu enrichi depuis la page liée
+Détail  :
+  CCDX Amateur Radio Club BoardMeetingsActivitesField Day Activities: The hobby and service
+  known as Amateur Radio attracts operators from all walks of life. As such, our members
+  enjoy many different aspects of the activity. Some of us like to chase DX and contact
+  stations thousands of miles away. Others like to build our own equipment and are happy
+  enough when the magic smoke doesn't escape when we turn on the power.Our members operate
+  with everything from base stations large enough to have their own rooms, to hand-held
+  radios which can be stuffed in a backpack for that next trip up Mount Monadnock. ►
+  September 27, 0226 is the Clarence Demar Marathon, https://clarencedemar.com/. This event
+  is a standard 26 mile marathon. It is a qualifying event for the Boston marathon. Those
+  wishing to volunteer should e-mail Jeff, K1JWM at the following email:
+  Jeff.mungovan@yahoo.com TEC, Cheshire County Ron Osimo, K1CRR ronosimo@aol.com Amateur
+  Radio Emergency Services - ARES is one of our many ways to give back to the community and
+  one of our main reasons for keeping the frequencies the have. Helping other communicate in
+  an emergency is our main role. ► NEW FREQUENCY: 147.030 PL 100.0. for Cheshire County ARES
+  Net: Third Wednesday of the month, Cheshire ARES will be meeting on the following
+  Repeater, 147.030 PL 100.0., scheduled or emergency until further notice. Thanks to Paul,
+  K1PH for the use of his Repeater. Cheshire County VHF Simplex Frequency: 147.540 NH-NBEMS
+  meets on Saturday mornings at 0730 on 3582.00 kHz, using the Fldigi software. Link to NH -
+  ARES web page As a reminder all Fldigi and Winlink resources that we use in NH ARES are
+  found on N1GBs site: https://gblakesl.net/N1GB/N1GB_ARES.html This is intentional so we
+  don't duplicate efforts and have consistent information. If you need help setting up these
+  modes contact N1GB and K1EHZ. One thing that is highly recommended is that everyone keep a
+  list of all call signs, names, locations and order checked in of all stations on the net.
+  This will allow you to know when it is your turn as well as also be able to pick up as net
+  control operator if needed. To that end here is a link to my "database" of stations that
+  check into either the Cheshire County ARES net or the CCDX 2-meter and 10-meter nets. This
+  can be used with W1HKJ's FLNET software or you can use it as a basis of your own cheat-
+  sheet to keep track of net check-ins. Social Meetings: Breakfast GatheringsAveKeene, NH
+  6AM. Saturday and Sunday morning breakfast location has changed. 7 AM at The Pub
+  Restaurant, 131 Winchester Street, Keene, NH. 03431 Breakfast Gatherings Wednesday &
+  Friday 8 AM at Mama McDonough's Irish Pub, 60 Airport Road, Keene, NH Dinner Gathering
+  Second Wednesday of the month 5 PM at Lee And Mount Fuji, 314 Main Street, Marlborough, NH
+  Published on 06/25/2016, 12:07:30.Last updated 24 days ago. Login var catbase =
+  '/data/_addoncode/vgfebyu'; gpE_added_js =
+  [];$(function(){$("video,audio").mediaelementplayer({ startVolume : 0.8, defaultVideoWidth
+  : '512', defaultVideoHeight : '288', audioWidth : '100%', audioHeight : '30', loop :
+  false, enableAutosize : true, alwaysShowControls : false, iPadUseNativeControls : false,
+  iPhoneUseNativeControls : false, AndroidUseNativeControls : false, enableKeyboard : true,
+  pauseOtherPlayers : true, features :
+  ["playpause","progress","duration","tracks","volume","fullscreen"]
+  });$(".blog_gadget_link").click(function(){ $(this).next(".nodisplay").toggle(); });
+  ojsCalendar = new jsCalendar(24,0,new
+  Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"),new Array("J
+  anuary","February","March","April","May","June","July","August","September","October","Nov
+  ember","December"),new Array("am","am","am","am","am","am","am","am","am","am","am","am","
+  pm","pm","pm","pm","pm","pm","pm","pm","pm","pm","pm","pm"));
+  document.getElementById('calendar').style.display = 'block';
+  document.getElementById('clock').style.display = 'block';});
+--------------------------------------------------
+Titre   : Activites - CCDX Amateur Radio Club
+Lien    : http://www.digitalhamradio.org/index.php/Activites
+Résumé  : Amateur Radio Emergency Services - ARES is one of our many ways to give back to the community and one of our main reasons for keeping the frequencies ...
+Détail  :
+  Amateur Radio Emergency Services - ARES is one of our many ways to give back to the
+  community and one of our main reasons for keeping the frequencies ...
+  Amateur Radio Emergency Services - ARES is one of our many ways to give back to the
+  community and one of our main reasons for keeping the frequencies ...
+  ...
+  ...
+  ...
+  ...
+  ...
+  ...
+--------------------------------------------------

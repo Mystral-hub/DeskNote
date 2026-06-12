@@ -18,7 +18,7 @@ except Exception:
     _HAS_WINSOUND = False
 
 
-def live_typing(parametres: dict, resolve_executable_func) -> dict:
+def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) -> dict:
     """Ouvre une application et tape un texte lettre par lettre.
 
     Utilise:
@@ -141,6 +141,16 @@ def live_typing(parametres: dict, resolve_executable_func) -> dict:
 
         try:
             for lettre in texte_prepared:
+                # check for cancellation
+                try:
+                    if (cancel_event is not None and getattr(cancel_event, "is_set", lambda: False)()):
+                        return {"statut": "annule", "message": "Live typing annulé.", "donnees": None}
+                    from cancel_registry import is_all_set
+                    if is_all_set():
+                        return {"statut": "annule", "message": "Live typing annulé (stop global).", "donnees": None}
+                except Exception:
+                    pass
+
                 if lettre in caracteres_speciaux:
                     send_keys(caracteres_speciaux[lettre])
                 else:

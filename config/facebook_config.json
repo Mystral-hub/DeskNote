@@ -1,0 +1,8 @@
+{
+  "username": "jeukeng9@gmail.com",
+  "use_keyring": true,
+  "cookies_path": "data/facebook_cookies.json",
+  "headless": false,
+  "default_privacy": "public",
+  "max_media_mb": 20
+}

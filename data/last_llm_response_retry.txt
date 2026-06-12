@@ -1,0 +1,45 @@
+{
+  "action": "creer_presentation",
+  "confirmation_requise": false,
+  "message_confirmation": null,
+  "message_utilisateur": null,
+  "parametres": {
+    "titre": "Décoration Interieure",
+    "slides": [
+      {
+        "titre": "Introduction",
+        "contenu": "Décoration interieure est un art qui consiste à organiser et à aménager un espace pour créer un environnement confortable et attrayant. Elle peut être utilisée dans les maisons, les bureaux, les salles de réunion, etc.",
+        "style": {
+          "couleur_fond": "#F8F9FA",
+          "couleur_texte": "#000000",
+          "police": "Arial",
+          "taille_titre": 28,
+          "taille_contenu": 18
+        }
+      },
+      {
+        "titre": "Types de Décorations",
+        "contenu": "Il existe plusieurs types de décoration interieure, tels que les objets décoratifs, les peintures, les murs, les rideaux, les luminaires, etc.",
+        "style": {
+          "couleur_fond": "#F8F9FA",
+          "couleur_texte": "#000000",
+          "police": "Arial",
+          "taille_titre": 28,
+          "taille_contenu": 18
+        }
+      },
+      {
+        "titre": "Principes de Décoration",
+        "contenu": "Les principes de décoration interieure comprennent la symétrie, l'harmonie, la contrastation, la profusion, etc.",
+        "style": {
+          "couleur_fond": "#F8F9FA",
+          "couleur_texte": "#000000",
+          "police": "Arial",
+          "taille_titre": 28,
+          "taille_contenu": 18
+        }
+      }
+    ],
+    "repertoire_cible": "presentation"
+  }
+}

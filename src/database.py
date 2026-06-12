@@ -1,10 +1,58 @@
 import sqlite3
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
 
 
-DB_PATH = Path(__file__).parent.parent / "data" / "desknote.db"
+def _locate_db_path() -> Path:
+    """Locate an existing `desknote.db` in common bundle/source locations.
+
+    Search order (returns first hit):
+    - source `../data/desknote.db` (when running from source)
+    - PyInstaller `sys._MEIPASS/data/desknote.db`
+    - executable parent `data/desknote.db`
+    - executable parent `_internal/data/desknote.db` (observed in one-dir builds)
+
+    If none found, create a `data/` directory next to the executable (when
+    frozen) or in the repo root (when running from source) and return that
+    path for a new DB.
+    """
+    source_path = Path(__file__).parent.parent / "data" / "desknote.db"
+    if source_path.exists():
+        return source_path
+
+    if getattr(sys, "frozen", False):
+        # PyInstaller temporary bundle dir
+        if hasattr(sys, "_MEIPASS"):
+            p = Path(sys._MEIPASS) / "data" / "desknote.db"
+            if p.exists():
+                return p
+
+        exe_parent = Path(sys.executable).parent
+        # common placement from --add-data: data/ -> ./data
+        p = exe_parent / "data" / "desknote.db"
+        if p.exists():
+            return p
+
+        # some PyInstaller one-dir layouts put data under _internal/data
+        p = exe_parent / "_internal" / "data" / "desknote.db"
+        if p.exists():
+            return p
+
+        # not found: choose exe_parent/data as writable location and ensure it exists
+        target_dir = exe_parent / "data"
+        target_dir.mkdir(parents=True, exist_ok=True)
+        return target_dir / "desknote.db"
+
+    # fallback for non-frozen runs: ensure source data dir exists
+    source_dir = Path(__file__).parent.parent / "data"
+    source_dir.mkdir(parents=True, exist_ok=True)
+    return source_dir / "desknote.db"
+
+
+DB_PATH = _locate_db_path()
+print(f"Using database path: {DB_PATH}")
 
 
 class Database:
@@ -38,6 +86,19 @@ class Database:
                 parametres      TEXT,
                 statut          TEXT NOT NULL,
                 message_erreur  TEXT
+            )
+        """)
+
+        # Table pour les publications programmées sur les réseaux sociaux
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS scheduled_posts (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                service         TEXT NOT NULL,
+                media_path      TEXT,
+                caption         TEXT,
+                scheduled_for   TEXT,
+                status          TEXT DEFAULT 'pending',
+                created_at      TEXT NOT NULL
             )
         """)
 
