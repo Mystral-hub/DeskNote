@@ -29,6 +29,23 @@ def resoudre_chemin(nom_dossier: str | None) -> Path | None:
     if chemin.is_absolute() and chemin.exists():
         return chemin
 
+    # Si l'utilisateur a fourni seulement un nom de fichier (ex: "voitures.jpg"),
+    # rechercher ce fichier dans les dossiers connus (Pictures, Desktop, ...)
+    # et retourner le premier résultat trouvé.
+    # On considère qu'un nom de fichier ne contient pas de séparateur de chemin.
+    if chemin.name == nom_dossier and (not chemin.parts or len(chemin.parts) == 1):
+        from pathlib import Path as _Path
+
+        # recherche basique en utilisant la fonction utilitaire
+        resultats = rechercher_fichier(nom_dossier)
+        if resultats:
+            return _Path(resultats[0])
+
+    # Supporter chemins relatifs par rapport au répertoire de base
+    relatif = (Path.cwd() / nom_dossier)
+    if relatif.exists():
+        return relatif
+
     return None
 
 

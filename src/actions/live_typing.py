@@ -45,6 +45,14 @@ def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) ->
         "sound_clicks", default_settings.get("sound_clicks", True)))
     # maximum line length in characters to avoid horizontal scrollbar in target app
     max_line_length = int(parametres.get("max_line_length", 80))
+    # whether to send Ctrl+S at the end to auto-save the document (Notepad)
+    auto_save = bool(parametres.get("auto_save", False))
+    # per-character delay (seconds); can be overridden via param 'char_delay' or 'typing_delay'
+    try:
+        char_delay = float(parametres.get(
+            "char_delay", parametres.get("typing_delay", 0.05)))
+    except Exception:
+        char_delay = 0.1
 
     def _wrap_text_for_live_typing(s: str, width: int) -> str:
         # preserve existing paragraphs and wrap each paragraph
@@ -73,13 +81,28 @@ def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) ->
         if ouvrir_app:
             target = shutil.which(application) or shutil.which(
                 f"{application}.exe") or application
+            # support optional application arguments (e.g., file path)
+            app_args = parametres.get("application_args")
+            cmd = None
             try:
+                if app_args and isinstance(app_args, (list, tuple)):
+                    cmd = [str(target)] + [str(a) for a in app_args]
+                else:
+                    cmd = [str(target)]
+
                 p = subprocess.Popen(
-                    [str(target)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, close_fds=True)
+                    cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, close_fds=True)
             except Exception:
-                p = subprocess.Popen(str(
-                    target), shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, close_fds=True)
-            pid = getattr(p, "pid", None)
+                # fallback to shell invocation (accepts a single string)
+                try:
+                    shell_cmd = " ".join(
+                        [str(target)] + (list(app_args) if app_args else []))
+                    p = subprocess.Popen(
+                        shell_cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, close_fds=True)
+                except Exception:
+                    p = None
+
+            pid = getattr(p, "pid", None) if p is not None else None
 
         # --- étape 2 : se connecter à l'application (préférer PID) ---
         app = None
@@ -115,6 +138,13 @@ def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) ->
         fenetre = app.top_window()
         fenetre.set_focus()
         time.sleep(0.2)
+
+        # ensure we start with an empty document: select all and delete
+        try:
+            send_keys('^a{DEL}')
+            time.sleep(0.05)
+        except Exception:
+            pass
 
         # --- étape 3 : préparer et taper lettre par lettre ---
         texte_prepared = _wrap_text_for_live_typing(texte, max_line_length)
@@ -155,7 +185,7 @@ def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) ->
                     send_keys(caracteres_speciaux[lettre])
                 else:
                     send_keys(lettre, with_spaces=True)
-                time.sleep(0.05)
+                time.sleep(char_delay)
         finally:
             if sound_thread is not None:
                 stop_sound.set()
@@ -163,6 +193,17 @@ def live_typing(parametres: dict, resolve_executable_func, cancel_event=None) ->
                     sound_thread.join(timeout=0.5)
                 except Exception:
                     pass
+
+        # auto-save: send Ctrl+S to the focused window (best-effort)
+        if auto_save:
+            try:
+                # small pause to ensure typing finished and window is focused
+                time.sleep(0.1)
+                send_keys('^s')
+                # brief pause after saving
+                time.sleep(0.1)
+            except Exception:
+                pass
 
         return {
             "statut": "succes",

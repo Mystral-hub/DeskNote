@@ -334,6 +334,9 @@ class Executor:
         """Publier sur Facebook ou programmer une publication."""
         media = parametres.get("nom_fichier") or parametres.get(
             "media_path") or parametres.get("chemin")
+        # support explicit target folder: search first inside that folder
+        repertoire_cible = parametres.get(
+            "repertoire_cible") or parametres.get("dossier")
         caption = parametres.get("texte") or parametres.get(
             "caption") or parametres.get("message") or ""
         scheduled_for = parametres.get(
@@ -352,6 +355,31 @@ class Executor:
                 res = fb_schedule_post(self.db, media, caption, when)
                 return self._resultat(res.get("statut", "echec"), res.get("message", ""), res.get("donnees"))
             else:
+                # If a target folder was provided, try to resolve the media inside it
+                try:
+                    if repertoire_cible and media:
+                        from pathlib import Path
+                        dir_path = resoudre_chemin(repertoire_cible)
+                        if dir_path and dir_path.exists() and dir_path.is_dir():
+                            candidate = Path(dir_path) / media
+                            if candidate.exists() and candidate.is_file():
+                                media = str(candidate)
+                            else:
+                                # search inside the folder for matching filename
+                                found = None
+                                for f in Path(dir_path).rglob("*"):
+                                    try:
+                                        if f.is_file() and media.lower() in f.name.lower():
+                                            found = f
+                                            break
+                                    except Exception:
+                                        continue
+                                if found:
+                                    media = str(found)
+                except Exception:
+                    # fall back to original media value on any error
+                    pass
+
                 res = fb_post_now(media, caption)
                 return self._resultat(res.get("statut", "echec"), res.get("message", ""), res.get("donnees"))
         except Exception as e:

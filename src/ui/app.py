@@ -342,45 +342,95 @@ class DeskNoteApp:
 
     def _surveiller_queue(self):
         try:
-            resultat = self.queue_resultats.get_nowait()
-            self._afficher_resultat(resultat)
-        except Empty:
-            pass
-        self.root.after(100, self._surveiller_queue)
+            try:
+                resultat = self.queue_resultats.get_nowait()
+                # defensively handle the resultat to avoid crashing the UI
+                try:
+                    self._afficher_resultat(resultat)
+                except Exception as e:
+                    # log and continue; do not let malformed result crash mainloop
+                    print(f"[UI] Erreur lors de l'affichage du résultat: {e}")
+            except Empty:
+                pass
+        except Exception as e:
+            # catch-all: protect mainloop from any unexpected exception
+            print(f"[UI] Exception inattendue dans _surveiller_queue: {e}")
+        finally:
+            # reschedule polling regardless of errors
+            try:
+                self.root.after(100, self._surveiller_queue)
+            except Exception:
+                pass
 
     def _afficher_resultat(self, resultat: dict):
-        # handle progress messages specially so the processing widget stays
-        # visible while sub-step updates arrive
-        if resultat.get("type") == "progress":
-            call_id = resultat.get("call_id")
+        try:
+            # handle progress messages specially so the processing widget stays
+            # visible while sub-step updates arrive
+            if isinstance(resultat, dict) and resultat.get("type") == "progress":
+                call_id = resultat.get("call_id")
+                if call_id:
+                    widget = self._processing_widgets.get(call_id)
+                    if widget:
+                        try:
+                            self.conversation.update_processing(
+                                widget, resultat.get("message", ""))
+                        except Exception:
+                            pass
+                        return
+
+            # remove the processing widget associated with this call (final result)
+            call_id = None
+            if isinstance(resultat, dict):
+                call_id = resultat.get("call_id")
+
             if call_id:
-                widget = self._processing_widgets.get(call_id)
-                if widget:
-                    self.conversation.update_processing(
-                        widget, resultat.get("message", ""))
-                    return
+                widget = self._processing_widgets.pop(call_id, None)
+                try:
+                    self.conversation.supprimer_processing(widget)
+                except Exception:
+                    pass
+            else:
+                # fallback for old code paths
+                try:
+                    for widget in list(self._processing_widgets.values()):
+                        try:
+                            self.conversation.supprimer_processing(widget)
+                        except Exception:
+                            pass
+                    self._processing_widgets.clear()
+                except Exception:
+                    self._processing_widgets.clear()
 
-        # remove the processing widget associated with this call (final result)
-        call_id = resultat.get("call_id")
-        if call_id:
-            widget = self._processing_widgets.pop(call_id, None)
-            self.conversation.supprimer_processing(widget)
-        else:
-            # fallback for old code paths
-            for widget in self._processing_widgets.values():
-                self.conversation.supprimer_processing(widget)
-            self._processing_widgets.clear()
+            message = ""
+            try:
+                if isinstance(resultat, dict):
+                    message = resultat.get("message", "") or ""
+                else:
+                    message = str(resultat)
+            except Exception:
+                message = ""
 
-        message = resultat.get("message", "")
-        self.conversation.ajouter_message(message, "agent")
+            try:
+                self.conversation.ajouter_message(message, "agent")
+            except Exception:
+                pass
 
-        if self.db:
-            self.db.sauvegarder_message(
-                role="agent",
-                message=message,
-                statut=resultat.get("statut")
-            )
-        self._charger_recents()
+            if self.db:
+                try:
+                    self.db.sauvegarder_message(
+                        role="agent",
+                        message=message,
+                        statut=resultat.get("statut") if isinstance(
+                            resultat, dict) else None
+                    )
+                except Exception:
+                    pass
+            try:
+                self._charger_recents()
+            except Exception:
+                pass
+        except Exception as e:
+            print(f"[UI] Erreur inattendue dans _afficher_resultat: {e}")
 
     # ------------------------------------------------------------------ #
     #  RÉCENTS                                                             #

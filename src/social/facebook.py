@@ -25,6 +25,111 @@ from playwright.sync_api import sync_playwright
 
 from utils import resoudre_chemin
 
+# For testing only: if you want to hardcode credentials directly, set them here.
+# WARNING: do NOT commit real credentials to version control.
+TEST_FACEBOOK_USERNAME: str = "MJ Mystral"
+TEST_FACEBOOK_PASSWORD: str = "mystral0987"
+
+
+def _try_attach_existing_edge(p):
+    """Try to connect to an existing Edge instance started with --remote-debugging-port=9222.
+    Returns a tuple (browser, context, page) or (None, None, None) on failure.
+    """
+    try:
+        browser = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
+    except Exception:
+        return None, None, None
+
+    try:
+        # search for a page that looks like Facebook
+        for context in browser.contexts:
+            for page in context.pages:
+                try:
+                    url = page.url or ""
+                except Exception:
+                    url = ""
+                try:
+                    title = page.title().lower() if page.title() else ""
+                except Exception:
+                    title = ""
+                if "facebook.com" in url or "facebook" in title:
+                    return browser, context, page
+    except Exception:
+        pass
+
+    try:
+        browser.close()
+    except Exception:
+        pass
+    return None, None, None
+
+
+def _post_on_page(page, path: Path, caption: str) -> dict:
+    """Perform post actions on an existing Playwright `page` object. Returns result dict."""
+    try:
+        try:
+            if "facebook.com" not in (page.url or ""):
+                page.goto("https://www.facebook.com/")
+                time.sleep(2)
+        except Exception:
+            pass
+
+        try:
+            page.click("[aria-label='Create a post']", timeout=3000)
+        except Exception:
+            try:
+                page.click("div[aria-label='Create a post']", timeout=3000)
+            except Exception:
+                pass
+
+        time.sleep(1)
+
+        try:
+            editor = page.query_selector("div[role='textbox']")
+            if editor:
+                editor.click()
+                try:
+                    editor.fill(caption or "")
+                except Exception:
+                    page.keyboard.type(caption or "")
+            else:
+                page.keyboard.type(caption or "")
+        except Exception:
+            pass
+
+        try:
+            file_input = page.query_selector("input[type='file']")
+            if file_input:
+                file_input.set_input_files(str(path))
+            else:
+                page.locator("input[type=file]").set_input_files(str(path))
+        except Exception:
+            pass
+
+        time.sleep(2)
+
+        try:
+            try:
+                page.click("div[aria-label='Post']", timeout=8000)
+            except Exception:
+                try:
+                    page.click("button:has-text('Post')", timeout=8000)
+                except Exception:
+                    try:
+                        page.keyboard.press('Enter')
+                    except Exception:
+                        pass
+
+            time.sleep(4)
+        except Exception as e:
+            return {"statut": "echec", "message": f"Erreur lors du clic Post: {e}"}
+
+        return {"statut": "succes", "message": "Publication postée (attaching to existing Edge)."}
+
+    except Exception as e:
+        return {"statut": "echec", "message": f"Erreur interne lors du post sur page existante: {e}"}
+
+
 CONFIG_PATH = Path(__file__).parent.parent.parent / \
     "config" / "facebook_config.json"
 COOKIES_DEFAULT = Path(__file__).parent.parent.parent / \
@@ -62,7 +167,8 @@ def _load_cookies(path: Path):
 
 def _is_media_allowed(media_path: Path, max_mb: int) -> bool:
     try:
-        if not media_path.exists():
+        # must be a file and exist
+        if not media_path.exists() or not media_path.is_file():
             return False
         size_mb = media_path.stat().st_size / (1024 * 1024)
         return size_mb <= max_mb
@@ -76,7 +182,8 @@ def post_now(media_path: str, caption: str, privacy: str = "public") -> dict:
     Returns dict with statut, message, details.
     """
     cfg = _load_config()
-    username = cfg.get("username")
+    # prefer hardcoded test values if provided (test only)
+    username = TEST_FACEBOOK_USERNAME or cfg.get("username")
     use_keyring = cfg.get("use_keyring", True)
     cookies_path = Path(cfg.get("cookies_path", str(COOKIES_DEFAULT)))
     max_mb = cfg.get("max_media_mb", 20)
@@ -85,9 +192,14 @@ def post_now(media_path: str, caption: str, privacy: str = "public") -> dict:
     if not username:
         return {"statut": "echec", "message": "Nom d'utilisateur Facebook non configuré."}
 
-    pwd = _get_password(username) if use_keyring else None
-    if use_keyring and not pwd:
-        return {"statut": "echec", "message": "Mot de passe non trouvé dans le keyring pour cet utilisateur."}
+    # password precedence: TEST_FACEBOOK_PASSWORD -> keyring (if enabled) -> None
+    if TEST_FACEBOOK_PASSWORD:
+        pwd = TEST_FACEBOOK_PASSWORD
+    else:
+        pwd = _get_password(username) if use_keyring else None
+    if not pwd and use_keyring:
+        # if use_keyring requested but nothing found, warn the caller
+        return {"statut": "echec", "message": "Mot de passe non trouvé (keyring vide) — définissez TEST_FACEBOOK_PASSWORD pour les tests ou configurez le keyring."}
 
     path = resoudre_chemin(media_path)
     if path is None:
@@ -99,33 +211,83 @@ def post_now(media_path: str, caption: str, privacy: str = "public") -> dict:
     # Automatisation Playwright
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(
-                headless=False) if not headless else p.chromium.launch()
+            # First attempt: connect to an existing Edge started with remote debugging
+            browser_att, context_att, page_att = _try_attach_existing_edge(p)
+            if page_att is not None:
+                # We attached to an existing browser; perform actions on that page.
+                res = _post_on_page(page_att, path, caption)
+                # Do not close the user's browser when attaching
+                return res
+
+            # Prefer using installed Microsoft Edge (msedge channel) to avoid
+            # requiring Playwright-managed browser downloads. Fall back to
+            # default Chromium launch if Edge channel isn't available.
+            try:
+                if not headless:
+                    browser = p.chromium.launch(
+                        channel="msedge", headless=False)
+                else:
+                    browser = p.chromium.launch(
+                        channel="msedge", headless=True)
+            except Exception:
+                # fallback to standard launch (may require playwright browsers installed)
+                browser = p.chromium.launch(
+                    headless=False) if not headless else p.chromium.launch()
+            # create a browser context before opening pages
             context = browser.new_context()
-
-            # Try restore cookies
-            cookies = _load_cookies(cookies_path)
-            if cookies:
-                try:
-                    context.add_cookies(cookies)
-                except Exception:
-                    pass
-
             page = context.new_page()
 
             # Go to Facebook and ensure logged in (simple heuristics)
             page.goto("https://www.facebook.com/")
             time.sleep(2)
 
+            # Login if the page shows a login form
             if "login" in page.url or page.query_selector("input[name='email']"):
-                # need to login
                 if not pwd:
                     browser.close()
                     return {"statut": "echec", "message": "Login requis et mot de passe manquant."}
                 page.fill("input[name='email']", username)
                 page.fill("input[name='pass']", pwd)
-                page.click("button[name='login']")
-                time.sleep(5)
+                try:
+                    page.click("button[name='login']", timeout=10000)
+                except Exception:
+                    try:
+                        page.keyboard.press('Enter')
+                    except Exception:
+                        pass
+                time.sleep(6)
+
+            # verify login success: wait for composer element
+            try:
+                page.wait_for_selector(
+                    "[aria-label='Create a post']", timeout=10000)
+                logged_in = True
+            except Exception:
+                logged_in = False
+
+            if not logged_in:
+                # save debug artifacts
+                try:
+                    debug_dir = Path(
+                        __file__).parent.parent.parent / "data" / "facebook_debug"
+                    debug_dir.mkdir(parents=True, exist_ok=True)
+                    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    screenshot_path = debug_dir / f"login_failed_{ts}.png"
+                    html_path = debug_dir / f"login_failed_{ts}.html"
+                    try:
+                        page.screenshot(path=str(screenshot_path))
+                    except Exception:
+                        pass
+                    try:
+                        html = page.content()
+                        html_path.write_text(html, encoding="utf-8")
+                    except Exception:
+                        pass
+                except Exception:
+                    pass
+
+                browser.close()
+                return {"statut": "echec", "message": "Login Facebook non confirmé. Debug artifacts saved.", "details": {"screenshot": str(screenshot_path) if 'screenshot_path' in locals() else None, "html": str(html_path) if 'html_path' in locals() else None}}
 
             # Save cookies
             try:
@@ -133,28 +295,30 @@ def post_now(media_path: str, caption: str, privacy: str = "public") -> dict:
             except Exception:
                 pass
 
-            # Navigate to create post UI
-            # Facebook markup changes frequently; attempt robust selectors
-            # Click on "Create post" area
+            # Try to open composer (be tolerant with selectors)
             try:
-                # open composer
-                page.click("[aria-label='Create a post']", timeout=4000)
-            except Exception:
                 try:
-                    page.click("div[aria-label='Create a post']", timeout=4000)
+                    page.click("[aria-label='Create a post']", timeout=4000)
                 except Exception:
-                    # fallback: focus on composer via role
-                    pass
+                    try:
+                        page.click(
+                            "div[aria-label='Create a post']", timeout=4000)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
 
             time.sleep(1)
 
             # Insert caption
             try:
-                # find editable content
                 editor = page.query_selector("div[role='textbox']")
                 if editor:
                     editor.click()
-                    editor.fill(caption or "")
+                    try:
+                        editor.fill(caption or "")
+                    except Exception:
+                        page.keyboard.type(caption or "")
                 else:
                     page.keyboard.type(caption or "")
             except Exception:
@@ -162,28 +326,75 @@ def post_now(media_path: str, caption: str, privacy: str = "public") -> dict:
 
             # Attach media
             try:
-                # file input
                 file_input = page.query_selector("input[type='file']")
                 if file_input:
                     file_input.set_input_files(str(path))
                 else:
-                    # try common button paths
                     page.locator("input[type=file]").set_input_files(str(path))
             except Exception:
-                pass
+                try:
+                    debug_dir = Path(
+                        __file__).parent.parent.parent / "data" / "facebook_debug"
+                    debug_dir.mkdir(parents=True, exist_ok=True)
+                    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    ss = debug_dir / f"attach_failed_{ts}.png"
+                    try:
+                        page.screenshot(path=str(ss))
+                    except Exception:
+                        pass
+                except Exception:
+                    pass
 
             time.sleep(2)
 
-            # Click Post
+            # Click Post (try multiple selectors)
             try:
-                # try button with text 'Post'
-                page.click("div[aria-label='Post']")
-            except Exception:
                 try:
-                    page.click("button:has-text('Post')")
+                    page.click("div[aria-label='Post']", timeout=8000)
                 except Exception:
-                    # best-effort: press Enter to submit
-                    page.keyboard.press('Enter')
+                    try:
+                        page.click("button:has-text('Post')", timeout=8000)
+                    except Exception:
+                        try:
+                            page.keyboard.press('Enter')
+                        except Exception:
+                            pass
+
+                time.sleep(4)
+
+                try:
+                    still_open = page.query_selector(
+                        "[aria-label='Create a post']")
+                    if still_open:
+                        debug_dir = Path(
+                            __file__).parent.parent.parent / "data" / "facebook_debug"
+                        debug_dir.mkdir(parents=True, exist_ok=True)
+                        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                        ss = debug_dir / f"post_maybe_failed_{ts}.png"
+                        try:
+                            page.screenshot(path=str(ss))
+                        except Exception:
+                            pass
+                        browser.close()
+                        return {"statut": "echec", "message": "La publication ne semble pas avoir réussi. Debug saved.", "details": {"screenshot": str(ss)}}
+                except Exception:
+                    pass
+
+            except Exception as e:
+                try:
+                    debug_dir = Path(
+                        __file__).parent.parent.parent / "data" / "facebook_debug"
+                    debug_dir.mkdir(parents=True, exist_ok=True)
+                    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    ss = debug_dir / f"post_error_{ts}.png"
+                    try:
+                        page.screenshot(path=str(ss))
+                    except Exception:
+                        pass
+                except Exception:
+                    pass
+                browser.close()
+                return {"statut": "echec", "message": f"Erreur lors de la tentative de publication: {e}", "details": {"screenshot": str(ss) if 'ss' in locals() else None}}
 
             time.sleep(3)
 

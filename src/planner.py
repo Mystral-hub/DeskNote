@@ -13,6 +13,7 @@ else:
         Llama = None  # runtime will raise a clear error if model code is invoked without the library
 
 from prompts import SYSTEM_PROMPT
+import threading
 
 
 MODELS_DIR = Path(__file__).parent.parent / "models"
@@ -42,6 +43,11 @@ class Planner:
             n_gpu_layers=0,
             verbose=False
         )
+
+        # Llama C backend is not safe to call concurrently from multiple
+        # Python threads when using a single Llama instance. Protect calls
+        # with a lock to serialize access and avoid segmentation faults.
+        self._llm_lock = threading.Lock()
 
         print("Modèle chargé et prêt.")
 
@@ -107,15 +113,17 @@ class Planner:
                 + " Ne retourne aucun texte explicatif supplémentaire."
             )
 
-        reponse = self.llm.create_chat_completion(
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_message}
-            ],
-            max_tokens=2000,
-            temperature=0.0,
-            top_p=1.0,
-        )
+        # serialize access to the LLM instance
+        with self._llm_lock:
+            reponse = self.llm.create_chat_completion(
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_message}
+                ],
+                max_tokens=2000,
+                temperature=0.0,
+                top_p=1.0,
+            )
 
         # Debug: save the full raw response object when possible
         try:

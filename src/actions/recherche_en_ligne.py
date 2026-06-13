@@ -53,7 +53,7 @@ def _fetch_page_text(url: str, timeout: int = 10) -> str | None:
         return None
 
 
-def _split_text_into_lines(text: str, width: int = 90, min_lines: int = 10) -> list[str]:
+def _split_text_into_lines(text: str, width: int = 90, min_lines: int = 20) -> list[str]:
     paragraphs = [p.strip() for p in re.split(r"\n+", text) if p.strip()]
     lines: list[str] = []
 
@@ -105,68 +105,91 @@ def recherche_en_ligne(parametres: dict, resolve_executable_func) -> dict:
     except Exception as e:
         return {"statut": "echec", "message": f"Erreur lors de la recherche : {e}", "donnees": None}
 
-    lignes = [f"Résultats de recherche pour : {requete}\n", "=" * 50 + "\n"]
+    # Build a concise, coherent summary to keep the live-typing output
+    # short (roughly 10-15 lines) and useful for note-taking. Only one
+    # source will be included per your request.
+    lines = [f"Résultats de recherche pour : {requete}", "=" * 50]
+
     if not resultats:
-        lignes.append("Aucun résultat n'a été trouvé pour cette recherche.")
+        lines.append("Aucun résultat trouvé.")
     else:
-        for r in resultats:
-            titre = r.get("title", "")
-            lien = r.get("href", "")
-            extrait = r.get("body", "") or ""
+        # only include a single best result
+        r = resultats[0]
+        titre = (r.get("title") or "").strip()
+        lien = (r.get("href") or "").strip()
+        extrait = (r.get("body") or "").strip()
 
-            lignes.append(f"Titre   : {titre}")
-            lignes.append(f"Lien    : {lien}")
+        # Attempt to get richer page text when excerpt is short
+        source_text = extrait
+        if len(extrait.split()) < 50 and lien:
+            page_text = _fetch_page_text(lien)
+            if page_text:
+                source_text = page_text
 
-            # Paragraphes courts ou résumé insuffisant : enrichir avec le texte de la page
-            lignes.append(f"Résumé  : {extrait}")
-            source_text = extrait
-            if len(extrait.split()) < 40:
-                page_text = _fetch_page_text(lien)
-                if page_text:
-                    source_text = page_text
-                    lignes.append(
-                        "Source  : contenu enrichi depuis la page liée")
+        # create a multi-line summary from the source text (best-effort)
+        detail_lines = _split_text_into_lines(
+            source_text, width=90, min_lines=20)
 
-            detail_lines = _split_text_into_lines(
-                source_text, width=90, min_lines=10)
-            if detail_lines:
-                lignes.append("Détail  :")
-                for line in detail_lines:
-                    lignes.append(f"  {line}")
+        lines.append(f"Titre : {titre}")
+        lines.append(f"Lien  : {lien}")
+        lines.append("Résumé :")
+        # include up to ~15 lines from detail_lines; these are not translated
+        for s in detail_lines[:15]:
+            lines.append(f"  {s}")
 
-            lignes.append("-" * 50)
+        # create final concise content: include metadata and raw text truncated
+        # to a small number of lines (5-10) as requested.
+        max_text_lines = int(parametres.get("text_lines", 10))
 
-    contenu = "\n".join(lignes)
+        # extract raw text lines from the chosen source_text
+        raw_lines = _split_text_into_lines(
+            source_text, width=90, min_lines=max_text_lines)
+        truncated_text_lines = raw_lines[:max_text_lines]
+
+        # assemble final content: metadata + blank line + truncated raw text
+        metadata_lines = [f"Requête : {requete}", f"Lien    : {lien}",]
+        concise_content = "\n".join(
+            metadata_lines + ["", *truncated_text_lines])
 
     if sauvegarder:
         nom_fichier = nom_fichier or f"recherche_{requete[:20].replace(' ', '_')}.txt"
         chemin_dossier = resoudre_chemin(
             repertoire_cible) or Path.home() / "Documents"
         chemin_fichier = chemin_dossier / nom_fichier
-        chemin_fichier.write_text(contenu, encoding="utf-8")
 
-        # Ouvre le fichier complet immédiatement pour que l'utilisateur voie
-        # la sortie enrichie, même si le live typing est toujours en cours.
+        # ensure directory exists and create the target file beforehand to
+        # avoid Notepad showing a confirmation popup when the file is missing
         try:
-            os.startfile(str(chemin_fichier))
+            chemin_dossier.mkdir(parents=True, exist_ok=True)
+            if not chemin_fichier.exists():
+                chemin_fichier.write_text("", encoding="utf-8")
         except Exception:
             pass
 
-        # Also type a preview of the results live into Notepad.
-        # Run typing in a background thread so the action can return quickly
-        # (prevents main timeout while typing continues).
+        # prepare metadata (3 important fields) and final content to save
         try:
-            preview_lines = 40
-            all_lines = contenu.splitlines()
-            preview_text = "\n".join(all_lines[:preview_lines])
-            if len(all_lines) > preview_lines:
-                preview_text += "\n\n... suite dans le fichier sauvegardé"
+            from datetime import datetime
+            date_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        except Exception:
+            date_str = ""
 
+        metadata_lines = [
+            f"Requête : {requete}",
+            f"Date    : {date_str}",
+            f"Résultats trouvés : {len(resultats)}",
+        ]
+
+        final_content = "\n".join(metadata_lines) + "\n\n" + concise_content
+
+        # Launch Notepad with the target file and type the content into it.
+        try:
             lt_params = {
                 "application": "notepad",
-                "texte": preview_text,
+                "application_args": [str(chemin_fichier)],
+                "texte": "\n".join(metadata_lines + ["", concise_content]),
                 "ouvrir_app": True,
                 "max_line_length": 80,
+                "auto_save": True,
             }
 
             def _run_live_typing(params, resolver, cancel_ev=None):
@@ -174,10 +197,14 @@ def recherche_en_ligne(parametres: dict, resolve_executable_func) -> dict:
                     action_live_typing(
                         params, resolver, cancel_event=cancel_ev)
                 except Exception:
-                    return
+                    # fallback: if typing fails, write the file directly
+                    try:
+                        chemin_dossier.mkdir(parents=True, exist_ok=True)
+                        chemin_fichier.write_text(
+                            "\n".join(metadata_lines + ["", concise_content]), encoding="utf-8")
+                    except Exception:
+                        pass
 
-            # pass through any cancel event from the parent action so the
-            # preview typing can be stopped by the same global stop.
             cancel_ev = None
             try:
                 cancel_ev = parametres.get("_cancel_event")
@@ -188,8 +215,15 @@ def recherche_en_ligne(parametres: dict, resolve_executable_func) -> dict:
                 lt_params, resolve_executable_func, cancel_ev), daemon=True)
             thr.start()
         except Exception:
-            # live typing is best-effort; do not fail the whole action
-            pass
-        return {"statut": "succes", "message": f"Recherche terminée. Résultats sauvegardés dans : {chemin_fichier}", "donnees": {"path": str(chemin_fichier)}}
+            # fallback: write the file directly if we cannot launch Notepad
+            try:
+                chemin_dossier.mkdir(parents=True, exist_ok=True)
+                chemin_fichier.write_text(
+                    "\n".join(metadata_lines + ["", concise_content]), encoding="utf-8")
+            except Exception:
+                pass
 
-    return {"statut": "succes", "message": "Recherche terminée. Navigateur ouvert.", "donnees": None}
+        return {"statut": "succes", "message": f"Recherche terminée. Résultat tapé dans : {chemin_fichier}", "donnees": {"path": str(chemin_fichier)}}
+
+    # no saving requested: just return concise content and open browser
+    return {"statut": "succes", "message": "Recherche terminée. Navigateur ouvert.", "donnees": {"preview": concise_content}}
