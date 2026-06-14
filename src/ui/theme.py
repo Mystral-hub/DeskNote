@@ -43,8 +43,8 @@ THEMES = {
         "insertbackground":  "#231F20",
 
         # --- bulles de conversation ---
-        "bulle_user_bg":     "#E8E8E8",
-        "bulle_user_fg":     "#231F20",
+        "bulle_user_bg":     "#1B4742",
+        "bulle_user_fg":     "#F5EDEF",
         "bulle_agent_bg":    "#FFFFFF",
         "bulle_agent_fg":    "#231F20",
 

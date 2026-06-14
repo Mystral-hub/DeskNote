@@ -15,6 +15,7 @@ from .sidebar import Sidebar
 from .conversation import Conversation
 from .input_area import InputArea
 from .apps_panel import AppsPanel
+from PIL import Image, ImageTk
 
 
 # ------------------------------------------------------------------ #
@@ -33,19 +34,21 @@ ICONE_WORD = ICONS_DIR / "word-icon.png"
 ICONE_EXCEL = ICONS_DIR / "excel-icon.png"
 ICONE_POWERPOINT = ICONS_DIR / "powerpoint-icon.png"
 ICONE_RECHERCHE = ICONS_DIR / "search-icon.png"
-ICONE_LOGO = ICONS_DIR / "logo-icon.png"
+ICONE_LOGO = ICONS_DIR / "desknote-icon.jpeg"
 
 
 class DeskNoteApp:
 
     def __init__(self, planner=None, executor=None,
-                 observer=None, database=None, queue_resultats: Queue = None):
+                 observer=None, database=None, queue_resultats: Queue = None,
+                 speech_recognizer=None):
 
         self.planner = planner
         self.executor = executor
         self.observer = observer
         self.db = database
         self.queue_resultats = queue_resultats or Queue()
+        self.speech_recognizer = speech_recognizer
 
         self.current_theme = "light"
         self.theme = get_theme(self.current_theme)
@@ -80,6 +83,30 @@ class DeskNoteApp:
         self.root.grid_rowconfigure(1, weight=0)
 
         self.root.bind("<Configure>", self._on_window_configure)
+
+        # set window/application icon (taskbar + top-left) if available
+        try:
+            ico_path = ICONE_LOGO
+            if ico_path and ico_path.exists():
+                try:
+                    img = Image.open(ico_path)
+                    self._icon_img = ImageTk.PhotoImage(img)
+                    try:
+                        # iconphoto works on many platforms including Windows
+                        self.root.iconphoto(False, self._icon_img)
+                    except Exception:
+                        pass
+                except Exception:
+                    pass
+            # also try .ico if present for Windows taskbar
+            ico_file = ICONS_DIR / "desknote-icon.ico"
+            if ico_file.exists():
+                try:
+                    self.root.iconbitmap(str(ico_file))
+                except Exception:
+                    pass
+        except Exception:
+            pass
 
     def _build_layout(self):
         """Construit et place tous les composants."""
@@ -125,7 +152,7 @@ class DeskNoteApp:
             on_send=self._on_send,
             on_attach=self._on_attach,
             on_voice=self._on_voice,
-            on_stop=self._on_stop
+            on_stop=self._on_stop, speech_recognizer=self.speech_recognizer
         )
         self.input_area.grid(row=1, column=1, sticky="ew")
 
@@ -172,6 +199,11 @@ class DeskNoteApp:
         # propager aux sous-composants
         self.sidebar._refresh_colors()
         self.conversation.appliquer_theme(self.current_theme)
+        # force explicit bubble colors (ttkbootstrap may override)
+        try:
+            self.conversation.forcer_couleurs_bulles()
+        except Exception:
+            pass
         self.input_area.appliquer_theme(self.current_theme)
         self.apps_panel.appliquer_theme(self.current_theme)
 

@@ -35,6 +35,16 @@ def main():
         executor = None
         observer = None
 
+    # --- chargement du moteur speech-to-text au démarrage (pour fluidité) ---
+    recognizer = None
+    try:
+        print("[Init] Chargement du moteur speech-to-text...")
+        from vocals.speech_recognizer import SpeechRecognizer
+        recognizer = SpeechRecognizer(model_size="base", language="fr")
+    except Exception as e:
+        print(f"[Warn] Impossible de charger le speech recognizer: {e}")
+        recognizer = None
+
     # --- lancement de l'interface ---
     print("[Init] Lancement de l'interface...")
     app = DeskNoteApp(
@@ -42,7 +52,7 @@ def main():
         executor=executor,
         observer=observer,
         database=db,
-        queue_resultats=queue
+        queue_resultats=queue, speech_recognizer=recognizer
     )
     app.lancer()
 

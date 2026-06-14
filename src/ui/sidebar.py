@@ -52,7 +52,7 @@ class Sidebar(tk.Frame):
         """Zone logo en haut de la sidebar."""
         self.logo_frame = tk.Frame(self, bg=self.theme["sidebar_bg"])
         self.logo_frame.pack(fill="x", padx=10, pady=(16, 8))
-
+        # Sidebar shows text label only; logo moved to welcome message
         self.logo_label = tk.Label(
             self.logo_frame,
             text="DeskNote",
@@ -199,7 +199,7 @@ class Sidebar(tk.Frame):
         self.config(width=SIDEBAR_WIDTH_REDUCED)
 
         # cacher les éléments texte
-        self.logo_label.config(text="DN")
+        self.logo_label.config(text="DN", image="")
         self.new_task_btn.config(text="+")
         self.search_frame.pack_forget()
         self.recents_label.pack_forget()
@@ -212,7 +212,7 @@ class Sidebar(tk.Frame):
         self.config(width=SIDEBAR_WIDTH_FULL)
 
         # rétablir les éléments texte
-        self.logo_label.config(text="DeskNote")
+        self.logo_label.config(text="DeskNote", image="")
         self.new_task_btn.config(text="+ Nouvelle tâche")
         self.search_frame.pack(fill="x", padx=10, pady=(4, 8))
         self.recents_label.pack(fill="x", padx=14, pady=(8, 4))

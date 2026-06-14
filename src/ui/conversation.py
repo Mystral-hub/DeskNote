@@ -1,7 +1,11 @@
 # src/ui/conversation.py
 
 import tkinter as tk
+from pathlib import Path
+from PIL import Image, ImageTk
 from .theme import get_theme
+
+ICONS_DIR = Path(__file__).parent.parent.parent / "assets" / "icons"
 
 
 class Conversation(tk.Frame):
@@ -65,13 +69,26 @@ class Conversation(tk.Frame):
         )
         self.bienvenue_frame.pack(expand=True, pady=60)
 
-        tk.Label(
-            self.bienvenue_frame,
-            text="DeskNote",
-            bg=self.theme["bg"],
-            fg=self.theme["btn_send_bg"],
-            font=("Segoe UI Semibold", 20)
-        ).pack()
+        # try to show an enlarged logo above the welcome subtitle
+        try:
+            logo_path = ICONS_DIR / "desknote-icon.jpeg"
+            if not logo_path.exists():
+                logo_path = ICONS_DIR / "logo-icon.png"
+            if logo_path.exists():
+                img = Image.open(logo_path)
+                h = 96
+                w = int(img.width * (h / img.height))
+                img_resized = img.resize((w, h))
+                self._welcome_logo_img = ImageTk.PhotoImage(img_resized)
+                tk.Label(
+                    self.bienvenue_frame,
+                    image=self._welcome_logo_img,
+                    bg=self.theme["bg"]
+                ).pack(pady=(0, 12))
+            else:
+                self._welcome_logo_img = None
+        except Exception:
+            self._welcome_logo_img = None
 
         tk.Label(
             self.bienvenue_frame,
@@ -79,7 +96,7 @@ class Conversation(tk.Frame):
             bg=self.theme["bg"],
             fg=self.theme["fg_muted"],
             font=("Segoe UI", 11)
-        ).pack(pady=(8, 0))
+        ).pack()
 
     # ------------------------------------------------------------------ #
     #  BULLES DE MESSAGES                                                  #
@@ -98,6 +115,8 @@ class Conversation(tk.Frame):
 
         # conteneur de la ligne
         ligne = tk.Frame(self.inner_frame, bg=self.theme["bg"])
+        # taguer le rôle sur la ligne pour recoloration ultérieure
+        ligne.role = role
         ligne.pack(fill="x", padx=16, pady=4)
 
         # couleurs selon le rôle
@@ -112,6 +131,8 @@ class Conversation(tk.Frame):
             padx=12,
             pady=8
         )
+        # garder une référence pour la recoloration si le thème change
+        bulle.role = role
         bulle.pack(anchor=alignement)
 
         # texte de la bulle
@@ -126,6 +147,15 @@ class Conversation(tk.Frame):
             anchor="w"
         )
         label.pack()
+        # stocker la référence du label sur la bulle pour recoloration
+        bulle._text_label = label
+        # ensure colors are applied immediately (ttkbootstrap may override defaults)
+        try:
+            bulle.config(bg=bulle_bg)
+            label.config(bg=bulle_bg, fg=bulle_fg)
+            self.canvas.update_idletasks()
+        except Exception:
+            pass
 
         # scroll automatique vers le bas
         self._scroll_bas()
@@ -251,6 +281,80 @@ class Conversation(tk.Frame):
         self.config(bg=self.theme["bg"])
         self.canvas.config(bg=self.theme["bg"])
         self.inner_frame.config(bg=self.theme["bg"])
+        # Recolor existing message bubbles (if any)
+        try:
+            for ligne in self.inner_frame.winfo_children():
+                # each "ligne" is a Frame containing the bubble
+                try:
+                    role = getattr(ligne, "role", None)
+                    # find first child that is the bubble frame
+                    bulle = None
+                    for child in ligne.winfo_children():
+                        if isinstance(child, tk.Frame):
+                            bulle = child
+                            break
+                    if not bulle:
+                        continue
+                    if role == "utilisateur":
+                        bg = self.theme.get("bulle_user_bg", self.theme["bg"])
+                        fg = self.theme.get("bulle_user_fg", self.theme["fg"])
+                    else:
+                        bg = self.theme.get("bulle_agent_bg", self.theme["bg"])
+                        fg = self.theme.get("bulle_agent_fg", self.theme["fg"])
+
+                    try:
+                        bulle.config(bg=bg)
+                    except Exception:
+                        pass
+
+                    # recolor nested text label if present
+                    txt = getattr(bulle, "_text_label", None)
+                    if txt and getattr(txt, "winfo_exists", lambda: False)():
+                        try:
+                            txt.config(bg=bg, fg=fg)
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+    def forcer_couleurs_bulles(self):
+        """Forcer explicitement les couleurs sur toutes les bulles (écrase éventuellement
+        les styles hérités de ttkbootstrap)."""
+        try:
+            for ligne in self.inner_frame.winfo_children():
+                try:
+                    role = getattr(ligne, "role", None)
+                    # trouver la bulle (premier Frame enfant)
+                    bulle = None
+                    for child in ligne.winfo_children():
+                        if isinstance(child, tk.Frame):
+                            bulle = child
+                            break
+                    if not bulle:
+                        continue
+                    if role == "utilisateur":
+                        bg = self.theme.get("bulle_user_bg", self.theme["bg"])
+                        fg = self.theme.get("bulle_user_fg", self.theme["fg"])
+                    else:
+                        bg = self.theme.get("bulle_agent_bg", self.theme["bg"])
+                        fg = self.theme.get("bulle_agent_fg", self.theme["fg"])
+                    try:
+                        bulle.configure(bg=bg)
+                    except Exception:
+                        pass
+                    txt = getattr(bulle, "_text_label", None)
+                    if txt and getattr(txt, "winfo_exists", lambda: False)():
+                        try:
+                            txt.configure(bg=bg, fg=fg)
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+            self.canvas.update_idletasks()
+        except Exception:
+            pass
 
     # ------------------------------------------------------------------ #
     #  ÉVÉNEMENTS                                                          #

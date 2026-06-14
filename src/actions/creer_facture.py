@@ -81,6 +81,9 @@ def creer_facture(parametres: dict) -> dict:
     articles = parametres.get("articles") or []
     devise = nettoyer_valeur(parametres.get("devise")) or "EUR"
     repertoire = nettoyer_valeur(parametres.get("repertoire_cible"))
+    # options: laisser le document ouvert après génération, contrôle de la sauvegarde
+    laisser_ouvert = bool(parametres.get("laisser_ouvert", True))
+    auto_save = bool(parametres.get("auto_save", True))
 
     symboles_devise = {"EUR": "€", "USD": "$", "XAF": "FCFA"}
     symbole = symboles_devise.get(devise.upper(), devise)
@@ -279,50 +282,60 @@ def creer_facture(parametres: dict) -> dict:
         time.sleep(0.8)
 
         # --- sauvegarde ---
-        _log(f"Enregistrement — {chemin_fichier}...")
-        time.sleep(0.5)
+        if auto_save:
+            _log(f"Enregistrement — {chemin_fichier}...")
+            time.sleep(0.5)
+            # Sauvegarder avec les paramètres appropriés
+            # wdFormatDocx = 16 (format DOCX moderne)
+            try:
+                doc.SaveAs(str(chemin_fichier), FileFormat=16)
+            except Exception:
+                try:
+                    doc.SaveAs(str(chemin_fichier))
+                except Exception:
+                    _log("Avertissement : impossible d'enregistrer la facture.")
 
-        # Sauvegarder avec les paramètres appropriés
-        # wdFormatDocx = 16 (format DOCX moderne)
-        try:
-            doc.SaveAs(str(chemin_fichier), FileFormat=16)
-        except Exception:
-            # Si ça échoue avec FileFormat, essayer sans
-            doc.SaveAs(str(chemin_fichier))
+            _log("Attente de la sauvegarde complète...")
+            time.sleep(2)  # Attendre que Word finisse d'écrire le fichier
+        else:
+            _log(
+                "Auto-save désactivé : le document restera ouvert sans enregistrement automatique.")
 
-        _log("Attente de la sauvegarde complète...")
-        time.sleep(2)  # Attendre que Word finisse d'écrire le fichier
+        # Fermer le document si on ne le laisse pas ouvert
+        if not laisser_ouvert:
+            try:
+                doc.Close(SaveChanges=False)
+            except Exception:
+                pass
 
-        # Fermer le document sans resauvegarder
-        try:
-            doc.Close(SaveChanges=False)
-        except Exception:
-            pass
+            time.sleep(1)  # Attendre que le document soit complètement fermé
 
-        time.sleep(1)  # Attendre que le document soit complètement fermé
-
-        # Attendre que le fichier soit vraiment disponible et déverrouillé
-        _log("Vérification que le fichier est complètement écrit...")
-        fichier_pret = _attendre_fichier_disponible(chemin_fichier, timeout=10)
-
-        if not fichier_pret:
-            return {
-                "statut":  "echec",
-                "message": f"Le fichier n'a pas pu être créé correctement ou est toujours verrouillé : {chemin_fichier}",
-                "donnees": None
-            }
-
-        taille_fichier = chemin_fichier.stat().st_size
-        _log(f"Facture créée avec succès ({taille_fichier} bytes).")
+        # If auto_save was used, wait for file to be available and report size
+        taille_fichier = None
+        if auto_save:
+            _log("Vérification que le fichier est complètement écrit...")
+            fichier_pret = _attendre_fichier_disponible(
+                chemin_fichier, timeout=10)
+            if not fichier_pret:
+                return {
+                    "statut":  "echec",
+                    "message": f"Le fichier n'a pas pu être créé correctement ou est toujours verrouillé : {chemin_fichier}",
+                    "donnees": None
+                }
+            taille_fichier = chemin_fichier.stat().st_size
+            _log(f"Facture créée avec succès ({taille_fichier} bytes).")
+        else:
+            _log("Facture générée et laissée ouverte (non enregistrée).")
 
         return {
             "statut":  "succes",
-            "message": f"Facture créée : {chemin_fichier}",
+            "message": f"Facture créée : {chemin_fichier if auto_save else 'non enregistrée (ouverte)'}",
             "donnees": {
                 "pid":   pid,
-                "path":  str(chemin_fichier),
+                "path":  str(chemin_fichier) if auto_save else None,
                 "total": total_general,
-                "taille_fichier": taille_fichier
+                "taille_fichier": taille_fichier,
+                "left_open": laisser_ouvert
             }
         }
 

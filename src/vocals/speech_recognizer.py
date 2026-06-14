@@ -1,7 +1,9 @@
 
 import sounddevice as sd
 import numpy as np
-import stable_ts
+import stable_whisper
+import threading
+import time
 
 
 class SpeechRecognizer:
@@ -11,8 +13,13 @@ class SpeechRecognizer:
         self.language = language
 
         print(f"[SpeechRecognizer] Chargement du modèle '{model_size}'...")
-        self.model = stable_ts.load_model(model_size)
+        self.model = stable_whisper.load_model(model_size)
         print(f"[SpeechRecognizer] Modèle à été chargé avec succès!")
+        # streaming recording state
+        self._stream = None
+        self._frames = []
+        self._lock = threading.Lock()
+        self._sample_rate = 16000
 
     def recognize(self, duration=5, sample_rate=16000):
 
@@ -61,6 +68,69 @@ class SpeechRecognizer:
                 f"[SpeechRecognizer]  Erroeur pendant la reconnaissance: {e}")
             import traceback
             traceback.print_exc()
+            return ""
+
+    # --- Streaming / press-and-hold helpers ----------------------------
+    def start_recording(self, sample_rate=16000):
+        """Start a non-blocking input stream and collect frames."""
+        with self._lock:
+            if self._stream is not None:
+                return
+            self._frames = []
+            self._sample_rate = sample_rate
+
+            def callback(indata, frames, time_info, status):
+                try:
+                    self._frames.append(indata.copy())
+                except Exception:
+                    pass
+
+            self._stream = sd.InputStream(
+                samplerate=sample_rate, channels=1, callback=callback)
+            self._stream.start()
+
+    def stop_and_transcribe(self):
+        """Stop the input stream, concatenate frames and transcribe audio."""
+        with self._lock:
+            if self._stream is None:
+                return ""
+            try:
+                self._stream.stop()
+            except Exception:
+                pass
+            try:
+                self._stream.close()
+            except Exception:
+                pass
+            self._stream = None
+
+            if not self._frames:
+                return ""
+
+            try:
+                audio = np.concatenate([f.flatten() for f in self._frames])
+            except Exception:
+                audio = np.array([])
+
+            # small pause to ensure device is ready
+            time.sleep(0.05)
+
+        if audio.size == 0:
+            return ""
+
+        try:
+            max_val = np.max(np.abs(audio))
+            if max_val > 0:
+                audio = audio / max_val
+                audio = np.clip(audio * 1.5, -1, 1)
+
+            result = self.model.transcribe(
+                audio, language=self.language, fp16=False)
+            recognized_text = result.text.strip() if hasattr(result, 'text') else ""
+            return recognized_text
+        except Exception as e:
+            print(
+                f"[SpeechRecognizer] Erreur during streaming transcription: {e}")
             return ""
 
 

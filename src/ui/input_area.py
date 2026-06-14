@@ -5,6 +5,9 @@ import ttkbootstrap as ttk
 from PIL import Image, ImageTk
 from pathlib import Path
 from .theme import get_theme
+import threading
+import time
+from vocals.speech_recognizer import SpeechRecognizer
 
 ICONS_DIR = Path(__file__).parent.parent.parent / "assets" / "icons"
 
@@ -18,7 +21,8 @@ SUGGESTIONS = [
 class InputArea(tk.Frame):
 
     def __init__(self, parent, theme_nom: str = "light",
-                 icones=None, on_send=None, on_attach=None, on_voice=None, on_stop=None, **kwargs):
+                 icones=None, on_send=None, on_attach=None, on_voice=None, on_stop=None,
+                 speech_recognizer=None, **kwargs):
 
         self.theme = get_theme(theme_nom)
 
@@ -36,6 +40,10 @@ class InputArea(tk.Frame):
         self._icons = icones or {}
 
         self._build()
+
+        # speech recognizer: use provided instance or lazy-load when needed
+        self._sr = speech_recognizer
+        self._sr_lock = threading.Lock()
 
     # ------------------------------------------------------------------ #
     #  CONSTRUCTION                                                        #
@@ -132,8 +140,10 @@ class InputArea(tk.Frame):
             bd=0,
             highlightthickness=0,
             cursor="hand2",
-            command=self._on_voice
         )
+        # press-and-hold behaviour: start on press, stop on release
+        self.voice_btn.bind("<ButtonPress-1>", self._on_voice_press)
+        self.voice_btn.bind("<ButtonRelease-1>", self._on_voice_release)
         self.voice_btn.pack(side="left", padx=4)
 
         # bouton envoyer — droite
@@ -193,6 +203,75 @@ class InputArea(tk.Frame):
         self.input_text.insert("1.0", texte)
         self.input_text.config(fg=self.theme["fg"])
         self.input_text.focus_set()
+
+    # ---------------- Speech handling ---------------------------------
+    def _ensure_recognizer(self):
+        with self._sr_lock:
+            if self._sr is None:
+                # load model in background to avoid blocking UI
+                def _load():
+                    try:
+                        self._sr = SpeechRecognizer(
+                            model_size="base", language="fr")
+                    except Exception:
+                        self._sr = None
+                t = threading.Thread(target=_load, daemon=True)
+                t.start()
+                # wait briefly for model to initialize a little
+                time_waited = 0
+                while self._sr is None and time_waited < 0.5:
+                    t.join(timeout=0.1)
+                    time_waited += 0.1
+
+    def _on_voice_press(self, event=None):
+        # visual feedback
+        try:
+            self.voice_btn.config(bg=self.theme.get("btn_search_bg", "#ddd"))
+        except Exception:
+            pass
+
+        # ensure recognizer exists (load lazily)
+        self._ensure_recognizer()
+
+        # start recording (non-blocking)
+        def _start():
+            try:
+                if self._sr is None:
+                    # wait until loaded
+                    with self._sr_lock:
+                        pass
+                if self._sr:
+                    self._sr.start_recording(sample_rate=16000)
+            except Exception:
+                pass
+
+        threading.Thread(target=_start, daemon=True).start()
+
+    def _on_voice_release(self, event=None):
+        # reset visual feedback
+        try:
+            self.voice_btn.config(bg=self.theme.get("bg", "#fff"))
+        except Exception:
+            pass
+
+        # stop and transcribe in background
+        def _stop_and_transcribe():
+            try:
+                if not self._sr:
+                    return
+                # show temporary placeholder
+                self.after(0, lambda: self.set_texte(
+                    "[Transcription en cours...]"))
+                texte = self._sr.stop_and_transcribe()
+                if texte:
+                    self.after(0, lambda: self.set_texte(texte))
+                else:
+                    # clear placeholder if nothing recognized
+                    self.after(0, lambda: self.effacer())
+            except Exception:
+                self.after(0, lambda: self.effacer())
+
+        threading.Thread(target=_stop_and_transcribe, daemon=True).start()
 
     def desactiver(self):
         """Désactive la zone de saisie pendant le traitement."""

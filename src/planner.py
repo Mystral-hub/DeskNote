@@ -73,6 +73,9 @@ class Planner:
             if resultat.get("action") == "post_facebook":
                 resultat = self._extraire_params_post_facebook(
                     message_utilisateur, resultat)
+            elif resultat.get("action") == "creer_presentation":
+                resultat = self._extraire_params_creer_presentation(
+                    message_utilisateur, resultat)
         except Exception:
             pass
 
@@ -299,5 +302,101 @@ class Planner:
             if cleaned:
                 set_if_missing("texte", cleaned)
 
+        resultat["parametres"] = params
+        return resultat
+
+    def _extraire_params_creer_presentation(self, texte: str, resultat: dict) -> dict:
+        """Post-process for `creer_presentation` to populate per-slide image flags/paths.
+
+        Behavior:
+        - Ensure every slide has `include_image` (bool) and `image_path` (or null).
+        - If the user text contains keywords like 'avec image' or 'avec images', set
+          `include_image` = True for all slides unless the slide explicitly specifies otherwise.
+        - Extract image paths/names mentioned in the user text and assign them in order
+          to slides where `include_image` is True and `image_path` is missing.
+        """
+        params = resultat.get("parametres") or {}
+        slides = params.get("slides") or []
+
+        # find image tokens in the user text (multiple matches)
+        imgs = []
+        # Windows absolute paths
+        for m in re.finditer(r"[A-Za-z]:\\[\w\d\-_.\\ ]+\.(?:png|jpg|jpeg|gif|bmp)", texte, re.IGNORECASE):
+            imgs.append(m.group(0))
+        # unix paths
+        for m in re.finditer(r"/[^\s,;]+\.(?:png|jpg|jpeg|gif|bmp)", texte, re.IGNORECASE):
+            imgs.append(m.group(0))
+        # quoted filenames
+        for m in re.finditer(r"['\"]([^'\"]+\.(?:png|jpg|jpeg|gif|bmp))['\"]", texte, re.IGNORECASE):
+            imgs.append(m.group(1))
+        # bare filenames
+        for m in re.finditer(r"\b([\w\-]+\.(?:png|jpg|jpeg|gif|bmp))\b", texte, re.IGNORECASE):
+            imgs.append(m.group(1))
+
+        # normalize order (unique while keeping order)
+        seen = set()
+        imgs_ordered = []
+        for i in imgs:
+            if i not in seen:
+                seen.add(i)
+                imgs_ordered.append(i)
+
+        # detect global 'avec images' intent
+        with_images = bool(re.search(
+            r"\b(avec images|avec image|avec des images|avec des images)\b", texte, re.IGNORECASE))
+
+        # ensure slides list exists
+        if not slides:
+            params["slides"] = slides
+
+        # iterate slides and ensure fields
+        img_idx = 0
+        for si, slide in enumerate(slides):
+            if not isinstance(slide, dict):
+                slide = {"titre": str(slide)}
+                slides[si] = slide
+
+            # ensure style present
+            slide.setdefault("style", {})
+
+            # include_image default false
+            if "include_image" not in slide:
+                slide["include_image"] = bool(with_images)
+
+            # image_path default null
+            if "image_path" not in slide:
+                slide["image_path"] = None
+
+            # if include_image true and no image_path, assign from imgs_ordered
+            if slide.get("include_image") and (not slide.get("image_path") or slide.get("image_path") is None):
+                if img_idx < len(imgs_ordered):
+                    slide["image_path"] = imgs_ordered[img_idx]
+                    img_idx += 1
+                else:
+                    # If no explicit image mentioned, try to resolve from the user's Pictures\slides folder
+                    try:
+                        from pathlib import Path
+                        home = Path.home()
+                        slides_dir = home / 'Pictures' / 'slides'
+                        # try preferred extensions in order
+                        preferred_exts = ['.jpg', '.jpeg', '.png']
+                        resolved = None
+                        # slide index is 1-based for naming convention
+                        slide_number = si + 1
+                        for ext in preferred_exts:
+                            candidate = slides_dir / \
+                                f"slide{slide_number}{ext}"
+                            if candidate.exists():
+                                resolved = str(candidate)
+                                break
+                        # if none exists, default to .jpg path (user folder) so caller can decide
+                        if not resolved:
+                            resolved = str(
+                                slides_dir / f"slide{slide_number}.jpg")
+                        slide["image_path"] = resolved
+                    except Exception:
+                        slide["image_path"] = None
+
+        params["slides"] = slides
         resultat["parametres"] = params
         return resultat
