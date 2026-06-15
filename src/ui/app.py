@@ -11,6 +11,7 @@ from .theme import (
     WIN_REDUCED_MAX_W, WIN_REDUCED_MIN_H,
     SIDEBAR_WIDTH_FULL, SIDEBAR_WIDTH_REDUCED
 )
+from .theme import SIDEBAR_MIN_ON_SMALL, APPS_PANEL_MIN_ON_SMALL, INPUT_MIN_W, APPS_PANEL_MIN_W, APPS_PANEL_REDUCED_MIN_W
 from .sidebar import Sidebar
 from .conversation import Conversation
 from .input_area import InputArea
@@ -227,9 +228,35 @@ class DeskNoteApp:
         self.root.maxsize(WIN_REDUCED_MAX_W, 9999)
         self.sidebar.passer_mode_reduit()
         # réduire la largeur du panneau d'applications au lieu de le masquer
-        from .theme import APPS_PANEL_REDUCED_MIN_W
         try:
-            self.root.grid_columnconfigure(2, minsize=APPS_PANEL_REDUCED_MIN_W)
+            # choose compact sizes depending on current window width
+            largeur = self.root.winfo_width()
+            # default reduced sizes
+            sidebar_w = SIDEBAR_WIDTH_REDUCED
+            apps_w = APPS_PANEL_REDUCED_MIN_W
+
+            # if very narrow window, use extra-small widths
+            if largeur and largeur <= (WIN_REDUCED_MAX_W // 1.5):
+                sidebar_w = SIDEBAR_MIN_ON_SMALL
+                apps_w = APPS_PANEL_MIN_ON_SMALL
+
+            # enforce column min sizes: sidebar (col 0), center (col 1) keep flexible but with a sensible min, apps (col 2)
+            center_min = max(INPUT_MIN_W, WIN_REDUCED_MAX_W -
+                             (sidebar_w + apps_w))
+            self.root.grid_columnconfigure(0, minsize=sidebar_w)
+            self.root.grid_columnconfigure(1, minsize=center_min)
+            self.root.grid_columnconfigure(2, minsize=apps_w)
+            # also set the widget widths explicitly to avoid geometry managers from expanding them
+            try:
+                self.sidebar.config(width=sidebar_w)
+                self.sidebar.grid_propagate(False)
+            except Exception:
+                pass
+            try:
+                self.apps_panel.config(width=apps_w)
+                self.apps_panel.grid_propagate(False)
+            except Exception:
+                pass
         except Exception:
             pass
 
@@ -239,9 +266,22 @@ class DeskNoteApp:
         self.root.maxsize(9999, 9999)
         self.sidebar.passer_mode_plein()
         # restaurer la largeur normale du panneau d'applications
-        from .theme import APPS_PANEL_MIN_W
         try:
+            # restore sensible defaults
+            self.root.grid_columnconfigure(0, minsize=SIDEBAR_WIDTH_FULL)
+            self.root.grid_columnconfigure(
+                1, minsize=WIN_FULL_MIN_W - (SIDEBAR_WIDTH_FULL + APPS_PANEL_MIN_W))
             self.root.grid_columnconfigure(2, minsize=APPS_PANEL_MIN_W)
+            try:
+                self.sidebar.config(width=SIDEBAR_WIDTH_FULL)
+                self.sidebar.grid_propagate(False)
+            except Exception:
+                pass
+            try:
+                self.apps_panel.config(width=APPS_PANEL_MIN_W)
+                self.apps_panel.grid_propagate(False)
+            except Exception:
+                pass
         except Exception:
             pass
 

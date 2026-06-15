@@ -65,6 +65,12 @@ class AppsPanel(tk.Frame):
             bg=self.theme["apps_panel_bg"],
             **kwargs
         )
+        # prevent the grid manager from forcing this frame to grow beyond our width
+        try:
+            self.config(width=APPS_PANEL_MIN_W)
+            self.grid_propagate(False)
+        except Exception:
+            pass
 
         self._on_connect = on_connect
         # stocke un dict d'icônes si fourni (ne pas forward à tk.Frame)

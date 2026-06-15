@@ -6,6 +6,8 @@
 
 SIDEBAR_WIDTH_FULL = 200
 SIDEBAR_WIDTH_REDUCED = 60
+# when the window becomes very narrow, use these extra-small widths
+SIDEBAR_MIN_ON_SMALL = 48
 
 WIN_FULL_MIN_W = 900
 WIN_FULL_MIN_H = 600
@@ -14,6 +16,10 @@ WIN_REDUCED_MIN_H = 400
 # largeur minimale du panneau 'Connecter vos applications'
 APPS_PANEL_MIN_W = 100
 APPS_PANEL_REDUCED_MIN_W = 80
+APPS_PANEL_MIN_ON_SMALL = 60
+
+# minimal acceptable width for the central area (conversation + input)
+INPUT_MIN_W = 300
 
 
 #  POLICES                                                             #
